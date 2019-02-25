@@ -1,0 +1,864 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>IntellektStroy</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/fancybox.css" />
+		<link rel="stylesheet" type="text/css" href="css/jcarousel.css" />
+		<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="css/lt7.css" media="screen"/><![endif]-->
+		<script type='text/javascript' src='js/jquery.js'></script>
+		<script type='text/javascript' src='js/jcarousel.js'></script>
+		<script type='text/javascript' src='js/scroll.js'></script>
+		<script type='text/javascript' src='js/fancybox.js'></script>
+		<script type='text/javascript' src='js/mousewheel.js'></script>
+		<script type='text/javascript' src='js/main.js'></script>
+		<script type='text/javascript' src='js/jcar-settings.js'></script>
+		<script type='text/javascript'>
+			$(document).ready(function() {
+				$('.gallery ul').jcarousel({
+					scroll: 3
+				});
+				$("a.gr_fancybox").fancybox({
+					'transitionIn': 'none',
+					'transitionOut': 'none',
+					'titlePosition': 'over',
+					'titleFormat': function(title, currentArray, currentIndex, currentOpts) {
+						return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- page -->
+		<div id="page">
+			<!-- header -->
+			<div class="header">
+				<div class="holder">
+					<!-- logo --><strong class="logo"><a href="#">IntellektStroy</a></strong>
+					<div class="frame">
+						<div class="contacts">
+							<div class="heading">
+								<a href="#">Контактная информация</a>
+							</div>
+							<ul class="list">
+								<li>
+									<div class="contact-box">
+										<span class="icq">129-031-227</span>
+										<span class="numb">+7(495) 221-22-93</span>
+									</div>
+									Не дозвонились?
+								</li>
+								<li>
+									<div class="contact-box">
+										<span class="icq">129-031-227</span>
+										<span class="numb">+7(495) 221-22-93</span>
+									</div>
+									<span class="show"><a href="/ajax/call.html">Оставьте свой номер!</a></span>
+								</li>
+								<li class="show">
+									<a href="/ajax/contacts.html">Больше контактов</a>
+								</li>
+							</ul>
+						</div>
+						<div class="box">
+							<form class="private" action="#">
+								<fieldset>
+									<div class="heading show">
+										<a href="/ajax/login.html">Личный Кабинет</a>
+									</div>
+									<p>
+										<a href="#">Зарегистрироваться</a>
+									</p>
+								</fieldset>
+							</form>
+							<div class="basket">
+								<div class="heading">
+									Зарезевировано
+								</div>
+								<div class="heading2" id="basket_anim">
+									Зарезевировано
+								</div>
+								<ul class="list">
+									<li>
+										<strong>товаров:</strong>
+										2
+									</li>
+									<li>
+										<strong>на сумму:</strong>
+										43 780 <span class="rur">p<span>уб.</span></span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="search">
+						<form action="#">
+							<fieldset>
+								<span class="input-text"><input type="text" value="быстрый поиск" class="text" /></span><input type="image" src="images/btn-go.gif" alt="go" class="button" />
+							</fieldset>
+						</form>
+					</div>
+				</div>
+				<ul class="menu">
+					<li>
+						<a href="#">О нас</a>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+					</li>
+					<li>
+						<a href="#">Магазин</a>
+					</li>
+					<li>
+						<a href="#">Вопросы и ответы</a>
+					</li>
+					<li>
+						<a href="#">Доставка</a>
+					</li>
+					<li>
+						<a href="#">Оплата</a>
+					</li>
+				</ul>
+			</div>
+			<!-- content -->
+			<div class="main-content">
+				<div class="brand">
+					<div class="t">
+						&nbsp;
+					</div>
+					<div class="c">
+						<div class="brand-holder">
+							<div class="box">
+								<ul>
+									<li>
+										<a href="#"><img src="images/img01.png" alt="#" width="157" height="47" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img02.png" alt="#" width="77" height="50" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img03.png" alt="#" width="121" height="46" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img04.png" alt="#" width="164" height="43" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img05.png" alt="#" width="125" height="47" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img06.png" alt="#" width="58" height="51" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img01.png" alt="#" width="157" height="47" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img02.png" alt="#" width="77" height="50" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img03.png" alt="#" width="121" height="46" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img04.png" alt="#" width="164" height="43" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img05.png" alt="#" width="125" height="47" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/img06.png" alt="#" width="58" height="51" /></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main intro-box">
+					<div class="m1">
+						&nbsp;
+					</div>
+					<div class="m2">
+						<div class="main-holder">
+							<div class="product-list">
+								<div id="menuhov">
+								</div>
+								<div class="itemholder2">
+									<ul class="item2">
+										<li>
+											<a href="/cat/25/">Сетки, скотчи и пр.</a>
+										</li>
+										<li>
+											<a href="/cat/26/">Цемент</a>
+										</li>
+										<li>
+											<a href="http://is.adlabs.com.ua/ajax/childcat/cat/2/" class="est">Кирпич</a>
+										</li>
+										<li>
+											<a href="/cat/gipsocarton/">Гипсокартон</a>
+										</li>
+										<li>
+											<a href="http://is.adlabs.com.ua/ajax/childcat/cat/3/" class="est">Блоки</a>
+										</li>
+										<li>
+											<a href="http://is.adlabs.com.ua/ajax/childcat/cat/4/" class="est">Сухие смеси</a>
+										</li>
+										<li>
+											<a href="/cat/5/">Краски</a>
+										</li>
+										<li>
+											<a href="/cat/6/">Керамзит</a>
+										</li>
+										<li>
+											<a href="/cat/8/">ЖБИ</a>
+										</li>
+										<li>
+											<a href="/cat/11/">Керамогранит</a>
+										</li>
+										<li>
+											<a href="http://is.adlabs.com.ua/ajax/childcat/cat/12/" class="est">Клеи, герметики, пены, мастики, жидкие гвозди</a>
+										</li>
+										<li>
+											<a href="http://is.adlabs.com.ua/ajax/childcat/cat/13/" class="est">Антифризы DIXIS</a>
+										</li>
+										<li>
+											<a href="http://is.adlabs.com.ua/ajax/childcat/cat/14/" class="est">Малярный инструмент</a>
+										</li>
+										<li>
+											<a href="http://is.adlabs.com.ua/ajax/childcat/cat/15/" class="est">Мансардные окна VELUX</a>
+										</li>
+										<li>
+											<a href="/cat/16/">Метизы</a>
+										</li>
+										<li>
+											<a href="/cat/17/">Пазогребневые плиты</a>
+										</li>
+										<li>
+											<a href="/cat/18/">Профиль и комплектующие</a>
+										</li>
+										<li>
+											<a href="/cat/28/">Утеплители, кровля, гидроизоляция</a>
+										</li>
+									</ul>
+									<a href="#показать всё меню" id="show_more">показать всё меню..</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="m3">
+						&nbsp;
+					</div>
+				</div>
+				<div class="main">
+					<div class="m1">
+						&nbsp;
+					</div>
+					<div class="m2">
+						<div class="main-holder">
+							<div class="main-heading">
+								<div class="t">
+									&nbsp;
+								</div>
+								<div class="c">
+									<div class="main-heading-holder">
+										<ul class="breadcrumbs">
+											<li>
+												<a href="#">Блоки</a>
+											</li>
+											<li>
+												<a href="#">Пенобетонные блоки</a>
+											</li>
+											<li>
+												Пенобетонные термоблоки 200х300х400 D500
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="product-info">
+								<ul class="brands">
+									<li>
+										<a href="#">Aberhof (Германия)</a>
+										(27)
+									</li>
+									<li>
+										<a href="#">Tarkett (Германия)</a>
+										(27)
+									</li>
+									<li>
+										<a href="#">Classen (Германия)</a>
+										(77)
+									</li>
+									<li>
+										<a href="#">Kronostar (Россия)</a>
+										(27)
+									</li>
+									<li>
+										<a href="#">Kronotex (Германия)</a>
+										(27)
+									</li>
+									<li>
+										<a href="#">Mfloor (Германия)</a>
+										(37)
+									</li>
+									<li>
+										<a href="#">Kronospan (Россия)</a>
+										(27)
+									</li>
+									<li>
+										<a href="#">Kronoflooring (Германия)</a>
+										(57)
+									</li>
+									<li>
+										<a href="#">Platinum (Россия)</a>
+										(7)
+									</li>
+									<li>
+										<a href="#">Kronopol (Польша)</a>
+										(2)
+									</li>
+									<li>
+										<a href="#">UniqStep (Франция)</a>
+										(27)
+									</li>
+									<li>
+										<a href="#">Все бренды</a>
+									</li>
+								</ul>
+								<div class="promo">
+									<form class="product-box" action="#">
+										<fieldset>
+											<div class="col01">
+												<div class="img-box">
+													<a href="images/img35.jpg"  class="gr_fancybox" rel="gr_fancybox"><img src="images/img33.jpg" alt="#" width="209" height="137" />
+													<span class="zoom"></span></a>
+												</div>
+												<div class="gallery">
+													<ul>
+														<li>
+															<a href='images/bg-html.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='images/img35.jpg' alt='тратар прпр спрбд чвкап ывута пно та' /></a>
+														</li>
+														<li>
+															<a href='images/map01.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='images/img34.jpg' alt='ыва авып рваеоа пр вар вапр вапрвап' /></a>
+														</li>
+														<li>
+															<a href='images/banner01.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='images/img36.jpg' alt='ва  ьнаепр ыуа прыва ыв арвегно авпи тч ап рчап' /></a>
+														</li>
+														<li>
+															<a href='images/img07.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='images/img36.jpg' alt='варь впр чапр вапр вгепвавкапы еовен' /></a>
+														</li>
+														<li>
+															<a href='images/img35.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='images/img34.jpg' alt=' щдюгшд гшлб пглб рап ртспрс аго' /></a>
+														</li>
+														<li>
+															<a href='images/img34.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='images/img35.jpg' alt='ыуке ывко вепьсмиртно' /></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="col02">
+												<h2>Пенобетонные термоблоки 200х300х400 D500</h2>
+												<p>
+													производитель: <span class="mark">г. Алексин</span>
+												</p>
+												<div class="price_hold">
+													<span class="price"><em>68.41</em><span class="rur">p<span>уб.</span></span> /т. </span>
+													<div>
+														<span class="input-text"><input type="text" class="text 17-56" /></span><a class="in-basket" href="#" id="i17-56">в корзину</a>
+													</div>
+												</div>
+												<div class="price_hold">
+													<span class="price old_pr"><em>68.41</em><span class="rur">p<span>уб.</span></span>/т. </span>
+													<span class="price new_pr"><em>68.41</em><span class="rur">p<span>уб.</span></span>/т. </span>
+													<div>
+														<span class="input-text"><input type="text" class="text 17-56" /></span><a class="in-basket" href="#" id="i17-56">в корзину</a>
+													</div>
+												</div>
+												<div class="price_hold">
+													<span class="price"><em>68.41</em><span class="rur">p<span>уб.</span></span>/т. </span>
+													<div>
+														<span class="input-text"><input type="text" class="text 17-56" /></span><a class="in-basket" href="#" id="i17-56">в корзину</a>
+													</div>
+												</div>
+												<div class="price_hold">
+													<span class="price"><em>68.41</em><span class="rur">p<span>уб.</span></span>/т. </span>
+													<div>
+														<span class="input-text"><input type="text" class="text 17-56" /></span><a class="in-basket" href="#" id="i17-56">в корзину</a>
+													</div>
+												</div>
+												<div id="inbaskettovs">
+												</div>
+											</div>
+										</fieldset>
+									</form>
+									<div class="add-box">
+										<h2>Другие товары раздела</h2>
+										<div class="gallery">
+											<ul ajaxurl="/ajax/tov1.php">
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="tabsholder">
+									<ul id="tabs">
+										<li><a href="#">Характеристики</a></li>
+										<li class="active"><span>Инструкции/Файлы</span></li>
+										<li><a href="#">Описание</a></li>
+										<li><a href="#">Похожие товары</a></li>
+									</ul>
+									<div id="tab_content">
+										<div class="more-products">
+									<div class="holder">
+										<ul class="downloads">
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+											<li>
+												<img src="http://is.adlabs.com.ua/images/it/1034_3_img_sm.jpg" alt="">
+												<div>
+													<p>
+														прайс-лист
+													</p>
+													<a href="/images/it/1034_3.ods">скачать</a>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="m3">
+						&nbsp;
+					</div>
+				</div>
+				<div class="main">
+					<div class="m1">
+						&nbsp;
+					</div>
+					<div class="m2">
+						<div class="main-holder">
+							<ul class="links-list">
+								<li>
+									<a href="#">JVC</a>
+								</li>
+								<li>
+									<a href="#">Karcher</a>
+								</li>
+								<li>
+									<a href="#">Kitchen Aid</a>
+								</li>
+								<li>
+									<a href="#">Kronasteel</a>
+								</li>
+								<li>
+									<a href="#">KUMTEL &amp; LUXELL</a>
+								</li>
+								<li>
+									<a href="#">Kuppersbusch</a>
+								</li>
+								<li>
+									<a href="#">Lauf</a>
+								</li>
+								<li>
+									<a href="#">LG</a>
+								</li>
+								<li>
+									<a href="#">Liebherr</a>
+								</li>
+								<li>
+									<a href="#">Mabe</a>
+								</li>
+								<li>
+									<a href="#">Makita</a>
+								</li>
+								<li>
+									<a href="#">Miele</a>
+								</li>
+								<li>
+									<a href="#">Mora</a>
+								</li>
+								<li>
+									<a href="#">Nardi</a>
+								</li>
+								<li>
+									<a href="#">Neff</a>
+								</li>
+								<li>
+									<a href="#">Nodor</a>
+								</li>
+								<li>
+									<a href="#">Noirot</a>
+								</li>
+								<li>
+									<a href="#">NORD</a>
+								</li>
+								<li>
+									<a href="#">OAK</a>
+								</li>
+								<li>
+									<a href="#">Olympus</a>
+								</li>
+								<li>
+									<a href="#">Panasonic</a>
+								</li>
+								<li>
+									<a href="#">Philips</a>
+								</li>
+								<li>
+									<a href="#">Pioneer</a>
+								</li>
+								<li>
+									<a href="#">Polaris</a>
+								</li>
+								<li>
+									<a href="#">Pozis</a>
+								</li>
+								<li>
+									<a href="#">RAINFORD</a>
+								</li>
+								<li>
+									<a href="#">Redmond</a>
+								</li>
+								<li>
+									<a href="#">Rolsen</a>
+								</li>
+								<li>
+									<a href="#">Saeco</a>
+								</li>
+								<li>
+									<a href="#">Samsung</a>
+								</li>
+								<li>
+									<a href="#">Schulthess</a>
+								</li>
+								<li>
+									<a href="#">SHARP</a>
+								</li>
+								<li>
+									<a href="#">Shinco(Odeon)</a>
+								</li>
+								<li>
+									<a href="#">Shindo</a>
+								</li>
+								<li>
+									<a href="#">Siemens</a>
+								</li>
+								<li>
+									<a href="#">Smeg</a>
+								</li>
+								<li>
+									<a href="#">Snaige</a>
+								</li>
+								<li>
+									<a href="#">Sony</a>
+								</li>
+								<li>
+									<a href="#">Stihl</a>
+								</li>
+								<li>
+									<a href="#">Supra</a>
+								</li>
+								<li>
+									<a href="#">TCL</a>
+								</li>
+								<li>
+									<a href="#">Tefal</a>
+								</li>
+								<li>
+									<a href="#">TEKA</a>
+								</li>
+								<li>
+									<a href="#">Telma</a>
+								</li>
+								<li>
+									<a href="#">Thermex</a>
+								</li>
+								<li>
+									<a href="#">Thomas</a>
+								</li>
+								<li>
+									<a href="#">Toshiba</a>
+								</li>
+								<li>
+									<a href="#">Toyota</a>
+								</li>
+								<li>
+									<a href="#">Vestel</a>
+								</li>
+								<li>
+									<a href="#">Viking</a>
+								</li>
+								<li>
+									<a href="#">Vinosafe</a>
+								</li>
+								<li>
+									<a href="#">Vitek</a>
+								</li>
+								<li>
+									<a href="#">VR</a>
+								</li>
+								<li>
+									<a href="#">Whirlpool</a>
+								</li>
+								<li>
+									<a href="#">Yamata</a>
+								</li>
+								<li>
+									<a href="#">Zanussi</a>
+								</li>
+								<li>
+									<a href="#">Zelmer</a>
+								</li>
+								<li>
+									<a href="#">Zigmund &amp; Shtain</a>
+								</li>
+								<li>
+									<a href="#">Ассоль</a>
+								</li>
+								<li>
+									<a href="#">Бирюса</a>
+								</li>
+								<li>
+									<a href="#">Газмаш</a>
+								</li>
+								<li>
+									<a href="#">Гефест</a>
+								</li>
+								<li>
+									<a href="#">Дарина</a>
+								</li>
+								<li>
+									<a href="#">ЗВИ</a>
+								</li>
+								<li>
+									<a href="#">Мечта</a>
+								</li>
+								<li>
+									<a href="#">Минск (Атлант)</a>
+								</li>
+								<li>
+									<a href="#">Нововятка</a>
+								</li>
+								<li>
+									<a href="#">Саратов</a>
+								</li>
+								<li>
+									<a href="#">Смоленск</a>
+								</li>
+								<li class="last">
+									<a href="#">Фея</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="m3">
+						&nbsp;
+					</div>
+				</div>
+				<div class="main">
+					<div class="m1">
+						&nbsp;
+					</div>
+					<div class="m2">
+						<div class="main-holder">
+							<ul class="links-list">
+								<li>
+									<a href="#">Блоки</a>
+								</li>
+								<li>
+									<a href="#">Гипсокартон</a>
+								</li>
+								<li>
+									<a href="#">ЖБИ</a>
+								</li>
+								<li>
+									<a href="#">Керамзит</a>
+								</li>
+								<li>
+									<a href="#">Керамическая плитка</a>
+								</li>
+								<li>
+									<a href="#">Противоморозные добавки</a>
+								</li>
+								<li>
+									<a href="#">Керамогранит</a>
+								</li>
+								<li>
+									<a href="#">Кирпич</a>
+								</li>
+								<li>
+									<a href="#">Клеи, герметики, пены, мастики жидкие</a>
+								</li>
+								<li>
+									<a href="#">Гвозди</a>
+								</li>
+								<li>
+									<a href="#">Краски</a>
+								</li>
+								<li>
+									<a href="#">Антифризы DIXIS</a>
+								</li>
+								<li>
+									<a href="#">Малярный инструмент</a>
+								</li>
+								<li>
+									<a href="#">Мансардные окна VELUX</a>
+								</li>
+								<li>
+									<a href="#">Метизы</a>
+								</li>
+								<li>
+									<a href="#">Пазогребневые плиты</a>
+								</li>
+								<li>
+									<a href="#">Профиль и комплектующие MELLERUD</a>
+								</li>
+								<li>
+									<a href="#">Чистящие средства</a>
+								</li>
+								<li>
+									<a href="#">Сетки, скотчи и пр.</a>
+								</li>
+								<li>
+									<a href="#">СУХИЕ СМЕСИ</a>
+								</li>
+								<li>
+									<a href="#">СТРОИТЕЛЬНЫЕ РАБОТЫ</a>
+								</li>
+								<li>
+									<a href="#">Утеплители, кровля, гидроизоляция</a>
+								</li>
+								<li class="last">
+									<a href="#">Цемент</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="m3">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+			<!-- footer -->
+			<div class="footer">
+				<ul>
+					<li>
+						<span class="numb">+7(495) 221-22-93</span>
+						117570, г. Москва,
+					</li>
+					<li>
+						<span class="numb">+7(495) 314-49-16</span>
+						ул. Красного маяка д.26 
+					</li>
+				</ul>
+				<p>
+					Copyright &copy; 2009-2010 Интеллект Строй
+				</p>
+				<p>
+					<span class="item">Разработка</span>
+					<a href="#">Adlabs</a>
+					/ <a href="#">Kavoon</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

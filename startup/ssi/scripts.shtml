@@ -1,0 +1,19 @@
+<div class="ui-overlay"></div>
+<script src="./scripts/vendor.js"></script> 
+<script src="./scripts/plugins.js"></script> 
+<script src="./scripts/main.js"></script>
+ 
+<script src="./scripts/owl.carousel.min.js"></script> 
+<script src="./scripts/bootstrap-datepicker.js"></script> 
+
+<script src="./scripts/autoresize/autoresize.jquery.js"></script> 
+
+
+<script src="http://www.amcharts.com/lib/3/amcharts.js"></script> 
+<script src="http://www.amcharts.com/lib/3/serial.js"></script> 
+
+
+<script src="./scripts/scripts.js"></script> 
+<script src="./scripts/script.js"></script> 
+<script src="./scripts/exsy.js"></script>
+<script src="./scripts/calendar.js"></script> 

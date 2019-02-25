@@ -1,0 +1,638 @@
+.chat
+{
+	height: 296px;
+	overflow: hidden;
+}
+.chat .hide-header .live-banker_text
+{
+	color: white;
+}
+.chat .hide-header .live-banker_text
+{
+	display: block;
+	line-height: 62px;
+	padding-left: 80px;
+	position: relative;
+	text-transform: uppercase;
+}
+.chat .hide-header .live-banker_text:before
+{
+	background-image: url(../images/sprite.png);
+	background-position: -25px -80px;
+	content: '';
+	height: 18px;
+	left: 49px;
+	position: absolute;
+	top: 20px;
+	width: 25px;
+}
+.chat__room
+{
+	height: 100%;
+}
+.chat__room .chat__room_bottom
+{
+	background-color: rgba(36, 36, 36, .2);
+	height: 45px;
+}
+.chat__room .chat__room_bottom .textwrap
+{
+	background-color: transparent;
+	height: 45px;
+	outline: 0!important;
+	width: 100%;
+}
+.chat__room .chat__room_bottom .textwrap textarea
+{
+	background-color: transparent;
+	border: none;
+	color: #10243c;
+	font-size: 10px;
+	height: 35px;
+	outline: 0!important;
+	padding: 10px 20px 10px 145px;
+	resize: none;
+	text-transform: uppercase;
+	width: 100%;
+}
+.chat__room .chat__room_window
+{
+	height: 175px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.chat__room .chat__room_window>.row-panel
+{
+	margin-bottom: 20px;
+}
+.chat__room .chat-avatar
+{
+	border: 2px solid #efc9a8;
+	border-radius: 55px;
+	float: left;
+	height: 55px;
+	margin-right: 7px;
+	overflow: hidden;
+	width: 55px;
+}
+.chat__room .chat-avatar img
+{
+	height: auto;
+	min-height: 55px;
+	width: 100%;
+}
+.chat__room .chat-input
+{
+	float: left;
+	margin-top: 9px;
+	width: calc(100% - 170px);
+}
+.chat__room .chat-input .chat-input_label
+{
+	width: 100%;
+}
+.chat__room .chat-input .chat-input_label .chat-input_enter
+{
+	background-color: #fffefc;
+	border: none;
+	color: #10243c;
+	font-size: 10px;
+	font-weight: 400;
+	min-height: 35px;
+	padding: 10px 20px;
+	position: relative;
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 2;
+}
+.chat__room .input-send input
+{
+	background-color: rgba(185, 82, 0, .66);
+}
+.chat__room .input-send input:hover
+{
+	background-color: rgba(173, 102, 46, 0.7);
+}
+.chat__room .input-send:hover
+{
+	background-color: rgba(173, 102, 46, 0.7);
+}
+.chat__room .row-chat-friend
+{
+	margin-bottom: 50px;
+	padding-right: 6%;
+}
+.chat__room .row-chat-friend .chat-avatar
+{
+	float: right;
+	margin-left: 30px;
+}
+.chat__room .row-chat-friend .chat-input
+{
+	float: right;
+	margin-top: 0;
+	width: calc(100% - 172px);
+}
+.chat__room .row-chat-friend .chat-input_label
+{
+	position: relative;
+}
+.chat__room .row-chat-friend .chat-input_label:before
+{
+    position: absolute;
+    right: -1px;
+    background-position: -19px -28px;
+    border: 2px solid transparent;
+    border-top: 26px solid white;
+    transform: rotate(-40deg);
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+.chat__room .row-chat-friend .chat-input_label:before, .chat__room .row-chat-you .chat-input_label:before
+{
+	background-image: url(../images/sprite.png);
+	bottom: -12px;
+	content: '';
+	height: 23px;
+}
+.chat__room .row-chat-friend .text-name
+{
+	left: auto;
+	margin-top: 17px;
+	right: -86px;
+	text-align: center;
+}
+.chat__room .row-chat-you
+{
+	margin-bottom: 25px;
+	padding-left: 80px;
+}
+.chat__room .row-chat-you .chat-input_label
+{
+	position: relative;
+}
+.chat__room .row-chat-you .chat-input_label:before
+{
+	background: transparent;
+	background-position: -19px -28px;
+	border: 2px solid transparent;
+	border-top: 26px solid white;
+	height: 0;
+	left: -1px;
+	position: absolute;
+	transform: rotate(40deg);
+	width: 0;
+}
+.chat__room .text-name
+{
+	color: white;
+	font-size: 10px;
+	font-weight: 400;
+	left: -62px;
+	margin: 0;
+	margin-top: 9px;
+	padding: 0;
+	padding-right: 0;
+	position: absolute;
+	text-align: center;
+	text-align: right;
+	text-transform: uppercase;
+	top: 45px;
+	width: 55px;
+}
+.chat__room .title_panel
+{
+	height: 54px;
+	margin-bottom: 16px;
+	padding-left: 80px;
+}
+.chat__room .title_panel .title
+{
+	color: #ffc190;
+	font-size: 20px;
+	position: relative;
+}
+.chat__room .title_panel .title small
+{
+	color: #ffc190;
+	font-size: 14px;
+}
+.chat__room .title_panel .title:before
+{
+	background-image: url(../images/sprite.png);
+	background-position: -37px 0;
+	content: '';
+	height: 23px;
+	left: -7px;
+	position: absolute;
+	top: 24px;
+	width: 26px;
+}
+.chat__room .title_panel, .title_panel
+{
+}
+.chat__room, .chat__room .chat__room .chat__room_window
+{
+	background-color: rgba(240, 107, 0, .8);
+}
+.chat__room, .footer-bottom__side
+{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.chat__room_bottom > div
+{
+	padding: 0;
+}
+.chat-nav
+{
+	float: left;
+	list-style: none;
+	margin: 0;
+	margin-left: 23%;
+	padding: 0;
+	padding-top: 27px;
+}
+.chat-nav .n2
+{
+	background-position: -24px top;
+}
+.chat-nav .n3
+{
+	background-position: -48px top;
+}
+.chat-nav li
+{
+	display: inline-block;
+	margin: 10px;
+	vertical-align: middle;
+}
+.chat-nav li span
+{
+	background: url('../images/chat-spr.png') no-repeat left top;
+	cursor: pointer;
+	display: block;
+	height: 23px;
+	width: 24px;
+}
+.chat-panel.chat
+{
+	height: 297px;
+}
+.modal-widj .chat
+{
+	height: auto;
+}
+.modal-widj .chat__room
+{
+	float: none;
+	margin: auto;
+	width: 100%;
+}
+.modal-widj .chat__room .chat__room_bottom, .modal-widj .file-btn, .modal-widj .input-send, .modal-widj .input-send input, .modal-widj .chat__room .chat__room_bottom .textwrap
+{
+	height: 65px;
+}
+.modal-widj .chat__room .chat__room_window
+{
+	height: 367px;
+	padding-top: 30px;
+	clear:both;
+}
+.modal-widj .chat__room .row-chat-you
+{
+	margin-top: 25px;
+}
+.modal-widj .chat__room .title_panel
+{
+	background: #b3580f;
+	height: 91px;
+	padding-left: 7%;
+}
+.modal-widj .chat__room .title_panel .title
+{
+	display: block;
+	float: left;
+	margin: 0;
+	padding-bottom: 0;
+	padding-left: 5%;
+	padding-top: 39px;
+}
+.modal-widj .chat__room .title_panel .title:before
+{
+	top: 41px;
+}
+@media (max-width: 991px)
+{
+	.chat
+	{
+		height	: auto;
+	}
+	.chat__room
+	{
+		height	: 310px;
+		width	: 100%;
+	}
+	body.chat-close .my-accounts
+	{
+		margin-top	: 0 !important;
+	}
+	body.chat-close .operarions
+	{
+		margin-top	: 0 !important;
+	}
+	body:not(.chat-close) .operarions.concept
+	{
+		margin-top	: 0px;
+	}
+	.chat__room .chat__room_window
+	{
+		height: 190px;
+	}
+	.modal-widj .chat__room
+	{
+		height	: auto;
+		padding-top	: 0;
+		width	: 80%;
+	}
+	.chat-close .modal-widj .chat
+	{
+		height	: auto;
+	}
+
+	
+}
+@media (max-width: 767px)
+{	.modal-widj .chat__room{
+	width	: 96%;
+}
+	.chat__room .chat__room_window
+	{
+		height: 250px;
+	}
+	.chat__room .title_panel
+	{
+		display: none;
+	}
+	.chat
+	{
+		height: 360px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		z-index: 5;
+	}
+	.chat .hide-header
+	{
+		background: #85420d;
+		display: block;
+		height: 60px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 5;
+	}
+	.chat .hide-header:before
+	{
+		content: '';
+		left: 22px;
+		background-image: url(../images/sprite.png);
+		background-position: -103px -153px;
+		height: 17px;
+		position: absolute;
+		top: 21px;
+		width: 17px;
+	}
+	.chat .section-collapse
+	{
+		display: block;
+	}
+	.chat.concept
+	{
+		margin-bottom: -6px;
+	}
+	.chat__room
+	{
+		background-color: #c56611;
+		height: 310px;
+		padding-top: 60px;
+	}
+	.chat__room
+	{
+	}
+	.chat__room .chat__room_bottom
+	{
+		background: #b95a0b;
+	}
+	.chat__room .chat__room_bottom .input-type
+	{
+		padding-left: 20px;
+	}
+	.chat__room .chat__room_bottom .textwrap textarea
+	{
+		padding-left: 15px;
+	}
+	.chat__room .chat__room_window
+	{
+		height: 250px;
+	}
+	.chat__room .chat-input
+	{
+		width: calc(100% - 88px);
+	}
+	.chat__room .row-chat-friend
+	{
+		padding-right: 18px;
+	}
+	.chat__room .row-chat-friend
+	{
+		margin-bottom: 30px;
+	}
+	.chat__room .row-chat-friend
+	{
+		padding-right: 15px;
+	}
+	.chat__room .row-chat-friend .chat-input
+	{
+		width: calc(100% - 118px);
+	}
+	.chat__room .row-chat-you
+	{
+		padding-left: 15px;
+	}
+	.chat__room .row-chat-you
+	{
+		margin-bottom: 40px;
+	}
+	.chat__room .row-chat-you
+	{
+		padding-left: 25px;
+	}
+	.chat__room .row-chat-you,
+			.chat__room .row-chat-friend
+	{
+		margin-bottom: 30px;
+	}
+	.chat__room .text-name
+	{
+		display: none;
+	}
+	.chat__room .title_panel
+	{
+		display: none;
+	}
+	.chat__room .title_panel .title:after
+	{
+		background-position: -37px 0;
+		height: 23px;
+		left: -8px;
+		position: absolute;
+		top: 15px;
+		width: 26px;
+	}
+	.chat__room .title_panel .title:after, .my-accounts .title_panel .title:before
+	{
+		background-image: url(../images/sprite.png);
+		content: '';
+	}
+	.chat__room .title_panel .title:before
+	{
+		left: -3px;
+	}
+	.chat__room .title_panel .title:before
+	{
+		background: 0 0;
+	}
+	.chat__room .title_panel, .chat__room .title_panel .title, .title_panel
+	{
+		padding-left: 25px;
+	}
+	.chat__room .title_panel, .title_panel
+	{
+		cursor: default;
+	}
+	.chat__room_bottom .input-send
+	{
+		background: #b95504;
+		width: 100%;
+	}
+	.chat__room_bottom > div.col-sm-3
+	{
+		float: right;
+	}
+	.chat-close .basic .my-panel__funds .my-panel_heading
+	{
+		1padding-top: 16px;
+	}
+	.chat-close .basic .my-panel_heading
+	{
+		padding-top: 0;
+	}
+	.chat-close .bonds.basic .panel.my-panel__funds
+	{
+		margin-top: 0px;
+	}
+	.chat-close .chat
+	{
+		height: 60px;
+	}
+	.chat-close .crypto.basic .my-panel_heading
+	{
+		padding-top: 0px;
+	}
+	.chat-close .deposts-terms
+	{
+		margin-top: 0px;
+	}
+	.chat-close .family.basic .my-panel_heading
+	{
+		padding-top: 0px;
+	}
+	.chat-close .invest.basic .data-info__loans
+	{
+		1padding-top: 14px;
+	}
+	.chat-close .invest.basic .my-loans
+	{
+		top: 0px;
+	}
+	.chat-close .loans.basic .data-info__loans
+	{
+		padding-top: 14px;
+	}
+	.chat-close .loans.basic .my-loans
+	{
+		top: 0px;
+	}
+	.chat-close .loans.basic .my-panel_heading
+	{
+		padding-top: 0px;
+	}
+	.chat-close .market .my-panel_heading
+	{
+		margin-top: 0px;
+	}
+	.chat-close .my-accounts, .chat-close .operarions.concept, .chat-close .terms-top
+	{
+	}
+	.chat-close .my-panel__insurance .my-panel_heading
+	{
+		padding-top: 0px;
+	}
+	.chat-close .operarions.concept
+	{
+		margin-top: 00px;
+	}
+	.chat-close .panel
+	{
+		margin-top: 0px!important;
+	}
+	.chat-close .panel.my-panel__pension-account
+	{
+		margin-top: 20px;
+	}
+	.chat-close .pension .my-panel__pension
+	{
+		margin-top: 0px;
+	}
+	.chat-close .pension .panel
+	{
+		margin-top: 0;
+	}
+	.chat-close .shares.basic .my-panel_heading
+	{
+		padding-top: 0px;
+	}
+	.chat-close .solution .raw
+	{
+		position: relative;
+		top: 0px;
+	}
+	.chat-close .subordinated.basic .my-panel.my-panel__pension
+	{
+		margin-top: 0;
+	}
+	.chat-nav
+	{
+		margin-left: 15%;
+		padding-top: 4px;
+	}
+	.chat-nav
+	{
+		margin-left: 0;
+	}
+	.chat-nav li
+	{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.chat-panel.chat
+	{
+		height: auto;
+	}
+	ul.chat-nav .n1, ul.chat-nav .n2, ul.chat-nav .n3
+	{
+		display: none;
+	}
+}

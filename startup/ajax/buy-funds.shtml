@@ -1,0 +1,76 @@
+<div class="fade modal basic funds" id="buy-funds" tabindex="-1" role="dialog">
+  <div class="panel panel-funds panel-funds__buy container modal-dialog" role="document"> <span class="close panel_close panel-funds_close" data-dismiss="modal" aria-label="Close"></span>
+    <div class="panel-heading panel-funds-heading">
+      <h3 class="panel-title panel-funds-title">Buy funds</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row panel-body_condition">
+        <div class="panel-body_data">
+          <div class="data-indicator data-indicator-funds"></div>
+          <span>DATA</span> </div>
+        <div class="panel-body_success">
+          <div class="success-indicator success-indicator-funds"></div>
+          <span>SUCCESS</span> </div>
+      </div>
+      <div class="panel-body_table">
+        <div class="row first-row">
+          <div class="col-xs-6 col-sm-6 funds-table-name">Family</div>
+          <div class="col-xs-6 col-sm-6 text-right funds-table-value">Renta variable</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 funds-table-name">Risk</div>
+          <div class="col-xs-6 col-sm-6 text-right funds-table-value">Aggressive</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 funds-table-name">Minimum amount</div>
+          <div class="col-xs-6 col-sm-6 text-right funds-table-value">0 eur</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 funds-table-name">Share value</div>
+          <div class="col-xs-6 col-sm-6 text-right funds-table-value">11,87047452</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 funds-table-name">Mifid category</div>
+          <div class="col-xs-6 col-sm-6 text-right funds-table-value">Retailer more info</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 funds-table-name">Holder</div>
+          <div class="col-xs-6 col-sm-6 text-right funds-table-value">Anna Tee</div>
+        </div>
+        <div class="row"> <a href="#" class="col-sm-12 funds-table-name">View more information about the fund</a> </div>
+      </div>
+      <div id="chartdiv4" class="panel-body_graph chart4"></div>
+      <form class="row modal-form modal-form__funds modal-form-funds__buy">
+        <div class="row">
+          <div class="form-group col-sm-7 col-md-6 col-xs-12">
+            <label for="funds-pay-from-bank">From my bank account</label>
+            <select id="funds-pay-from-bank" class="form-control">
+              <option>123 456 789</option>
+            </select>
+          </div>
+          <div class="available-balance available-balance__funds-buy col-sm-5 col-md-6 col-xs-12 hidden-xs">
+            <p class="available-balance_name available-balance_name__funds">Available balance</p>
+            <span class="available-balance_value available-balance_value__funds">5.806,21<span class="funds-paper small">euro</span></span> </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-7 col-md-6 col-xs-12">
+            <label for="funds-amount__buy">Enter the amount</label>
+            <input type="text" class="form-control" id="funds-amount__buy" placeholder="2.000,00">
+          </div>
+          <div class="form-group col-sm-5 col-md-6 col-xs-12 currency__funds-buy">
+            <label for="funds-currency">Currency</label>
+            <select id="funds-currency" class="form-control">
+              <option>Usd - US dollar</option>
+            </select>
+          </div>
+          <div class="available-balance available-balance__funds-buy col-sm-5 col-md-6 col-xs-12 visible-xs">
+            <p class="available-balance_name available-balance_name__funds">Available balance</p>
+            <span class="available-balance_value available-balance_value__funds">5.806,21<span class="funds-paper small">euro</span></span> </div>
+        </div>
+        <div class="row_btn">
+          <button type="submit" class="btn btn__funds"  onclick="event.preventDefault();$('#buy-funds').click();" data-toggle="modal" data-target="#ThankPayment">Buy</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

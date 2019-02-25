@@ -1,0 +1,53 @@
+<div class="fade modal" id="all-packages" tabindex="-1" role="dialog">
+	<div class="panel panel-market panel-market__all-packages container modal-dialog" role="document"> <span class="close panel_close panel-market_close" data-dismiss="modal" aria-label="Close"></span>
+		<div class="panel-heading panel-market-heading">
+			<h3 class="panel-title panel-market-title">All packages</h3>
+		</div>
+		<div class="panel-body">
+			<div class="row panel-body_packages-items">
+				<div class="figure-wrapper col-xs-12 col-md-4 col-sm-6">
+					<figure class="figure">
+						<h3>One pack long title</h3>
+						<div class="marketimg"><img alt="gold-visa" src="images/gold-visa.png"><a href="#" class="view-label" data-toggle="modal" data-target="#market-description">view</a></div>
+						<p class="package-describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</figure>
+				</div>
+				<div class="figure-wrapper col-xs-12 col-md-4 col-sm-6">
+					<figure class="figure">
+						<h3>One pack long title</h3>
+						<div class="marketimg"><img alt="moneybox" src="images/moneybox.png"><a href="#" class="view-label" data-toggle="modal" data-target=".market-description">view</a></div>
+						<p class="package-describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</figure>
+				</div>
+				<div class="figure-wrapper col-xs-12 col-md-4 col-sm-6">
+					<figure class="figure">
+						<h3>One pack long title</h3>
+						<div class="marketimg"><img alt="manager" src="images/manager.png"><a href="#" class="view-label" data-toggle="modal" data-target=".market-description">view</a></div>
+						<p class="package-describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</figure>
+				</div>
+				<div class="figure-wrapper col-xs-12 col-md-4 col-sm-6">
+					<figure class="figure">
+						<h3>One pack long title</h3>
+						<div class="marketimg"><img alt="gold-visa" src="images/gold-visa.png"><a href="#" class="view-label" data-toggle="modal" data-target="#market-request">view</a></div>
+						<p class="package-describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</figure>
+				</div>
+				<div class="figure-wrapper col-xs-12 col-md-4 col-sm-6">
+					<figure class="figure">
+						<h3>One pack long title</h3>
+						<div class="marketimg"><img alt="moneybox" src="images/moneybox.png"><a href="#" class="view-label" data-toggle="modal" data-target="#market-request">view</a></div>
+						<p class="package-describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</figure>
+				</div>
+				<div class="figure-wrapper col-xs-12 col-md-4 col-sm-6">
+					<figure class="figure">
+						<h3>One pack long title</h3>
+						<div class="marketimg"><img alt="manager" src="images/manager.png"><a href="#" class="view-label" data-toggle="modal" data-target="#market-request">view</a></div>
+						<p class="package-describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

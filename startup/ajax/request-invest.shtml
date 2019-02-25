@@ -1,0 +1,62 @@
+<div id="request-invest" class="fade modal invest basic" tabindex="-1" role="dialog">
+  <div class="panel panel-loans panel-loans__new-loan container modal-dialog" role="document"> <span class="close panel_close panel-loans_close" data-dismiss="modal" aria-label="Close"></span>
+    <div class="panel-heading panel-loans-heading">
+      <h3 class="panel-title panel-loans-title">Request to invest in business</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row panel-body_condition">
+        <div class="panel-body_data">
+          <div class="data-indicator data-indicator-loans"></div>
+          <span>DATA</span> </div>
+        <div class="panel-body_success">
+          <div class="success-indicator success-indicator-loans"></div>
+          <span>SUCCESS</span> </div>
+      </div>
+      <form class="row modal-form modal-form-loans modal-form-loans__new-loan">
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-employment">Project ID</label>
+            <select id="loans-employment" class="form-control">
+              <option>156</option>
+            </select>
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-occupation">Amount</label>
+            <select id="loans-occupation" class="form-control">
+              <option>2.000.000,00</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-type" class="typeOf">Currency</label>
+            <select id="loans-type" class="form-control">
+              <option>USD</option>
+              <option>EUR</option>
+            </select>
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-with">Term(month)</label>
+            <select id="loans-with" class="form-control">
+              <option>12</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-location">From my bank account</label>
+            <select id="loans-location" class="form-control">
+              <option>123 456 789</option>
+            </select>
+          </div>
+          <div class="available-balance available-balance__sell form-group col-sm-6 col-xs-12">
+            <p class="available-balance_name">Available balance</p>
+            <span class="available-balance_value available-balance_value__shares">5.806,<small>21</small><span class="shares-paper small">usd</span></span> </div>
+        </div>
+        <div class="row_btn">
+          <button type="submit" class="btn" onclick="event.preventDefault();$('#request-invest').click();" data-toggle="modal" data-target="#ThankPayment">New request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

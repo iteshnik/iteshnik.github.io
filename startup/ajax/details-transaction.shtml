@@ -1,0 +1,53 @@
+<div class="fade modal details-transaction" id="details-transaction" tabindex="-1" role="dialog">
+	<div class="panel panel-pension panel-pension__details-transaction container modal-dialog" role="document"><span class="close panel_close panel-pension_close" data-dismiss="modal" aria-label="Close"></span>
+		<div class="panel-heading panel-pension-heading">
+			<h3 class="panel-title panel-pension-title">Details of transaction 1234567890</h3>
+		</div>
+		<div class="panel-body">
+			<div class="row panel-body_transaction-describe">
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="transaction-name">Transactin id</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="transaction-value">1234567890</span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="type-name"><span class="span">Type of transaction</span></span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="type-value"><span class="span">Income</span></span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="amount-name">Amount</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="amount-value">120.000.00 usd</span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="balance-before-name">Balance before</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="balance-before-value">1.029.00</span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="balance-after-name">Balance after</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="balance-after-value">121.029.00</span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="date-name">Date</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="date-value">09.11.2018</span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="fee-name">Fee</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="fee-value">0.00 usd</span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="from-name">From</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="from-value">123 456 789</span></div>
+				</div>
+				<div class="clearfix">
+					<div class="transaction-describe-name col-xs-6"><span class="comments-name">Comments</span></div>
+					<div class="transaction-describe-value col-xs-6"><span class="comments-value">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </span></div>
+				</div>
+			</div>
+			<div class="row row-btns row-btns__pension">
+				<div class="row-btns_wrapper">
+					<button type="submit" class="btn btn__print hidden-xs">Print</button>
+					<button type="submit" class="btn btn__save">Save as pdf</button>
+					<span class="hidden-xs">Or</span></div>
+			</div>
+		</div>
+	</div>
+</div>

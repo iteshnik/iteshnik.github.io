@@ -1,0 +1,283 @@
+.banker-form .banker-overlay
+{
+	background-color: rgba(176, 42, 168, .85);
+	bottom: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	z-index: 6;
+}
+.banker-form .banker-overlay a
+{
+	color: #492a47;
+}
+.banker-form .banker-overlay p
+{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 74px;
+	margin-bottom: 24px;
+	margin-top: 152px;
+	text-transform: uppercase;
+}
+.banker-form .file-btn span
+{
+	background-image: url(../images/sprite.png);
+	background-position: -23px -59px;
+	height: 21px;
+	width: 23px;
+}
+.banker-form .input-send:before{
+	background-image: url(../images/sprite.png);
+	background-position: -81px -21px;
+	height: 20px;
+	width: 23px;
+
+}
+.banker-form .title_panel .title
+{
+	color: #ffd5fe;
+	position: relative;
+}
+.banker-form .title_panel .title:before
+{
+	content: '';
+	position: absolute;
+	top: 24px;
+}
+.banker-form
+{
+	background-color: rgba(176, 42, 168, .85);
+	height: 100%;
+	position: relative;
+}
+.banker-form.banker-input::-moz-placeholder, .banker__text-area::-moz-placeholder
+{
+	color: #fffefc!important;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	transition: opacity .3s;
+}
+.banker-form.banker-input::-webkit-input-placeholder, .banker__text-area::-webkit-input-placeholder
+{
+	color: #fffefc!important;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	transition: opacity .3s;
+}
+.banker-form.banker-input:-ms-input-placeholder, .banker__text-area:-ms-input-placeholder
+{
+	color: #fffefc!important;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	transition: opacity .3s;
+}
+.banker-form__group
+{
+	padding-left: 80px;
+}
+.banker-form__group .banker__text-area
+{
+	height: 210px;
+	outline: 0!important;
+	padding: 20px!important;
+	resize: none;
+}
+.banker-form__group .banker-input
+{
+	padding-left: 20px;
+}
+.banker-form__group .banker-input, .banker-form__group .banker__text-area, .banker-form__group .bootstrap-select.banker-select
+{
+	background-color: rgba(255, 255, 255, .4);
+	border: none;
+	border-radius: 2px;
+}
+.banker-form__group .banker-input, .banker-form__group .bootstrap-select.banker-select
+{
+	height: 45px;
+}
+.banker-form__group .banker-input__group, .banker-form__group .banker-input__group .banker-input, .banker-form__group .banker-input__group .banker-label, .banker-form__group .banker-input__group .banker__text-area, .banker-form__group .banker-input__group .bootstrap-select.banker-select
+{
+	width: 100%;
+}
+.banker-form__group .banker-input__group:after
+{
+	clear: both;
+}
+.banker-form__group .banker-input__group:after, .banker-form__group .banker-input__group:before, .banker-form__group:after, .banker-form__group:before
+{
+	content: " ";
+	display: table;
+}
+.banker-form__group .banker-label
+{
+	color: #fbb9f7;
+	font-size: 12px;
+	font-weight: 700;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+.banker-form__group .file__attached
+{
+	color: #091b2c;
+	font-size: 10px;
+}
+.banker-form__group .left-side .banker-input__group
+{
+	margin-bottom: 15px;
+}
+.banker-form__group .left-side, .banker-form__group .right-side
+{
+	padding-right: 70px;
+}
+.banker-form__group::-moz-placeholder
+{
+	color: #fffefc!important;
+	font-size: 12px;
+	font-weight: 700;
+	transition: opacity .3s;
+}
+.banker-form__group::-webkit-input-placeholder
+{
+	color: #fffefc!important;
+	font-size: 12px;
+	font-weight: 700;
+	transition: opacity .3s;
+}
+.banker-form__group:focus::-moz-placeholder
+{
+	opacity: 0!important;
+}
+.banker-form__group:focus::-webkit-input-placeholder
+{
+	opacity: 0!important;
+}
+.banker-form__group:focus:-ms-input-placeholder
+{
+	opacity: 0!important;
+}
+.banker-form__group:-ms-input-placeholder
+{
+	color: #fffefc!important;
+	font-size: 12px;
+	font-weight: 700;
+	transition: opacity .3s;
+}
+.banker-input__group .file-btn, .set-input__group .file-btn
+{
+	background-color: #b857b5;
+}
+.banker-input__group .input-send, .set-input__group .input-send
+{
+	background-color: #813e82;
+	width: 50px;
+}
+.banker-input__group .input-send:before
+{
+	z-index: 0;
+}
+.banker-input__group .submit-input
+{
+	background-color: #a52ca3;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 45px;
+	line-height: 45px;
+	text-transform: uppercase;
+	width: calc(80% - 95px);
+	color:#fff;
+	text-align:center;
+}
+
+
+@media (min-width: 1200px)
+{
+	
+}
+@media (max-width: 1199px)
+{
+	
+}
+@media (min-width: 992px)
+{
+		.banker-form__group
+	{
+		padding-left	: 35px;
+	}
+	.banker-form__group .right-side
+	{
+		padding-right	: 30px;
+		width	: 55%;
+	}
+	.banker-form__group .left-side
+	{
+		width	: 45%;
+		padding-right	: 40px;
+	}
+	.banker-form .title_panel .title:before
+{
+	background-image: url(../images/sprite.png);
+	background-position: -81px -21px;
+	height: 20px;
+	width: 23px;
+
+}
+
+}
+@media (max-width: 991px)
+{
+	.banker-form .title_panel .title
+	{
+		padding-top: 3px;
+	}
+	.banker-form__group
+	{
+		padding-left: 20px;
+	}
+	.banker-form__group .left-side
+	{
+		padding-right: 20px;
+	}
+	.banker-form__group .right-side
+	{
+		padding-bottom: 70px;
+		padding-right: 20px;
+	}
+	.banker-input__group .submit-input, .set-input__group .submit-input
+	{
+		width: calc(100% - 95px);
+	}
+	.banker-input__group .submit-input, .set-input__group .submit-input
+	{
+		font-size: 15px;
+	}
+
+	
+}
+@media (min-width: 768px)
+{
+	.banker-form__group
+	{
+		padding-bottom	: 20px;
+	}
+
+}
+@media (max-width: 767px)
+{
+		.banker-input__group.submit__group
+	{
+		bottom: -320px;
+		position: absolute;
+		z-index: 5;
+	}	
+
+}

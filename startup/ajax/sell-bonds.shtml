@@ -1,0 +1,74 @@
+<div id="sell-bonds" class="fade modal bonds basic" tabindex="-1" role="dialog">
+  <div class="panel panel-loans panel-loans__new-loan container modal-dialog" role="document"> <span class="close panel_close panel-loans_close" data-dismiss="modal" aria-label="Close"></span>
+    <div class="panel-heading panel-loans-heading">
+      <h3 class="panel-title panel-loans-title">Sell bonds</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row panel-body_condition">
+        <div class="panel-body_data">
+          <div class="data-indicator data-indicator-loans"></div>
+          <span>DATA</span> </div>
+        <div class="panel-body_success">
+          <div class="success-indicator success-indicator-loans"></div>
+          <span>SUCCESS</span> </div>
+      </div>
+	  <h3>I want to put bond 1234567 to marker</h3>
+      <form class="row modal-form modal-form-loans modal-form-loans__new-loan">
+        <div class="information-request hidden-xs">
+          <div class="row">
+            <div class="col-sm-3 funds-info"><span class="funds-type">Type of product</span></div>
+            <div class="col-sm-3 funds-info"><span class="funds-amount">Date</span></div>
+            <div class="col-sm-2 funds-info"><span class="funds-risk">Term</span></div>
+            <div class="col-sm-1 funds-info"><span class="funds-profit">%</span></div>
+            <div class="col-sm-3 funds-info"><span class="funds-profit">Amount</span></div>
+          </div>
+          <div class="row hidden-xs">
+            <div class="row my-panel_data-funds">
+              <div class="data-info-values">
+                <div class="col-md-3 col-sm-3 data-info data-info__funds-type"> <span>Bond</span> </div>
+                <div class="col-md-3 col-sm-3 data-info data-info__funds-amount"> <span>05.12.2016</span> </div>
+                <div class="col-md-2 col-sm-2 data-info data-info__funds-risk"> <span>1 year</span> </div>
+                <div class="col-md-1 col-sm-1 data-info data-info__profit"> <span>6%</span> </div>
+                <div class="col-md-3 col-sm-3 data-info data-info__profit"> <span>1.000 .00 usd</span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row visible-xs">
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">Type of product</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">Bond</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">05.12.2016</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">Term</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">1 year</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">%</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">6%</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">Amount</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">1.000 .00 usd</div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="form-group form-group__pay-from">
+            <label for="sendMoney">To my bank account</label>
+            <select id="sendMoney" class="form-control">
+              <option>123 456 789</option>
+            </select>
+          </div>
+        </div>
+        <div class="row_btn">
+          <button type="submit" class="btn" onclick="event.preventDefault();$('#sell-bonds').click();" data-toggle="modal" data-target="#ThankPayment">Sell bonds</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

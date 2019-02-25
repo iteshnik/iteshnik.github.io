@@ -1,0 +1,60 @@
+<div class="fade modal" id="view-contract" tabindex="-1" role="dialog">
+	<div class="panel panel-insurance panel-insurance__view-contract container modal-dialog" role="document"> <span class="close panel_close panel-insurance_close" data-dismiss="modal" aria-label="Close"></span>
+		<div class="panel-heading panel-insurance-heading">
+			<h3 class="panel-title panel-insurance-title">View insurance policy</h3>
+		</div>
+		<div class="panel-body">
+			<div class="row panel-body_condition hidden-sm hidden-md hidden-lg">
+				<div class="panel-body_data">
+					<div class="data-indicator data-indicator-insurance"></div>
+					<span>DATA</span> </div>
+				<div class="panel-body_success">
+					<div class="success-indicator success-indicator-insurance"></div>
+					<span>SUCCESS</span> </div>
+			</div>
+			<div class="panel-body_insurance-policy">
+				<div class="clearfix">
+					<div class="policy-describe-name col-xs-6 col-sm-6 col-md-5"><span class="insurance-name">Type of insurance:</span>
+					</div>
+					<div class="policy-describe-value col-xs-6 col-sm-6 col-md-7"><span class="insurance-value">Life insurance</span>
+					</div>
+				</div>
+				<div class="clearfix">
+					<div class="policy-describe-name col-xs-6 col-sm-6 col-md-5"><span class="contract-name">Contract period:</span>
+					</div>
+					<div class="policy-describe-value col-xs-6 col-sm-6 col-md-7"><span class="contract-value">1 year</span>
+					</div>
+				</div>
+				<div class="clearfix">
+					<div class="policy-describe-name col-xs-6 col-sm-6 col-md-5"><span class="from-to-name">From-to:</span>
+					</div>
+					<div class="policy-describe-value col-xs-6 col-sm-6 col-md-7"><span class="from-to-value">31.12.2015 - 31.12.2015</span>
+					</div>
+				</div>
+				<div class="clearfix">
+					<div class="policy-describe-name col-xs-6 col-sm-6 col-md-5"><span class="coverage-name">Insurance coverage:</span>
+					</div>
+					<div class="policy-describe-value col-xs-6 col-sm-6 col-md-7"><span class="coverage-value">1.000.000 usd</span>
+					</div>
+				</div>
+			</div>
+			<div class="row panel-body_insurance-details">
+				<p class="insurance-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+					esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+					culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error 
+					sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+					veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+					sit aspernatur aut odit aut </p>
+			</div>
+			<div class="row row-btns">
+				<div class="row-btns_wrapper">
+					<button type="submit" class="btn btn__print-policy">Print policy</button>
+					<span class="visible-xs">Or</span>
+					<button type="submit" class="btn btn__save-in">Save in pdf</button>
+					<span class="hidden-xs">Or</span> </div>
+			</div>
+		</div>
+	</div>
+</div>

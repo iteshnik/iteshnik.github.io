@@ -1,0 +1,831 @@
+<html>
+	<head>
+		<title>Система управления сайтом - Каталог</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script src="js/admin.js">
+		</script>
+		<style type="text/css">
+			@import url(calendar/calendar-win2k-1.css);
+		</style>
+		<script type="text/javascript" src="js/calendar.js">
+		</script>
+		
+		<script type="text/javascript" src="js/calendar-en.js">
+		</script>
+		<script type="text/javascript" src="js/calendar-ru_win_.js">
+		</script>
+		<script type="text/javascript" src="js/calendar-setup.js">
+		</script>
+		<script type="text/javascript" src="js/ckeditor.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/tabcontent.css">
+		<script type="text/javascript" src="js/tabcontent.js">
+		</script>
+		<!-- moyo -->
+		<script type="text/javascript" src="js/jquery.js">
+		</script>
+		<script type="text/javascript" src="js/sorting.js">
+		</script>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+			
+				<tr>
+					<td valign="top">
+						<div style="display: block; background: none repeat scroll 0% 0% rgb(51, 153, 0); height: 5px;">
+							<img src="i/0.gif" alt="" border="0" height="5" width="1">
+						</div>
+						<div style="display: block; background: url(&quot;img/top_bg.gif&quot;) repeat-x scroll left bottom rgb(26, 86, 132); height: 61px;">
+							<table border="0" cellpadding="0" cellspacing="0" height="60" width="100%">
+								
+									<tr>
+										<td style="padding-left: 14px;" width="33%">
+										</td>
+										<td align="center" width="33%">
+											<table border="0" cellpadding="2" cellspacing="0">
+												
+													<tr>
+														<td class="white">
+															<b>Добро пожаловать: Главный администратор системы</b>
+														</td>
+													</tr>
+													<tr>
+														<td class="gray">
+															( Админская группа )
+														</td>
+													</tr>
+												
+											</table>
+										</td>
+										<td align="right" width="33%">
+											<table cellpadding="2" cellspacing="0">
+												
+													<tr>
+														<td>
+															<a href="http://intellect-stroy/admin/login.php?e=out"><img src="i/icon_exit.gif" alt="" border="0" height="15" width="18"></a>
+														</td>
+														<td class="top_icon">
+															<a href="http://intellect-stroy/admin/login.php?e=out">Logout</a>
+														</td>
+														<td>
+															<a href="#history"></a>
+															<a href="#error"><img src="i/icon_error.gif" alt="" border="0" height="15" width="18"></a>
+														</td>
+														<td class="top_icon">
+															<a href="http://intellect-stroy/admin/report_bug.php">Сообщить об ошибке</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#rules"><img src="i/icon_rules.gif" alt="" border="0" height="15" width="18"></a>
+														</td>
+														<td class="top_icon">
+															<a href="http://intellect-stroy/admin/user_rights.php">Права пользователя</a>
+														</td>
+														<td>&nbsp;
+															
+														</td>
+														<td class="top_icon">&nbsp;
+															
+														</td>
+													</tr>
+												
+											</table>
+										</td>
+									</tr>
+								
+							</table>
+						</div>
+						<br>
+						<div style="display: block; padding-left: 13px; background: url(&quot;img/top_menu_bg.gif&quot;) repeat-x scroll left bottom transparent; height: 25px;">
+							<table cellpadding="0" cellspacing="0">
+								
+									<tr>
+										<td>
+											<img src="i/top_menu_left.gif" alt="" border="0" height="24" width="18">
+										</td>
+										<td class="top_menu">
+											<a href="http://intellect-stroy/admin/index.php?e=NAV&amp;id=2" title="">Админ</a>
+										</td>
+										<td>
+											<img src="i/top_menu_left2.gif" alt="" border="0" height="24" width="18">
+										</td>
+										<td class="top_menu">
+											<a href="http://intellect-stroy/admin/index.php?e=NAV&amp;id=11" title=""><b>РЕДАКТОР</b></a>
+										</td>
+										<td>
+											<img src="i/top_menu_left2.gif" alt="" border="0" height="24" width="18">
+										</td>
+										<td class="top_menu">
+											<a href="http://intellect-stroy/admin/index.php?e=NAV&amp;id=104" title="">Магазин</a>
+										</td>
+										<td>
+											<img src="i/top_menu_right.gif" alt="" border="0" height="24" width="1">
+										</td>
+									</tr>
+								
+							</table>
+						</div>
+						<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+							
+								<tr>
+									<td style="padding: 19px 17px 0px 13px;" valign="top">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+											
+												<tr>
+													<td id="section_11" style="display: block; background: url(&quot;img/d_gray.gif&quot;) repeat-y scroll left top transparent; width: 230px; padding-right: 17px;" valign="top">
+														<table border="0" cellpadding="0" cellspacing="0" width="100%">
+															
+																<tr>
+																	<td>
+																		<img src="i/menu_tri.gif" alt="" border="0" height="18" width="116">
+																	</td>
+																</tr>
+																<tr>
+																	<td style="padding-left: 0px;">
+																		<table cellpadding="0" cellspacing="0" width="100%">
+																			
+																				<tr>
+																					<td class="menu_title" style="background: url(&quot;/images/adm/scr/12.gif&quot;) no-repeat scroll left center rgb(51, 153, 0);">
+																						Сайт
+																					</td>
+																					<td style="background: none repeat scroll 0% 0% rgb(51, 153, 0);" align="right">
+																						<div style="display: none;" id="actionBlock_12">
+																							<a href="#" onClick="return triggerSection(12)"><img src="i/icon_maximize.gif" border="0" height="16" hspace="10" width="16"></a>
+																						</div>
+																						<div style="display: block;" id="actionBlockReverse_12">
+																							<a href="#" onClick="return triggerSection(12)"><img src="i/icon_minimize.gif" border="0" height="16" hspace="10" width="16"></a>
+																						</div>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td class="menu" colspan="2">
+																						<ul id="section_12" style="display: block;">
+																							<li>
+																								<a href="http://intellect-stroy/admin/ANOTHER_PAGES.php" title="">Страницы сайта</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/NEWS_GROUP.php" title="">Группы новостей</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/NEWS.php" title="Редактирование новостей">Новости</a>
+																							</li>
+																							<dt>
+																								Редактирование новостей
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/ARTICLE_GROUP.php" title="">Группы статей</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/ARTICLE.php" title="">Статьи</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/SHOPUSER.php" title="">Пользователи</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/GALLERY.php" title="">Фильмотека</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/QUESTION.php" title="">FAQ</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/RECALL.php" title="">Оставленные номера телефонов</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/GLOSSARY.php" title="">Глоссарий</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/FILE_TYPES.php" title="">Типы файлов</a>
+																							</li>
+																							<dt>
+																							</dt>
+																						</ul>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td class="menu_title" style="background: url(&quot;/images/adm/scr/&quot;) no-repeat scroll left center rgb(51, 153, 0);">
+																						Каталог
+																					</td>
+																					<td style="background: none repeat scroll 0% 0% rgb(51, 153, 0);" align="right">
+																						<div style="display: none;" id="actionBlock_23">
+																							<a href="#" onClick="return triggerSection(23)"><img src="i/icon_maximize.gif" border="0" height="16" hspace="10" width="16"></a>
+																						</div>
+																						<div style="display: block;" id="actionBlockReverse_23">
+																							<a href="#" onClick="return triggerSection(23)"><img src="i/icon_minimize.gif" border="0" height="16" hspace="10" width="16"></a>
+																						</div>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td class="menu" colspan="2">
+																						<ul id="section_23" style="display: block;">
+																							<li>
+																								<a href="http://intellect-stroy/admin/ATTRIBUT_GROUP.php" title="Управление группами атрибутов каталога">Группы атрибутов</a>
+																							</li>
+																							<dt>
+																								Управление группами атрибутов каталога
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/CATALOGUE.php" title="">Каталог</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/BRAND.php" title="">Производители</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/GOODS_GROUP.php" title="">Группы товаров</a>
+																							</li>
+																							<dt>
+																							</dt>
+																							<li>
+																								<a href="http://intellect-stroy/admin/UNIT.php" title="">Единицы измерения</a>
+																							</li>
+																							<dt>
+																							</dt>
+																						</ul>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td>
+																						<br>
+																					</td>
+																				</tr>
+																			
+																		</table>
+																	</td>
+																</tr>
+															
+														</table>
+														<br>
+														<div style="width: 230px; height: 1px;">
+															<spacer type="block" height="1" width="230">
+														</div>
+													</td>
+													<td style="background: url(&quot;img/d_gray.gif&quot;) repeat-y scroll left top transparent; padding-right: 20px;" valign="top" width="100%">
+														<table border="0" cellpadding="0" cellspacing="0" width="100%">
+															
+																<tr>
+																	<td>
+																		<img src="i/menu_tri.gif" alt="" border="0" height="18" width="116">
+																		<div style="position: relative; left: 100px; top: -23px;">
+																			<div style="position: absolute; display: none;" id="actionBlock_11">
+																				<nobr>
+																					<a href="#" onClick="return triggerSection(11);"><img src="i/bt_red_right.gif" style="margin-right: 11px;" align="absmiddle" border="0" height="15" width="16"></a><a href="#" onClick="return triggerSection(11);">отобразить меню слева</a>
+																				</nobr>
+																			</div>
+																			<div style="position: absolute; display: block;" id="actionBlockReverse_11">
+																				<nobr>
+																					<a href="#" onClick="return triggerSection(11);"><img src="i/bt_red_left.gif" style="margin-right: 11px;" align="absmiddle" border="0" height="15" width="16"></a><a href="#" onClick="return triggerSection(11);">спрятать меню слева</a>
+																				</nobr>
+																			</div>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td style="padding: 0px 19px 0px 21px;">
+																		<h2 class="h2">Добавление - Сопутствующие товары</h2>
+																		<form method="POST" action="ITEM.php#fl1" enctype="multipart/form-data" onSubmit="return true ;">
+																			<table style="width: 500px;" class="f" bgcolor="#cccccc" border="0" cellpadding="5" cellspacing="1">
+																				
+																					<tr class="ftr" bgcolor="#f0f0f0">
+																						<td colspan="2">
+																							<input name="el1" value="Добавить" class="gbt badd" type="submit"><input name="el1" value="Отменить" class="gbt bcancel" type="submit">
+																						</td>
+																					</tr><input name="e" value="ED" type="hidden"><input name="id" value="132" type="hidden"><input name="pid" value="34" type="hidden"><input name="p" value="1" type="hidden">
+																					<tr bgcolor="#ffffff">
+																						<td>
+																							<span class="title2">Продукция</span>
+																						</td>
+																						<td width="100%">
+																							<table>
+																								
+																									<tr>
+																										<td>
+																											Каталог: 
+																											<select gtbfieldid="884" name="CATALOGUE_ID" onChange="return chan(this.form,this.form.elements['ITEM_ID[]'],'select A.ITEM_ID,A.NAME from ITEM A  left join BRAND B on (A.BRAND_ID=B.BRAND_ID) where A.CATALOGUE_ID=?  and A.STATUS=1  order by A.NAME',this.value);">
+																												<option value="">-- Не задан --</option>
+																												<option selected="selected" value="1">/Гипсокартон</option>
+																												<option value="2">/Кирпич</option>
+																												<option value="29">/Кирпич/Рядовой</option>
+																												<option value="30">/Кирпич/Лицевой</option>
+																												<option value="53">/Кирпич/Кладочные растворы и затирки</option>
+																												<option value="3">/Блоки</option>
+																												<option value="31">/Блоки/Керамзитобетонные</option>
+																												<option value="32">/Блоки/Газосиликатные блоки</option>
+																												<option value="33">/Блоки/Пенобетонные блоки</option>
+																												<option value="55">/Блоки/Кладочные растворы</option>
+																												<option value="4">/Сухие смеси</option>
+																												<option value="34">/Сухие смеси/Модифицированные</option>
+																												<option value="35">/Сухие смеси/Гарцовки(простые)</option>
+																												<option value="59">/Сухие смеси/Сопутствующие материалы</option>
+																												<option value="5">/Краски</option>
+																												<option value="6">/Керамзит</option>
+																												<option value="8">/ЖБИ</option>
+																												<option value="11">/Керамогранит</option>
+																												<option value="12">/Клеи, герметики, пены, мастики, жидкие гвозди</option>
+																												<option value="56">/Клеи, герметики, пены, мастики, жидкие гвозди/Силиконовые герметики</option>
+																												<option value="57">/Клеи, герметики, пены, мастики, жидкие гвозди/Акриловые герметики</option>
+																												<option value="60">/Клеи, герметики, пены, мастики, жидкие гвозди/Жидкие гвозди</option>
+																												<option value="69">/Клеи, герметики, пены, мастики, жидкие гвозди/Клеи специального назначения</option>
+																												<option value="13">/Антифризы DIXIS</option>
+																												<option value="75">/Антифризы DIXIS/Dixis</option>
+																												<option value="14">/Малярный инструмент</option>
+																												<option value="41">/Малярный инструмент/Валики с рукояткой</option>
+																												<option value="43">/Малярный инструмент/Шубки</option>
+																												<option value="44">/Малярный инструмент/Миксеры</option>
+																												<option value="45">/Малярный инструмент/Уровни</option>
+																												<option value="46">/Малярный инструмент/Шпатели, Гладилки, Терки</option>
+																												<option value="47">/Малярный инструмент/Кисти</option>
+																												<option value="48">/Малярный инструмент/Ножи</option>
+																												<option value="49">/Малярный инструмент/Кельмы</option>
+																												<option value="50">/Малярный инструмент/Пистолеты</option>
+																												<option value="51">/Малярный инструмент/Рулетки</option>
+																												<option value="62">/Малярный инструмент/Правило</option>
+																												<option value="15">/Мансардные окна VELUX</option>
+																												<option value="64">/Мансардные окна VELUX/Модельный ряд</option>
+																												<option value="65">/Мансардные окна VELUX/Комплексные решения</option>
+																												<option value="66">/Мансардные окна VELUX/Всё для установки</option>
+																												<option value="67">/Мансардные окна VELUX/Аксессуары</option>
+																												<option value="16">/Метизы</option>
+																												<option value="17">/Пазогребневые плиты</option>
+																												<option value="18">/Профиль и комплектующие</option>
+																												<option value="25">/Сетки, скотчи и пр.</option>
+																												<option value="26">/Цемент</option>
+																												<option value="28">/Утеплители, кровля, гидроизоляция</option>
+																												<option value="61">/ПРАВИЛО</option>
+																												<option value="74">/Чистящие средства для кафеля, мрамора, камня</option>
+																											</select>
+																										</td>
+																									</tr>
+																									<tr>
+																										<td>
+																											поиск:<br/><input type="text" id="sorting">
+																											
+																										</td>
+																									</tr>
+																									<tr>
+																										<td>
+																											<select id="filterfield" name="ITEM_ID[]" multiple="multiple" style="width: 100%;" size="8">
+																												<option value="750"> ARDEX 8+9 (5кг+5кг)</option>
+																												<option value="468">5-минутный раствор 5-Minutenmortel (Schneller Mortel) 5кг арт.122</option>
+																												<option value="592">Adesilex P10 (Адесилекс П10) Супер белый клей для стеклянной мозайки</option>
+																												<option value="593">Adesilex P4 (Адесилекс П4) клей для всех типов плитки</option>
+																												<option value="594">Adesilex P9 (Адесилекс П9) серый (белый) затирка mapei, клей для плитки средней эластичности</option>
+																												<option value="175">apмиpующaя вoдocтoйкaя шпaтлeвкa для cиcтeм cкpeплeннoй тeплoизoляции ГЛИMC-StyroПpaйм</option>
+																												<option value="614">Aquaflex (Аквафлекс) герметик для гидроизоляции оснований</option>
+																												<option value="677">ARDEX A 46 &lt;br&gt;Устойчивая шпатлевочная масса</option>
+																												<option value="673">ARDEX AM 100&lt;br&gt;Раствор для выравнивания стен непосредственно перед укладкой плитки</option>
+																												<option value="678">ARDEX DS 40&lt;br&gt;Подходит для применения на покрытиях</option>
+																												<option value="674">ARDEX E 90&lt;br&gt;Средство для повышения качества на основе синтетической смолы</option>
+																												<option value="675">ARDEX FB 9 L &lt;br&gt;Эластичный клей, длительный период схватывания, серый</option>
+																												<option value="670">ARDEX FB 9 L&lt;br&gt;Эластичный клей, серый</option>
+																												<option value="679">ARDEX PREMIUM E 2100 &lt;br&gt;Клей</option>
+																												<option value="667">ARDEX S 16 FLEX &lt;br&gt;Эластичный быстросхватывающийся строительный клей</option>
+																												<option value="669">ARDEX S 21 &lt;br&gt;Быстросхватывающийся клей, серый</option>
+																												<option value="671">ARDEX S 48&lt;br&gt;Высокоэластичный клей для формирования тонких слоев</option>
+																												<option value="668">ARDEX S16W FLEX &lt;br&gt;Быстросхватывающийся строительный клей, белый</option>
+																												<option value="672">ARDEX WA&lt;br&gt;Клей на эпоксидной основе</option>
+																												<option value="676">ARDEX X 32&lt;br&gt; Эластичный клей</option>
+																												<option value="626">ARDEX X 7 W &lt;br&gt;Клей для формирования тонких слоев, белый</option>
+																												<option value="665">ARDEX X 701 F&lt;br&gt;Эластичный клей, серый</option>
+																												<option value="666">ARDEX X 701 S&lt;br&gt;Эластичный быстросхватывающийся клей, серый</option>
+																												<option value="171">cмecь для ликвидaции «живыx» тeчeй Глимc-Гидpoплoмбa</option>
+																												<option value="164">cпeциaльный вoдocтoйкий плитoчныйклeй WhiteFix (Бeлый)</option>
+																												<option value="174">cпeциaльный гoтoвый к пpимeнeнию гpунт БeтoKoнтaкт</option>
+																												<option value="605">Eporip (Эпорип) эпоксидный клей для склеивания бетонов 2кг</option>
+																												<option value="610">Fiberplan (Фиберплан) Наливной пол для выравнивания внутренних деревянных полов 3-10мм</option>
+																												<option value="599">Granirapid (Гранирапид серый) быстросхватываемый клей для плитки, камня комп.А</option>
+																												<option value="613">Idrosilex  (Идросилекс ) 25кг</option>
+																												<option value="595">Isolastic (Изоластик) латексная добавка для клея Kerabond или Keraflor 1кг</option>
+																												<option value="596">Kerabond (Керабонд) серый (белый) клей для плитки mapei</option>
+																												<option value="597">Keraflex (Керафлекс серый) клей для плитки высокой эластичности до 5мм</option>
+																												<option value="600">Keralastic T (Кераластик Т) Полиуретановый клей белый 5кг</option>
+																												<option value="618">Keranet (Керанет) Очиститель цементных остатков (жидкий) 1кг</option>
+																												<option value="601">Kerapoxy Disign (Керапокси дизайн) Кислотостойкое заполнение швов 3 - 10 мм, гидроизоляция mapei 3кг</option>
+																												<option value="612">Kerapoxy SP (Керапокси СП) Кислотостойкое заполнение швов 3 - 10 мм</option>
+																												<option value="598">Keraquick (Кераквик)</option>
+																												<option value="619">Keraseal (Керасил) Водонепроницаемый лак для плитки 1кг</option>
+																												<option value="940">KESTONIT GP. Для заделки швов гипсокартона (до 3 мм).</option>
+																												<option value="937">KESTONIT LH. Финишная мелкозернистая полимерная шпатлёвка (до 2 мм).</option>
+																												<option value="936">KESTONIT LK. Шпатлёвка на полимерной основе (до 3-5 мм).</option>
+																												<option value="935">KESTONIT SH. Финишная мелкозернистая цементная шпатлёвка (до 2 мм).</option>
+																												<option value="938">KESTONIT SK. Шпатлёвка на цементной основе для стен и потолков ( 3-10 мм).</option>
+																												<option value="939">KESTONIT TT. Ремонтная цементная шпатлёвка (5-30 мм).</option>
+																												<option value="934">KESTONIT WSH. Белая мелкозернистая цементная шпатлёвка (до 2 мм)</option>
+																												<option value="590">Lamposilex (Лампосилекс) гидропломба</option>
+																												<option value="616">Mapefill (Мапефилл) 25кг</option>
+																												<option value="604">Mapegrout Hi-flow (Мапеграут Высокотекучий) клей mapei для реставрации бетона</option>
+																												<option value="589">Mapegrout Thixotropic (Мапеграут Тиксотропный)</option>
+																												<option value="588">Mapelastic (Мапеластик) эластичная гидроизоляционная мембрана A+B</option>
+																												<option value="611">Mapesil AC (Мапесил АЦ) Силиконовый клей-герметик на уксуной основе</option>
+																												<option value="884">MASTER FIX. Готовый к применению клей для приклеивания настенных кафельных и керамических плиток</option>
+																												<option value="608">Nivoplan (Нивоплан) выравнивание любых стен</option>
+																												<option value="607">Nivorapid (Ниворапид) Шпатлевка быстросхватываемая для стен, пола, потолка (слой до 20мм)</option>
+																												<option value="617">Planicrete (Планикрет) Пластификатор для цементных растворов 5кг</option>
+																												<option value="883">PRO FIX. Клей для кафельной плитки</option>
+																												<option value="199">SR -23 Клей для плитки универсальный</option>
+																												<option value="200">SR -24 Клей для керамогранита</option>
+																												<option value="297">SR -26 Клей для пазогребневых плит и листов ГКЛ и КВЛ</option>
+																												<option value="311">SR -27 Клей для бассеновой плитки</option>
+																												<option value="298">SR-12 Штукатурка с желаемой фактурой поверхности</option>
+																												<option value="193">SR-13 Штукатурка декоративная (короед)</option>
+																												<option value="194">SR-14 Шпатлёвка фасадная финишная</option>
+																												<option value="195">SR-15 Штукатурка тонкая универсальная</option>
+																												<option value="196">SR-16 Шпатлёвка гипсовая выравнивающая</option>
+																												<option value="197">SR-17 Штукатурка гипсовая для ручного и механического нанесения</option>
+																												<option value="198">SR-18 Шпатлёвка финишная супертонкая для внутренних работ 30кг</option>
+																												<option value="201">SR-25 Клей для плитки на сложные основания</option>
+																												<option value="312">SR-62 Клей для плит из стиропора</option>
+																												<option value="302">SR-67 Клей для блоков из ячеистого бетона</option>
+																												<option value="203">SR-71 Ровнитель (стяжка) для пола</option>
+																												<option value="205">SR-72 Наливной пол самовыравнивающийся</option>
+																												<option value="207">SR-73 Наливной пол ПРОФИ Быстротвердеющий</option>
+																												<option value="208">SR-74 Ровнитель для пола</option>
+																												<option value="210">SR-75 Наливной пол</option>
+																												<option value="211">SR-76 Ровнитель для пола гидроизолирующий (стяжка)</option>
+																												<option value="606">Stabilcem (Стабилчем) для приготовления высокопрочных безусадочных растворов</option>
+																												<option value="885">SUPER W. Белый клей для кафельной плитки с легким наполнителем</option>
+																												<option value="602">Topcem (Топчем) гидравлическое вяжущее для устройства плавающих и встроенных стяжек</option>
+																												<option value="603">Topcem Pronto (Топчем Пронто) для устройства плавающих и встроенных стяжек mapei</option>
+																												<option value="615">Triblock (Триблок)  3-х Triblock раствор для гидроизоляции оснований</option>
+																												<option value="882">ULTRA FIX. Высокопрочный клей для плитки и утеплителя</option>
+																												<option value="609">Ultraplan ECO (Ультраплан ЭКО) Наливной пол на любые основания 3-10мм</option>
+																												<option value="625">X7G &lt;br&gt;Клей для формирования тонкого слоя, серый</option>
+																												<option value="505">«Белый дом»  Затирочная штукатурка для внешних работ WEISSES HAUS REIBEPUTZ INNEN AUSSEN 20кг арт.61, 133</option>
+																												<option value="506">«Белый дом»  Штукатурка  для нанесения валиком WEISSES HAUS KUNSTHARZ ROLLPUTZ 8кг арт.221</option>
+																												<option value="503">«Белый дом» Грунтовка для затирочной штукатурки WEISSES HAUS voranstrich fur reibeputze 5кг арт.110</option>
+																												<option value="504">«Белый дом» Затирочная штукатурка для внутренних работ WEISSES HAUS REIBEPUTZ INNEN 8кг арт.220</option>
+																												<option value="857">Акрил. Акриловый герметик белого цвета.</option>
+																												<option value="681">АРМИРОВАННАЯ ЦЕМЕНТНАЯ БАЗОВАЯ ШПАКЛЁВКА ОСНОВИТ БАЗСИЛК Т-30</option>
+																												<option value="1040">Базовая шпаклевка G (Universalspachtel G)</option>
+																												<option value="1055">Белая гипсовая штукатурка Bergauf PRIMA PUTZ GIPS</option>
+																												<option value="467">Белый клей для мраморных плит ГЛИMC-МРАМОР</option>
+																												<option value="875">Бетонная эмульсия</option>
+																												<option value="526">Битумная шпаклевочная смесь (SPACHTELMASSE) 5кг арт.93</option>
+																												<option value="531">Битумный влагозащитный лак (SCHUTZLACK) 5кг арт.95</option>
+																												<option value="359">Быстродействующий и эластичный плиточный клей SICHERHEITSKLEBER (SCHNELL + FLEXIBEL) 25кг арт.75</option>
+																												<option value="472">Быстротвердеющая шпатлевка (BLITZSPACHTEL)</option>
+																												<option value="446">Быстротвердеющий наливный пол (F&amp;amp;F SCHNELL) 20кг арт.111</option>
+																												<option value="222">Ветонит (Vetonit) KR - финишная шпатлевка на органическом связующем для сухих помещений</option>
+																												<option value="223">Ветонит (Vetonit) LR+ - финишная шпатлевка на полимерном связующем для сухих помещений</option>
+																												<option value="511">Влагоизолирующая пленка-краска (SCHUTZFOLIE) 2,5кг арт.170</option>
+																												<option value="165">Выcoкoпpoчный вoдocтoйкий плитoчный клeй RealFix (серый)</option>
+																												<option value="166">Высокопрочный водостойкий плиточный клей ГЛИMC-Проgress</option>
+																												<option value="170">гepмeтизиpующaя цeмeнтнaя cмecь ГЛИMC-Boдostop</option>
+																												<option value="173">гpунтoвкa глубoкoгo пpoникнoвeния c дoбaвлeниeм aнтиceптикa ГЛИMC-Гpунт</option>
+																												<option value="509">Герметик для раствора (MOERTELDICHTUNGSMITTEL) 5кг арт.115</option>
+																												<option value="324">Гидроизоляционная жидкая фольга IKS</option>
+																												<option value="326">Гидроизоляционная лента</option>
+																												<option value="775">Гидроизоляционная лента LITOBAND R10 10м.п.</option>
+																												<option value="773">Гидроизоляция COVERFLEX 30кг</option>
+																												<option value="777">Гидроизоляция ELASTOCEM MONO 20кг</option>
+																												<option value="774">Гидроизоляция HIDROFLEX 10кг</option>
+																												<option value="361">Гидроизоляция для балконов (BALKONABDICHTUNG)</option>
+																												<option value="327">Гидроизоляция для бассейнов</option>
+																												<option value="353">Гидроизоляция для душевых и ванных (DUSCHABDICHTUNG) 7кг арт.6</option>
+																												<option value="325">Гидроизоляция Профи PD 1K</option>
+																												<option value="1053">Гипсовая штукатурка Bergauf BAU PUTZ GIPS</option>
+																												<option value="362">Готовый дисперсионный клей (DRAUF+SITZT) 4кг арт. 78</option>
+																												<option value="784">Грунт PRIMER C-м 10кг</option>
+																												<option value="786">Грунт PRIMER F-м 5кг</option>
+																												<option value="787">Грунт PRIMER L-м 10кг</option>
+																												<option value="785">Грунт PRIMER N-м 10кг</option>
+																												<option value="146">Грунт БЕТТОКОНТ ОСНОВИТ Т-55</option>
+																												<option value="1067">Грунт глубокого проникновения Bergauf TIEFGRUNT</option>
+																												<option value="1095">ГРУНТ ГЛУБОКОГО ПРОНИКНОВЕНИЯ ОСНОВИТ ДИПКОНТ Т-53</option>
+																												<option value="144">Грунт интерьерный ИНТЕКНОНТ &lt;BR&gt;ОСНОВИТ Т-50</option>
+																												<option value="1066">Грунт универсальный Bergauf PRIMER</option>
+																												<option value="145">Грунт универсальный УНКОНТ ОСНОВИТ Т-51</option>
+																												<option value="147">Грунт штукатурный ПЕНОКОНТ ОСНОВИТ Т-52</option>
+																												<option value="320">Грунтовка LF глубокого проникновения</option>
+																												<option value="192">Грунтовка Бетофикс Perfekta</option>
+																												<option value="191">Грунтовка Глубокого проникновения Perfekta</option>
+																												<option value="190">Грунтовка Стандарт Perfekta</option>
+																												<option value="321">Грунтовка СУПЕР D4</option>
+																												<option value="507">Грунтовка универсальная (BESTE BASIS) 5л арт.58</option>
+																												<option value="1041">Грунтовка Энерджи Праймер (Energy Primer)</option>
+																												<option value="364">Двухкомпонентный клей и затирка швов Kraft Kleber grau 1кг арт.134</option>
+																												<option value="1044">Декоративная штукатурка Энерджи Бриллиант (Kunstharzputz Energy Brilliant)</option>
+																												<option value="1043">Декоративная штукатурка Энерджи Кристалл (Silikatputz Energy Crystal)</option>
+																												<option value="1042">Декоративная штукатурка Энерджи Фуриозо (Silikonputz Energy Furioso)</option>
+																												<option value="769">Дисперсионный 
+																													клей ADESIVO UNIVERSALE LK78 (применяется для настенной керамической 
+																													облицовки плиткой небольшого формата внутри помещений) 5кг</option>
+																												<option value="768">Дисперсионный клей LITOACRIL PLUS (для внутренних облицовочных работ) 5кг</option>
+																												<option value="365">Дисперсионный клей для плитки с гидроизолятором (DRAUF+SITZT wasserdicht) 6кг арт.114</option>
+																												<option value="358">Добавка-пластификатор в расшивочные растворы (FLEX-FUGE) 1,5кг арт.96</option>
+																												<option value="1050">Затирка для межплиточных швов Bergauf KITT Белая</option>
+																												<option value="1051">Затирка для межплиточных швов Bergauf KITT Серая</option>
+																												<option value="217">Затирка для швов Object OF 40 (Fugenm&amp;#246;rtel Objekt OF 40)</option>
+																												<option value="331">Затирка для швов Трасс FМT 15</option>
+																												<option value="330">Затирка для швов Экстрим FME 80</option>
+																												<option value="591">Затирка швов mapei ultracolor (мапей ультраколор) 2-20мм</option>
+																												<option value="160">защита фасадов от влаги и механических повреждений ГЛИМС-MAGNUM</option>
+																												<option value="851">КЕРАГУМ - лента для упрочнения углов</option>
+																												<option value="852">КЕРАГУМ - упрочняющая ткань</option>
+																												<option value="877">КЕРАПРАЙМЕР. Водорастворимая грунтовка для улучшения адгезии</option>
+																												<option value="853">КЕРАСТОП. Однокомпонентная влагоизоляционная дисперсия для создания паронепроницаемой пленки</option>
+																												<option value="880">КЕСТО затирка для швов кафеля</option>
+																												<option value="879">КЕСТО. Затирка для швов клинкерных и каменных плиток</option>
+																												<option value="872">КЕСТОНИТ ЕH. Готовая к применению полимерная шпатлевка (lдо 2 мм).</option>
+																												<option value="873">КЕСТОНИТ КК. Готовая к применению полимерная шпатлевка.</option>
+																												<option value="874">КЕСТОНИТ КХ. Готовая к применению полимерная шпатлевка.</option>
+																												<option value="867">КЕСТОНИТ ЛЕВЕЛ. Раствор для первоначального выравнивания (3-50 мм.)</option>
+																												<option value="838">КЕСТОНИТ МАКСИ. Быстротвердеющий выравнивающий состав для полов</option>
+																												<option value="868">КЕСТОНИТ ОПТИО. Самовыравнивающийся пол (3-20мм.)</option>
+																												<option value="840">КЕСТОНИТ РАПИД. Быстротвердеющий выравнивающий раствор для полов</option>
+																												<option value="869">КЕСТОНИТ ТЕРМО (для теплых полов)</option>
+																												<option value="870">КЕСТОНИТ ФИНИШ. Раствор для окончательного выравнивания толщиной (1-7 мм.)</option>
+																												<option value="513">Кладочная смесь цветная серии SB 200</option>
+																												<option value="512">Кладочная смесь цветная серии SB M-200</option>
+																												<option value="129">Кладочный раствор  БЛОКФОРМ Т-111</option>
+																												<option value="154">Кладочный раствор БЛОКФОРМ Т-111 БЕЛЫЙ</option>
+																												<option value="130">Кладочный раствор СЕЛФОРМ Т-112</option>
+																												<option value="767">Клей LITOFLEX K80 (для укладки керамического гранита и керамической плитки) 25кг</option>
+																												<option value="765">Клей 
+																													LITOFLOOR K66 (для толстослойной укладки напольной плитки из 
+																													керамогранита, керамики и натурального камня, в том числе 
+																													крупноформатного) 25кг</option>
+																												<option value="761">Клей LITOKOL X11 (для укладки облицовочных плиток на пол и стены) 25кг</option>
+																												<option value="760">Клей LITOPLUS K55 (для укладки стеклянной мозаики, плитки из керамики и натурального камня, в том числе в бассейнах) 25кг</option>
+																												<option value="762">Клей LITOSTONE K98 (для облицовки плиткой из керамогранита, керамики и натурального камня) 25кг</option>
+																												<option value="758">Клей LITOSTONE К99 (для облицовки плиткой из керамогранита, керамики и натурального камня) 25кг</option>
+																												<option value="759">Клей LITOКOL K17 (для укладки керамических плиток на пол и стены) 25кг</option>
+																												<option value="764">Клей
+																													SUPERFLEX K77 (для укладки облицовочных плит из керамогранита, керамики
+																													и натурального камня, в том числе крупноформатного) 25кг</option>
+																												<option value="351">Клей «Волшебник площадей» (FLEXIBEL ULTRA PLUS) 18кг рат.136</option>
+																												<option value="363">Клей для газобетона (SICHERHEITSKLEBER GASBETON) 25кг арт.211</option>
+																												<option value="357">Клей для мрамора и гранита (MARMOR+GRANIT weiss) 20кг арт.97</option>
+																												<option value="475">Клей для пенобетона (PORENBETON)</option>
+																												<option value="533">Клей для плинтусов (SOCKELKLEBER)</option>
+																												<option value="314">Клей для теплоизоляционных блоков TBK 24</option>
+																												<option value="462">Клей плиточный быстротвердеющий  СКОРПЛИКС  Т-15</option>
+																												<option value="189">Клей плиточный для керамогранита Perfekta</option>
+																												<option value="463">Клей плиточный уcиленной фиксации серый  МАКСИПЛИКС  Т-16</option>
+																												<option value="187">Клей плиточный Универсал Perfekta</option>
+																												<option value="757">Клей плиточный усиленной фиксации белый БЕЛПЛИКС  Т-17</option>
+																												<option value="186">Клей плиточный Эконом Perfekta</option>
+																												<option value="188">Клей плиточный Эксперт Perfekta</option>
+																												<option value="334">Клей Энерджи Стар для пенополистирола и минеральной ваты</option>
+																												<option value="477">Клей-затирка для каминов (FEUERFESTMOERTEL) 2кг арт.199</option>
+																												<option value="862">Клеящая масса (лиимамасса)</option>
+																												<option value="863">КЛИН. Средство для мытья плиток</option>
+																												<option value="865">КОУТ. Средство для защиты кафельных плиток</option>
+																												<option value="788">Латексная добавка IDROKOL X20–м 10кг</option>
+																												<option value="790">Латексная добавка IDROSTUK - м 10кг</option>
+																												<option value="789">Латексная добавка LATEXKOL–м 10кг</option>
+																												<option value="1054">Лёгкая цементная штукатурка Bergauf PRIMA PUTZ ZEMENT</option>
+																												<option value="233">М-150 Универсальная, штукатурная</option>
+																												<option value="234">М-200</option>
+																												<option value="167">мoнтaжный фacaдный клeй для oблицoвoчныx плит ГЛИMC- Strong</option>
+																												<option value="1037">Минеральная штукатурка Энерджи M структура «шуба» (Energy M)</option>
+																												<option value="776">Набухающий профиль из гидрофильноой резины Р-4   4ммх20п.м.</option>
+																												<option value="1065">Наливной гипсовый пол Bergauf BODEN INTER GROSS</option>
+																												<option value="445">Наливной пол (FLIESST &amp;amp; FERTIG) 20кг арт.42</option>
+																												<option value="1063">Наливной пол Bergauf BODEN ZEMENT MEDIUM</option>
+																												<option value="771">Наливной пол LITOLIV S30 (для выравнивания горизонтальных оснований слоем от 3 до 30 мм) 25кг</option>
+																												<option value="772">Наливной пол LITOLIV S5 (для выравнивания горизонтальных оснований слоем от 1 до 5 мм) 25кг</option>
+																												<option value="317">Наливной пол ST 12</option>
+																												<option value="316">Наливной пол ST 25</option>
+																												<option value="755">Наливной пол быстротвердеющий ОСНОВИТ СКОРЛАЙН Т- 45</option>
+																												<option value="1075">Наливной пол быстротвердеющий СТРОЙБРИГ БЫСТРИЛ (20 кг)</option>
+																												<option value="224">Наливной пол Ветонит 3000</option>
+																												<option value="447">Наливной пол для деревянных полов (NEU AUF ALT) 20кг арт.86</option>
+																												<option value="132">Наливной пол НИПЛАЙН  Т-42</option>
+																												<option value="1064">Наливной самонивелирующися пол Bergauf BODEN ZEMENT FINAL</option>
+																												<option value="1096">ОСНОВИТ ПЛИТСЭЙВ Т-121 (БЕЛАЯ, СЕРАЯ) ЗАТИРКА</option>
+																												<option value="782">Очистители LITOCLEAN 1кг</option>
+																												<option value="783">Очиститель LITONET 1кг</option>
+																												<option value="434">Очиститель керамической плитки от  остатков цемента (SAUBERE SACHE) 5кг арт.83</option>
+																												<option value="335">пeнoпoлиcтиpoльнaя фacaднaя штукaтуpкa ГЛИMC-Ts30</option>
+																												<option value="336">Пeнoпoлиcтиpoльный нaливнoй пoл ГЛИMC-ЛC</option>
+																												<option value="159">пpoфeccиoнaльнaя шпaтлeвкa для paбoт пo гипcoкapтoну ГЛИMC-MACTEP ФЛOTT</option>
+																												<option value="172">плacтификaтop cтpoитeльныx pacтвopoв ГЛИMC-Элacтик</option>
+																												<option value="350">Пластификатор для плиточных клеев (GUTE MISCHUNG) 8,5кг арт. 117</option>
+																												<option value="858">Плиточный клей  БАЗПЛИКС Т-10</option>
+																												<option value="1046">Плиточный клей Bergauf KERAMIK</option>
+																												<option value="1048">Плиточный клей Bergauf KERAMIK GRANIT</option>
+																												<option value="1047">Плиточный клей Bergauf KERAMIK MAXIMUM</option>
+																												<option value="142">Плиточный клей Bergauf KERAMIK PRO</option>
+																												<option value="1049">Плиточный клей Bergauf MOSAIK</option>
+																												<option value="214">Плиточный Клей Murеxin BFK</option>
+																												<option value="215">Плиточный Клей Murеxin Стандарт</option>
+																												<option value="216">Плиточный Клей Murеxin Эластик</option>
+																												<option value="360">Плиточный клей «Котто» (SK COTTO)</option>
+																												<option value="1036">Плиточный Клей быстротвердеющий SK 20 (Schnell Klebem&amp;#246;rtel SK 20)</option>
+																												<option value="1097">Плиточный клей для напольных работ ГЛИМС-92</option>
+																												<option value="143">Плиточный клей МАСТПЛИКС Т-12</option>
+																												<option value="846">Плиточный клей СТАРПЛИКС Т-11</option>
+																												<option value="1072">Плиточный клей СТРОЙБРИГ БАЗАКС (25 кг)</option>
+																												<option value="1038">Плиточный Клей Флекс Белый KWF 61 (Flex Klebem&amp;#246;rtel Wei&amp;#223; KWF 61)</option>
+																												<option value="318">ПЛИТОЧНЫЙ КЛЕЙ Флекс Эдельвейс</option>
+																												<option value="756">Плиточный клей эластичный ГРАНИПЛИКС Т-14</option>
+																												<option value="179">Пол наливной гипсовый Perfekta</option>
+																												<option value="178">Пол наливной цементный Perfekta</option>
+																												<option value="212">Р-51/10 Грунт глубокого проникновения акриловый</option>
+																												<option value="313">Р-52/10  Грунт универсальный</option>
+																												<option value="433">Раствор для заделки швов на мраморе и граните (MARMOR+GRANIT FUGENMRTEL)</option>
+																												<option value="430">Раствор для заделки широких швов (FUGENBREIT) 5кг арт.27</option>
+																												<option value="431">Расшивочный раствор белого цвета для заделки швов (FUGENWEISS) 5кг арт.25</option>
+																												<option value="428">Расшивочный раствор для заделки швов (BUNTER FUGENMR&amp;#214;TEL) 5кг арт.7</option>
+																												<option value="429">Расшивочный раствор серого цвета для заделки швов (FUGENGRAU) 5кг арт.14</option>
+																												<option value="770">Реактивный 
+																													клей (R) LITOELASTIC (Используется для укладки керамогранита, 
+																													керамической плитки, мрамора, мозаики и клинкера) 4,5+0,5кг</option>
+																												<option value="510">Ремонтная шпаклевка СУХОЙ ПОДВАЛ (DICHTUNGSSCHLAEMME) 25кг арт.116</option>
+																												<option value="473">Ремонтная шпатлевка (ROHBAUSPACHTEL INNEN) 20кг арт.57</option>
+																												<option value="448">Ремонтный раствор (R&amp;amp;R Mortel) 20кг арт.49</option>
+																												<option value="791">Ремонтный состав LITOLAST</option>
+																												<option value="1062">Ровнитель на цементной основе Bergauf BODEN ZEMENT GROSS</option>
+																												<option value="219">Ротбанд ТИГИ Штукатурка</option>
+																												<option value="328">Санитарный силикон SIL 60</option>
+																												<option value="866">СИЛ. Защитное средство для швов между плитками</option>
+																												<option value="1061">Смесь для предварительного выравнивания пола на цементной основе Bergauf BASE</option>
+																												<option value="315">Смесь для стяжки пола M 200</option>
+																												<option value="1039">Смесь для стяжки пола М 300 (Estrich M 300)</option>
+																												<option value="432">Специальный расшивочный раствор для заделки швов в душевых и ванных (FUGENM&amp;#214;RTEL DUSCHE+BAD) 5кг арт.194-198</option>
+																												<option value="499">Специальный эластичный клей для керамогранита(FEINSTEINZEUGKLEBER) 20кг арт.186</option>
+																												<option value="355">Среднеэластичный плиточный клей (SICHER+FLEXIBEL) 25кг арт.76</option>
+																												<option value="508">Средство для гидроизоляции бетона и строительного раствора (B+M DICHTUNGSMITTEL) 1кг арт.91</option>
+																												<option value="501">Средство для ухода за половыми покрытиями BODEN NEU 0,5кг арт.84</option>
+																												<option value="349">Стандартный надёжный плитлчный клей (SICHERHEITSKLEBER STANDARD) 25кг арт.1</option>
+																												<option value="347">Стандартный надёжный плиточный клей (SICHERHEITSKLEBER STANDARD)</option>
+																												<option value="878">СТАРТ ПРАЙМЕР. Водорастворимая грунтовка для улучшения адгезии выравнивающих растворов Кестонит.</option>
+																												<option value="1077">СТРОЙБРИГ ГЕНФИР Шпатлевка гипсовая (20 кг)</option>
+																												<option value="864">СТРОНГ. Средство для упрочнения швов</option>
+																												<option value="131">Стяжка пола высокопрочная СТАРТОЛАЙН  Т-41</option>
+																												<option value="149">Стяжка пола лёгкая ИННОЛАЙН  Т-43</option>
+																												<option value="150">Стяжка пола машинного нанесения ОСНОВИТ Т-44</option>
+																												<option value="177">Стяжка пола наливная Perfekta</option>
+																												<option value="1076">Стяжка пола ЦЕМЕРИН (25 кг)</option>
+																												<option value="532">Супербыстро действующая гидроизоляция (SOFORT DICHT) 0,75л арт.208</option>
+																												<option value="466">сухие смеси - шпатлевка ГЛИМС-100</option>
+																												<option value="1068">Тонкослойный наливной пол ОСНОВИТ РОВИЛАЙН Т-46</option>
+																												<option value="169">Тонкослойный сaмoнивeлиpующийcя нaливнoй пoл S-Level 2-30 мм</option>
+																												<option value="168">Тостослойный наливной быстротвердеющий пол S-Base 5-100 мм</option>
+																												<option value="163">улучшeннaя фacaднaя штукaтуpкa Глимc-Ts11</option>
+																												<option value="1098">Унивepcaльный вoдocтoйкий плитoчный клeй ГЛИMC-93 fix</option>
+																												<option value="323">Универсальная эмульсия</option>
+																												<option value="354">Уплотнительная лента (DICHTUNGSBAND)</option>
+																												<option value="332">Упрочнитель для бетона BH 100</option>
+																												<option value="158">Фacaднaя выpaвнивaющaя вoдocтoйкaя шпaтлeвкa Stukko-RF</option>
+																												<option value="176">фacaдный клeй для мoнтaжa тeплoизoляции ГЛИMC-KФ</option>
+																												<option value="856">ФИБЕРГУМ Primer. Водорастворимая грунтовка для улучшения адгезии.</option>
+																												<option value="841">ФИБЕРГУМ. Готовая к применению гидроизоляционная мастика с содержанием армирующих волокон</option>
+																												<option value="871">ФИБЕРФЛЕКС (Фибер). Универсальный выравнивающий состав с содержанием армирующих волокон.</option>
+																												<option value="156">Финишнaя выpaвнивaющaя шпaтлeвкa ГЛИMC-300</option>
+																												<option value="157">финишнaя фacaднaя шпaтлeвкaГЛИMC-600</option>
+																												<option value="221">Флизенклебер Плиточный клей Кнауф</option>
+																												<option value="778">Цементная затирка LITOCHROM 1-6 2кг</option>
+																												<option value="780">Цементная затирка LITOCHROM 3-15 25кг</option>
+																												<option value="139">Цементная основит шпатлевка, ОСНОВИТ Т-32 БЕЛСИЛК</option>
+																												<option value="333">Цементная штукатурная смесь MR 15</option>
+																												<option value="162">шпaтлeвкa гипcoвaя бaзoвaя ГЛИMC-70</option>
+																												<option value="161">шпaтлeвкa цeмeнтнaя бaзoвaя ГЛИMC-50</option>
+																												<option value="684">Шпаклевка</option>
+																												<option value="155">Шпатлевка Гипс-ГЛИМС</option>
+																												<option value="1056">Шпатлёвка гипсовая Bergauf FUGEN GIPS</option>
+																												<option value="184">Шпатлевка гипсовая Perfekta</option>
+																												<option value="138">Шпатлевка гипсовая белая ЭКОНСИЛК ОСНОВИТ Т-35</option>
+																												<option value="220">Шпатлёвка гипсовая КНАУФ Фугенфюллер</option>
+																												<option value="848">Шпатлевка гипсовая серая ОСНОВИТ ВЕРСИЛК Т-34</option>
+																												<option value="140">Шпатлевка гипсовая супертонкая ЭЛИСИЛК ОСНОВИТ Т-36</option>
+																												<option value="1059">Шпатлёвка гипсовая финишная Bergauf FINISH GIPS</option>
+																												<option value="152">Шпатлевка ГЛИМС-200</option>
+																												<option value="471">Шпатлевка для выравнивания и заполнения стен и потолков (GLATTE SACHE) 5кг арт.51</option>
+																												<option value="474">Шпатлевка для малярных работ (MALERSPACHTEL) 18кг арт.209</option>
+																												<option value="476">Шпатлевка для отделки стен и фасадов (ROHBAUSPACHTEL AUSSEN) 20кг арт. 119</option>
+																												<option value="185">Шпатлевка полимерная Perfekta</option>
+																												<option value="847">Шпатлевка полимерная ОСНОВИТ ГЛЭДСИЛК Т-38</option>
+																												<option value="1069">Шпатлевка полимерная супербелая ОСНОВИТ ЛЕРСИЛК Т-37</option>
+																												<option value="1060">Шпатлёвка полимерная финишная Bergauf FINISH POLIMER</option>
+																												<option value="1058">Шпатлёвка цементная Bergauf FINISH ZEVENT</option>
+																												<option value="1057">Шпатлёвка цементная Bergauf GLATTE ZEVENT</option>
+																												<option value="183">Шпатлевка цементная Perfekta для внутренних работ</option>
+																												<option value="182">Шпатлевка цементная Perfekta фасадная</option>
+																												<option value="137">Шпатлевка цементная ГРЕЙСИЛК ОСНОВИТ Т-31</option>
+																												<option value="136">Штукатурка гипсовая ГИПСВЭЛЛ ОСНОВИТ Т-25</option>
+																												<option value="148">Штукатурка гипсовая машинного нанесения ГИПСВЭЛЛ МН ОСНОВИТ Т-26</option>
+																												<option value="1073">Штукатурка гипсовая СТРОЙБРИГ ГИПЛАН (30 кг)</option>
+																												<option value="151">Штукатурка легкая машинного нанесения ФЛАЙВЭЛЛ ОСНОВИТ Т-24</option>
+																												<option value="134">Штукатурка цементная выравнивающая БИГВЭЛЛ  Т-22</option>
+																												<option value="1052">Штукатурка цементная для фасадов Bergauf BAU PUTZ ZEMENT</option>
+																												<option value="135">Штукатурка цементная финишная СЛИМВЭЛЛ ОСНОВИТ Т-23</option>
+																												<option value="133">Штукатурка цементно-известковая СТАРТВЭЛЛ  Т-21</option>
+																												<option value="181">Штукатурная смесь Perfekta гипсовая белая</option>
+																												<option value="180">Штукатурная смесь Perfekta гипсовая серая</option>
+																												<option value="230">Штукатурная смесь Perfekta цементная</option>
+																												<option value="469">штукатурная смесь с перлитом Glims-Velur</option>
+																												<option value="1074">Штукатурно-известковая смесь ТАНИЛИТ (25 кг)</option>
+																												<option value="218">Эластичная затирка</option>
+																												<option value="500">Эластичный и быстротвердеющий расшивочный раствор(FUGENBREIT F+S)</option>
+																												<option value="352">Эластичный надежный клей (SICHERHEITSKLEBER FLEXIBEL) 25кг арт.3</option>
+																												<option value="329">Эпоксидная затирка для швов FMY 90</option>
+																												<option value="781">Эпоксидные затирки EPOXYSTUK X90 4,5+0,5кг</option>
+																												<option value="779">Эпоксидные затирки LITOCHROM STARLIKE 2,5кг</option>
+																											</select>
+																										</td>
+																									</tr>
+																								
+																							</table>
+																						</td>
+																					</tr>
+																					<tr bgcolor="#ffffff">
+																						<th width="1%">
+																							<b>Связанный товар:
+																								<br>
+																								<img src="i/hi.htm" height="1" width="125">
+																							</b>
+																						</th>
+																						<td width="100%">
+																						</td>
+																					</tr>
+																					<tr bgcolor="#ffffff">
+																						<th width="1%">
+																							<b>Вкл:
+																								<br>
+																								<img src="i/hi.htm" height="1" width="125">
+																							</b>
+																						</th>
+																						<td width="100%">
+																							<input name="STATUS" value="1" checked="checked" type="checkbox">
+																							<br>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td class="tbl_t2" colspan="2">
+																						</td>
+																					</tr>
+																					<tr class="ftr" bgcolor="#f0f0f0">
+																						<td colspan="2">
+																							<input name="el1" value="Добавить" class="gbt badd" type="submit"><input name="el1" value="Отменить" class="gbt bcancel" type="submit">
+																						</td>
+																					</tr>
+																				
+																			</table>
+																		</form>
+																	</td>
+																</tr>
+															
+														</table>
+													</td>
+												</tr>
+											
+										</table>
+									</td>
+								</tr>
+							
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-top: 20px;" valign="bottom">
+						<div style="display: block; background: url(&quot;img/bottom_bg.gif&quot;) repeat-x scroll left top rgb(240, 240, 240); height: 55px; padding: 6px 0px 0px 15px;">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								
+									<tr>
+										<td>
+										</td>
+										<td width="100%">&nbsp;
+											
+										</td>
+										<td class="bottom_copy">
+											Система&nbsp;администрирования&nbsp;сайта
+											<br>
+											версия v3.1
+										</td>
+										<td style="padding: 0px 12px 0px 0px;">
+											<a href="http://adlabs.com.ua/" target="_blank"><img src="i/logo_adlabs.gif" alt="Adlabs - Лаборатория интернет-маркетинга | создание и продвижение сайтов" border="0" height="31" width="88"></a>
+										</td>
+									</tr>
+								
+							</table>
+						</div>
+					</td>
+				</tr>
+			
+		</table>
+	</body>
+</html>

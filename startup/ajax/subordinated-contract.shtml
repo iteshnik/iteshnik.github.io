@@ -1,0 +1,84 @@
+<div id="subordinated-contract" class="fade modal subordinated basic" tabindex="-1" role="dialog">
+  <div class="panel panel-loans panel-loans__new-loan container modal-dialog" role="document"> <span class="close panel_close panel-loans_close" data-dismiss="modal" aria-label="Close"></span>
+    <div class="panel-heading panel-loans-heading">
+      <h3 class="panel-title panel-loans-title">Subordinated loan contract</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row panel-body_condition">
+        <div class="panel-body_data">
+          <div class="data-indicator data-indicator-loans"></div>
+          <span>DATA</span> </div>
+        <div class="panel-body_success">
+          <div class="success-indicator success-indicator-loans"></div>
+          <span>SUCCESS</span> </div>
+      </div>
+      <form class="row modal-form modal-form-loans modal-form-loans__new-loan">
+        <div class="information-request hidden-xs">
+          <div class="row">
+            <div class="col-sm-4 funds-info"><span class="funds-type">Type of investment</span></div>
+            <div class="col-sm-4 funds-info"><span class="funds-risk">Term</span></div>
+            <div class="col-sm-4 funds-info"><span class="funds-profit">Apr</span></div>
+          </div>
+          <div class="row hidden-xs">
+            <div class="my-panel_data-funds">
+              <div class="data-info-values">
+                <div class="col-md-4 col-sm-4 data-info data-info__funds-type"> <span>Fixed terms sub. loan</span> </div>
+                <div class="col-md-4 col-sm-4 data-info data-info__funds-risk"> <span>1 year</span> </div>
+                <div class="col-md-4 col-sm-4 data-info data-info__profit"> <span>6%</span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row visible-xs">
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">Type of investment</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">Fixed terms sub. loan</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">Term</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">1 year</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 visible-xs"><span class="list_date">%</span></div>
+            <div class="col-xs-6 visible-xs operation-name operation-name1">6%</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-location">From my bank account</label>
+            <select id="loans-location" class="form-control">
+              <option>123 456 789</option>
+            </select>
+          </div>
+          <div class="available-balance available-balance__sell form-group col-sm-6 col-xs-12">
+            <p class="available-balance_name">Available balance</p>
+            <span class="available-balance_value available-balance_value__shares">5.806,<small>21</small><span class="shares-paper small">usd</span></span> </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-amount">Enter the amount</label>
+            <input type="text" class="form-control" id="amount" placeholder="2.000,24">
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-period">Currency</label>
+            <select id="loans-period" class="form-control">
+              <option>USD - us Dollar</option>
+              <option>USD1 - us Dollar</option>
+              <option>USD2 - us Dollar</option>
+              <option>USD3 - us Dollar</option>
+              <option>USD - us Dollar</option>
+              <option>USD45 - us Dollar</option>
+              <option>USD5 - us Dollar</option>
+              <option>USD - us Dollar</option>
+              <option>USD6 - us Dollar</option>
+              <option>USD - us Dollar</option>
+            </select>
+          </div>
+        </div>
+        <div class="row_btn">
+          <button type="submit" class="btn" onclick="event.preventDefault();$('#subordinated-contract').click();" data-toggle="modal" data-target="#ThankPayment">Create contract</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

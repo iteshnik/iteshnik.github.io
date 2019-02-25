@@ -1,0 +1,31 @@
+<div class="fade modal" id="close-pension-account" tabindex="-1" role="dialog">
+						<div class="panel panel-pension panel-pension__close-account container modal-dialog" role="document"> <span class="close panel_close panel-pension_close" data-dismiss="modal" aria-label="Close"></span>
+							<div class="panel-heading panel-pension-heading">
+								<h3 class="panel-title panel-pension-title">Closure of pension account</h3>
+							</div>
+							<div class="panel-body">
+								<div class="row panel-body_condition">
+									<div class="panel-body_data">
+										<div class="data-indicator data-indicator-pension"></div>
+										<span>DATA</span> </div>
+									<div class="panel-body_success">
+										<div class="success-indicator success-indicator-pension"></div>
+										<span>SUCCESS</span> </div>
+								</div>
+								<h3>I want to close pension account 1234567</h3>
+								<form class="row modal-form modal-form-pension modal-form-pension__close-account">
+									<div class="row">
+										<div class="form-group form-group__bank-account">
+											<label for="bank-account">Send money to my bank account</label>
+											<select id="bank-account" class="form-control">
+												<option>123 456 789</option>
+											</select>
+										</div>
+									</div>
+									<div class="row_btn">
+										<button type="submit" class="btn" onclick="event.preventDefault();$('#close-pension-account').click();" data-toggle="modal" data-target="#ThankPayment">Close contract</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>

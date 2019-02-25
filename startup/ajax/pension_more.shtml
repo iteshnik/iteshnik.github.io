@@ -1,0 +1,192 @@
+<div class="fade modal basic pension" id="pensionMore" tabindex="-1" role="dialog">
+	<div class="panel panel-pension panel-pension__close-account container modal-dialog" role="document"> <span class="close panel_close panel-pension_close" data-dismiss="modal" aria-label="Close"></span>
+		<div class="panel-heading panel-pension-heading">
+			<h3 class="panel-title panel-pension-title">Pension</h3>
+		</div>
+		<div class="panel-body">
+			<div class="my-panel__pension-account">
+				<div class="row my-panel_operations ">
+						<div  class="panel-list_item-inner hidden-xs">
+						<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value"></div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name"></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 pension-info "><span class="operat">Operation</span></div>
+						<div class="col-xs-6 col-sm-2 col-md-3 pension-info"><span class="you-balance">Balance</span></div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+						</div>
+						</div>
+				</div>
+				<div class="panel-body panel-list custom-scroll">
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+					<div class="row panel-list_item">
+						<div  class="panel-list_item-inner">
+							<div class="col-xs-3 col-xs-push-9 col-sm-push-0 col-sm-1 id-value">Id# 23564</div>
+							<div class="col-xs-9 col-xs-pull-3 col-sm-pull-0 col-sm-3 operation-name">Pension payment</div>
+							<span class="col-xs-12 visible-xs list_date"><b>2015.12.07</b></span> </div>
+						<div class="col-xs-6 visible-xs"><span class="list_operation">Operation</span></div>
+						<div class="col-xs-6 visible-xs"><span class="list_balance">Balance</span></div>
+						<div class="col-xs-6 col-sm-3 col-md-2 operation-value"><b>+1.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-6 col-sm-2 col-md-3 balance-value"><b>184.000</b><span class="cent">.00</span> usd</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 view">
+							<button type="submit" class="btn btn__pension btn-view" data-toggle="modal" data-target="#details-transaction">View</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

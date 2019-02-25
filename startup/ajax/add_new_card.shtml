@@ -1,0 +1,110 @@
+<div class="modal fade activate-card account-modal" id="AddNewCard" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" class="modal-close__btn"></button>
+        <h4 class="modal-title" id="myModalLabel">Add New Card</h4>
+      </div>
+      <div class="bonds basic">
+        <div class="row panel-body_condition">
+          <div class="panel-body_data">
+            <div class="data-indicator data-indicator-loans"></div>
+            <span>DATA</span> </div>
+          <div class="panel-body_success">
+            <div class="success-indicator success-indicator-loans"></div>
+            <span>SUCCESS</span> </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="add-new-card--content">
+          <div class="add-new-card--form">
+            <form>
+              <div class="col-md-6 col-sm-6">
+                <p class="close-account--content-title">name on card</p>
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="col-md-6 col-sm-6 pad-left-15">
+                <p class="close-account--content-title pad-top-25">account</p>
+                <div class="close-account--content-select-wrap">
+                  <select class="set-select" name="" id="">
+                    <option value="">851 243 234</option>
+                    <option value="">456 817 458</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 pad-top-33">
+                <p class="close-account--content-title">DELIVERY METHOD</p>
+                <div class="close-account--content-select-wrap">
+                  <select class="set-select" name="" id="">
+                    <option value="">dhl</option>
+                    <option value="">dhl2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 pad-left-15 pad-top-33 mob-dis_n">
+                <p class="close-account--content-title">DELIVERY ADDRESS</p>
+                <input type="text" placeholder="UK, London, Lennon str, 12-84 A">
+              </div>
+              <div class="col-md-12 col-sm-12 pad-left-26">
+                <div id="owl-demo" class="owl-carousel close-account--carousel">
+                  <div class="item">
+                    <p class="slide-title">VISA CLASSIC</p>
+                    <img class="lazyOwl" data-src="images/owl1.jpg" alt="Lazy Owl Image">
+                    <p class="slide-text"> The transfer will not be issued immediately. If you wish to change the issue parameters, indicate an issue date that falls after today's </p>
+                    <a href="">
+                    <p class="slide-text-more-title">read more</p>
+                    </a>
+                    <p class="slide-text-more-text"> <span>First year </span> <span class="slide-text-more-text">0 euro <span>year</span> </span> </p>
+                    <p class="slide-text-more-text"> <span>RENEWAL</span> <span class="slide-text-more-text">12 euro/ <span>year</span> </span> </p>
+                    <input type="radio" name="check-slide" id="check-slide1" class="check-slide checkbox"/>
+                    <label for="check-slide1"></label>
+                    <span class="clearfix-check-slide"></span> </div>
+                  <div class="item">
+                    <p class="slide-title">VISA CLASSIC</p>
+                    <img class="lazyOwl" data-src="images/owl2.jpg" alt="Lazy Owl Image">
+                    <p class="slide-text"> The transfer will not be issued immediately. If you wish to change the issue parameters, indicate an issue date that falls after today's </p>
+                    <a href="">
+                    <p class="slide-text-more-title">read more</p>
+                    </a>
+                    <p class="slide-text-more-text"> <span>First year </span> <span class="slide-text-more-text">0 euro <span>year</span> </span> </p>
+                    <p class="slide-text-more-text"> <span>RENEWAL</span> <span class="slide-text-more-text">12 euro/ <span>year</span> </span> </p>
+                    <input type="radio" name="check-slide" id="check-slide2" class="check-slide checkbox"/>
+                    <label for="check-slide2"></label>
+                  </div>
+                  <div class="item">
+                    <p class="slide-title">VISA CLASSIC</p>
+                    <img class="lazyOwl" data-src="images/owl3.jpg" alt="Lazy Owl Image">
+                    <p class="slide-text"> The transfer will not be issued immediately. If you wish to change the issue parameters, indicate an issue date that falls after today's </p>
+                    <a href="">
+                    <p class="slide-text-more-title">read more</p>
+                    </a>
+                    <p class="slide-text-more-text"> <span>First year </span> <span class="slide-text-more-text">0 euro <span>year</span> </span> </p>
+                    <p class="slide-text-more-text"> <span>RENEWAL</span> <span class="slide-text-more-text">12 euro/ <span>year</span> </span> </p>
+                    <input type="radio" name="check-slide" id="check-slide3" class="check-slide checkbox"/>
+                    <label for="check-slide3"></label>
+                  </div>
+                  <div class="item">
+                    <p class="slide-title">VISA CLASSIC</p>
+                    <img class="lazyOwl" data-src="images/owl2.jpg" alt="Lazy Owl Image">
+                    <p class="slide-text"> The transfer will not be issued immediately. If you wish to change the issue parameters, indicate an issue date that falls after today's </p>
+                    <a href="">
+                    <p class="slide-text-more-title">read more</p>
+                    </a>
+                    <p class="slide-text-more-text"> <span>First year </span> <span class="slide-text-more-text">0 euro <span>year</span> </span> </p>
+                    <p class="slide-text-more-text"> <span>RENEWAL</span> <span class="slide-text-more-text">12 euro/ <span>year</span> </span> </p>
+                    <input type="radio" name="check-slide" id="check-slide4" class="check-slide checkbox"/>
+                    <label for="check-slide4"></label>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="last-check-slide block-card-send text-center"> <span class="nextbank-make-payment-icon-button nextbank-make-payment-icon-button-blue">
+                <button onClick="event.preventDefault();$('#AddNewCard').click()" data-toggle="modal" data-target="#ThankPayment" class="activate-card-btn btn">ORDER NEW CARD</button>
+                </span> </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

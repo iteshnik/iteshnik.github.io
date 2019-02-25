@@ -1,0 +1,31 @@
+<div class="fade modal family basic" id="family-repayment" tabindex="-1" role="dialog">
+  <div class="panel panel-family panel-family__package-cancel container modal-dialog" role="document"> <span class="close panel_close panel-family_close" data-dismiss="modal" aria-label="Close"></span>
+    <div class="panel-heading panel-family-heading">
+      <h3 class="panel-title panel-family-title">Package cancelation</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row panel-body_condition">
+        <div class="panel-body_data">
+          <div class="data-indicator data-indicator-family"></div>
+          <span>DATA</span> </div>
+        <div class="panel-body_success">
+          <div class="success-indicator success-indicator-family"></div>
+          <span>SUCCESS</span> </div>
+      </div>
+      <h3>I want to cancel my package 1234567</h3>
+      <form class="row modal-form modal-form-family modal-form-family__package-cancel">
+        <div class="">
+          <div class="form-group form-group__recieve">
+            <label for="recieve-account">I want recieve to account</label>
+            <select id="recieve-account" class="form-control">
+              <option>123 456 789</option>
+            </select>
+          </div>
+        </div>
+        <div class="row_btn">
+          <button type="submit" class="btn" onclick="event.preventDefault();$('#family-repayment').click();" data-toggle="modal" data-target="#ThankPayment">Send request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

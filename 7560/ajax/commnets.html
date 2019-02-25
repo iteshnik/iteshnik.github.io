@@ -1,0 +1,54 @@
+<div class="comments">
+	<div class="about"><span class="date">22/04/08 17:11</span><strong class="name">Петр Петрович</strong></div>
+	<div class="comment-holder">
+		<div class="comment">
+			<p>Microlab Solo-6 - это первая в мире мультимедиа акустическая система с усилителем на дискретных элементах! Особенностью данного усилителя является то, что он дает более яркий, живой и более натуральный звук.</p>
+		</div>
+	</div>
+</div>
+<div class="comments">
+	<div class="about"><span class="date">22/04/08 17:11</span><strong class="name">Петр Петрович</strong></div>
+	<div class="comment-holder">
+		<div class="comment">
+			<p>Microlab Solo-6 - это первая в мире мультимедиа акустическая система с усилителем на дискретных элементах! Особенностью данного усилителя является то, что он дает более яркий, живой и более натуральный звук.</p>
+		</div>
+	</div>
+</div>
+<div class="comments">
+	<div class="about"><span class="date">22/04/08 17:11</span><strong class="name">Петр Петрович</strong></div>
+	<div class="comment-holder">
+		<div class="comment">
+			<p>Microlab Solo-6 - это первая в мире мультимедиа акустическая система с усилителем на дискретных элементах! Особенностью данного усилителя является то, что он дает более яркий, живой и более натуральный звук.</p>
+		</div>
+	</div>
+</div>
+<form action="/ajax/post.php" id="ajaxlink">
+	<div class="add-comment">
+		<div class="clean">
+			<label for="name">имя</label>
+			<input type="text" id="name" />
+		</div>
+		<div class="clean">
+			<label for="text">мнение</label>
+			<div class="text-comment-holder">
+				<div class="text-comment-holder1">
+					<textarea id="text" rows="10" cols="100"></textarea>
+				</div>
+			</div>
+		</div>
+		<table>
+			<tr>
+				<td><span id="err"><label for="capcha">впишите число</label></span></td>
+				<td class="capcha"><img src="i/capcha1.png" alt="включи картинки, тыж всю красоту сайта не видиш..." /></td>
+				<td><input type="text" id="capcha" maxlength="6" /></td>
+				<td><input type="image" src="i/send.png" id="addcomment" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="reloadcapcha"><a href="ajax/capcha2.html">обновить</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</form>

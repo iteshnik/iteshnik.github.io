@@ -1,0 +1,111 @@
+<div id="pageChat" tabindex="-1" role="dialog" class="modal modal-widj fade">
+			<div class="modal__dialog">
+				<div class="modal__content">
+					<div class="row-panel chat concept clearfix">
+						<div class="col-sm-12 chat__room">
+							<div>
+								<div class="title_panel _table title-ui clearfix col-xs-12">
+									<h3 class="title _cell"> 24<small>x</small>7 CHAT </h3>
+									<ul class="chat-nav">
+										<li><span class="n1"></span></li>
+										<li><span class="n2 trigger"></span></li>
+										<li><span class="n3 trigger"></span></li>
+									</ul>
+									<a href="#" class="refresh-btn"></a> </div>
+								<div class="chat__room_window">
+									<div class="row-panel row-chat-you">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+									<div class="row-panel row-chat-friend">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you?  Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+									<div class="row-panel row-chat-you">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you?  Lorem100</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+									<div class="row-panel row-chat-friend">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+									<div class="row-panel row-chat-you">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+									<div class="row-panel row-chat-friend">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you?  Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+									<div class="row-panel row-chat-you">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you?  Lorem100</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+									<div class="row-panel row-chat-friend">
+										<div class="chat-avatar"><img src="images/person.jpg" alt="person"></div>
+										<div class="chat-input">
+											<div class="chat-input_label clearfix">
+												<div class="chat-input_enter">Hello John! How are you? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<p class="text-name">Anna Tee</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="chat__room_bottom">
+									<div class="col-xs-9 col-sm-10"> 
+										<!--<textarea placeholder="TYPE YOUR MESSAGE" class="input-type"></textarea>-->
+										<div class="textwrap">
+											<textarea placeholder="TYPE YOUR MESSAGE"></textarea>
+										</div>
+									</div>
+									<div class="col-xs-3 col-sm-2">
+										<button class="file-btn hidden-xs">
+										<input type="file" class="hidden-input">
+										<span></span>
+										</button>
+										<label class="input-send">
+											<input type="submit">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>

@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Desktops (≥992px)*/
+@media (min-width: 992px){} 
+
+
+@media (max-width: 1199px)
+{
+	.basic .btn{
+		width:100%;
+		margin:0;
+	}
+	.my-panel__insurance .btn, .family.basic .panel-list__family .list-item button, .loans.basic .panel-list__loans .list-item button.btn, .invest.basic .panel-list__loans .list-item button.btn
+	{
+		width:100%;
+	}
+	#settingsForm.setting-form{
+		right: 0px;
+	}
+	.ui-open #settingsForm.setting-form{
+		right: 217px;
+	}
+
+}
+@media (min-width: 992px)
+{
+	.request-modal .info-block
+	{
+		padding	: 25px 0px;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info
+	{
+		
+	}
+}
+@media (min-width: 1199px)
+{
+.invest.basic .panel-list__loans .list-item span
+{
+	padding-left:30px;
+}
+.modal.invest.basic .panel-list__loans .list-item span
+{
+	padding-left:10px;
+}
+
+.data-info__action .form-action .selectric-wrapper{
+	width:190px;
+}
+.pension .data-info__action .form-action .selectric-wrapper{
+	width:100%;
+}
+.basic .my-panel .row.my-panel_funds-title{
+	padding:20px 10px 25px 67px;
+}
+
+.basic .my-panel .row.panel-list_item .name-funds-value,
+.basic .my-panel .row.my-panel_data-funds .data-info__funds{
+	padding-left:62px;
+}
+}
+@media (min-width: 992px)
+{
+	.mymoney__block
+	{
+		width	: 63.666667%;
+	}
+	.mymoney__menu
+	{
+		margin-left	: 0;
+		width	: 36.333333%;
+	}
+}
+@media (max-width: 1199px)
+{
+	
+	.link-wrap-hide
+	{
+		display	: none;
+	}
+}
+@media (max-width: 1199px)
+{
+	.left-content
+	{
+		width	: calc(100% - 47px);
+	}
+	.setting-form
+	{
+		right	: 0;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info .card-status .status-set{
+		font-size:10px;
+	}
+	.btn:after, .request-btn:before, .contract-btn:before, .contract-btn:after{
+		display:none!important;
+	}
+	.left-content .calendar-icon{
+		display:none;
+	}
+.basic .panel-list__family .list-item .percent-year{
+	right:7px;
+}
+.basic .my-panel_data-shares .data-info-values
+{
+}
+.deposits .panel-body .title-deposit{
+	padding-left:0;
+}
+}

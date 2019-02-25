@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>modals BANKINNO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--#include file="./ssi/style.shtml"-->
+<style>
+body, html{
+	color:#333;
+}
+.modalswindow{
+	padding:30px 70px 50px!important;
+	font-size:1.3em;
+}
+.modalswindow a{
+	color:#0032A6;
+	text-decoration:none;
+	border-bottom:2px dashed #0032A6;
+}
+.modalswindow a:visited{
+	color:#940002;
+	border-bottom:2px dashed #940002;
+}
+.modalswindow a:hover{
+	border-color:transparent;
+}
+</style>
+
+</head>
+
+<body>
+<ol class='modalswindow'>
+  <li><a href="#" data-toggle="modal" data-target="#ActivateCard">activate_card</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#AddNewCard">add_new_card</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#all-packages">all-packages</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#BlockCard">block_card</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#bonds-details">bonds-details</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#buy-bonds">buy-bonds</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#buy-crypto">buy-crypto</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#buy-funds">buy-funds</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#buy-shares">buy-shares</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#cancelation">cancelation</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#change-currency">change_currency</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#close-pension-account">close-pension-account</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#CloseAccount">close_account</a></li>
+
+  <li><a href="#" data-toggle="modal" data-target="#depositClose">deposit_close</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#depositDetails">depositDetails</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#depositRequest">deposit_request</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#details-invest">details-invest</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#details-shares">details-shares</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#details-transaction">details-transaction</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#Exchange">exchange1</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#family-details">family-details</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#family-repayment">family-repayment</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#good_know">good_know</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#list-bonds">list-bonds</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#pageChat">live_chat</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#loans-details">loans-details</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#loans-repayment">loans-repayment</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#MakePayment">make_payment</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#market-description">market-description</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#market-request">market-request</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#new-account-pension">new-account-pension</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#new-contr">new-contr</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#new-loan">new-loan</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#NewAccount">new_account</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#pageExit">page_exit</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#pageNews">page_news</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#request-invest">request-invest</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#search-shares">search-shares</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#sell-bonds">sell-bonds</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#sell-crypto">sell-crypto</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#subordinated-contract">subordinated-contract</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#subordinated-details">subordinated-details</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#subordinated-list">subordinated-list</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#ThankPayment">thank_payment</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#transfer-shares">transfer-shares</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#view-contract">view-contract</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#view-funds">view-funds</a>
+  
+    <li><a href="#" data-toggle="modal" data-target="#depositMore">deposit more</a></li>
+    <li><a href="#" data-toggle="modal" data-target="#pensionMore">pension_more</a></li>
+    <li><a href="#" data-toggle="modal" data-target="#fundsMore">funds_more</a></li>
+    <li><a href="#" data-toggle="modal" data-target="#dailyMore">daily_more</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#investMore">invest-more</a></li>
+		<li><a href="#" data-toggle="modal" data-target="#insurance-more">insurance-more</a></li>  
+</ol>
+<!--#include file="./ssi/scripts.shtml"--> 
+<!--Modals-->
+<!--#include file="./ajax/activate_card.shtml"--> 
+<!--#include file="./ajax/add_new_card.shtml"--> 
+<!--#include file="./ajax/all-packages.shtml"--> 
+<!--#include file="./ajax/block_card.shtml"--> 
+<!--#include file="./ajax/bonds-details.shtml"--> 
+<!--#include file="./ajax/buy-bonds.shtml"--> 
+<!--#include file="./ajax/buy-crypto.shtml"--> 
+<!--#include file="./ajax/buy-funds.shtml"--> 
+<!--#include file="./ajax/buy-shares.shtml"--> 
+<!--#include file="./ajax/cancelation.shtml"--> 
+<!--#include file="./ajax/change_currency.shtml"--> 
+<!--#include file="./ajax/close-pension-account.shtml"--> 
+<!--#include file="./ajax/close_account.shtml"--> 
+<!--#include file="./ajax/deposit_close.shtml"--> 
+<!--#include file="./ajax/deposit_detailst.shtml"--> 
+<!--#include file="./ajax/deposit_request.shtml"--> 
+<!--#include file="./ajax/details-invest.shtml"--> 
+<!--#include file="./ajax/details-shares.shtml"--> 
+<!--#include file="./ajax/details-transaction.shtml"--> 
+<!--#include file="./ajax/exchange1.shtml"--> 
+<!--#include file="./ajax/family-details.shtml"--> 
+<!--#include file="./ajax/family-repayment.shtml"--> 
+<!--#include file="./ajax/good_know.shtml"--> 
+<!--#include file="./ajax/list-bonds.shtml"--> 
+<!--#include file="./ajax/live_chat.shtml"--> 
+<!--#include file="./ajax/loans-details.shtml"--> 
+<!--#include file="./ajax/loans-repayment.shtml"--> 
+<!--#include file="./ajax/make_payment.shtml"--> 
+<!--#include file="./ajax/market-description.shtml"--> 
+<!--#include file="./ajax/market-request.shtml"--> 
+<!--#include file="./ajax/new-account-pension.shtml"--> 
+<!--#include file="./ajax/new-contr.shtml"--> 
+<!--#include file="./ajax/new-loan.shtml"--> 
+<!--#include file="./ajax/new_account.shtml"--> 
+<!--#include file="./ajax/page_exit.shtml"--> 
+<!--#include file="./ajax/page_news.shtml"--> 
+<!--#include file="./ajax/request-invest.shtml"--> 
+<!--#include file="./ajax/search-shares.shtml"--> 
+<!--#include file="./ajax/sell-bonds.shtml"--> 
+<!--#include file="./ajax/sell-crypto.shtml"--> 
+<!--#include file="./ajax/subordinated-contract.shtml"--> 
+<!--#include file="./ajax/subordinated-details.shtml"--> 
+<!--#include file="./ajax/subordinated-list.shtml"--> 
+<!--#include file="./ajax/thank_payment.shtml"--> 
+<!--#include file="./ajax/transfer-shares.shtml"--> 
+<!--#include file="./ajax/view-contract.shtml"--> 
+<!--#include file="./ajax/view-funds.shtml"--> 
+<!--#include file="./ajax/pension_more.shtml"--> 
+<!--#include file="./ajax/funds_more.shtml"--> 
+<!--#include file="./ajax/daily_more.shtml"--> 
+<!--#include file="./ajax/deposit_more.shtml"--> 
+<!--#include file="./ajax/invest_more.shtml"--> 
+<!--#include file="./ajax/insurance-more.shtml"-->  
+
+
+
+
+
+</body>
+</html>

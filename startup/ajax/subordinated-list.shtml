@@ -1,0 +1,331 @@
+<div class="fade modal subordinated basic" id="subordinated-list" tabindex="-1" role="dialog">
+	<div class="panel panel-loans panel-loans__details container modal-dialog" role="document"> <span class="close panel_close panel-loans_close" data-dismiss="modal" aria-label="Close"></span>
+		<div class="row panel-heading panel-loans-heading">
+			<h3 class="col-sm-7 panel-title panel-loans-title">Subordinated loans</h3>
+		</div>
+		<div class="row my-panel_title-list hidden-xs">
+			<div class="col-sm-12 col-md-12  my-panel_title-list-cont">
+				<div class="col-sm-1  funds-info"><span class="funds-id">ID</span></div>
+				<div class="col-sm-3 funds-info"><span class="funds-name">Name of loan</span></div>
+				<div class="col-sm-3  funds-info"><span class="funds-amount">Minimum amount</span></div>
+				<div class="col-sm-1  funds-info"><span class="funds-interest">Interest</span></div>
+				<div class="col-sm-2  funds-info"><span class="funds-term">Term</span></div>
+				<div class="col-sm-2  funds-info"></div>
+			</div>
+		</div>
+		<div class='custom-scroll'>
+			<div class="panel-body panel-list ">
+				<div class="row my-panel_data-funds ">
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+					<div class="data-info-values">
+						<div class="col-xs-12  col-sm-1 data-info data-info__funds-id">
+							<div class="visible-xs col-xs-6"><span class="info-id">id:</span></div>
+							<span class="col-xs-6">1234</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__funds-name">
+							<div class="visible-xs  col-xs-6"><span class="info-name">Name of loan:</span></div>
+							<span  class="col-xs-6">name of loan</span> </div>
+						<div class="col-xs-12  col-sm-3 data-info data-info__amount">
+							<div class="visible-xs col-xs-6"><span class="info-amount">Minimum amount:</span></div>
+							<span class="col-xs-6"><b>1.000 .00</b> usd</span> </div>
+						<div class="col-xs-12  col-sm-1 data-info data-info__interest">
+							<div class="visible-xs  col-xs-6"><span class="info-interest">Interest:</span></div>
+							<span class="col-xs-6"><b>6%</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__term">
+							<div class="visible-xs  col-xs-6"><span class="info-term">Term:</span></div>
+							<span class="col-xs-6"><b>1 year</b></span> </div>
+						<div class="col-xs-12  col-sm-2 data-info data-info__funds-view">
+							<div class="btn-view-wrap">
+								<button onclick="return false" class="btn btn__funds btn__funds-view" data-toggle="modal" data-target="#buy-bonds">Open</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

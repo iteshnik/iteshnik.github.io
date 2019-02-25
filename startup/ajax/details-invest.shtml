@@ -1,0 +1,448 @@
+<div class="fade modal invest basic" id="details-invest" tabindex="-1" role="dialog">
+						<div class="panel panel-loans panel-loans__details container modal-dialog" role="document"> <span class="close panel_close panel-loans_close" data-dismiss="modal" aria-label="Close"></span>
+							<div class="row panel-heading panel-loans-heading">
+								<h3 class="col-sm-7 panel-title panel-loans-title">Details</h3>
+							</div>
+							<div class="panel-body">
+								<h4>Short details</h4>
+								<div class="row panel-body_transaction-describe">
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="contract-name">Contract number:</span>
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="contract-value">1234567</span>
+									</div>
+								</div>
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="period-name">Period</span>
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="period-value">36 Months</span>
+									</div>
+								</div>
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="loan-name">Invest amount</span> 
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="loan-value">120.000,00<em class="nomenal">usd</em></span>
+									</div>
+								</div>
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="percent-name">Currency</span>
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="percent-value">USD</span>
+									</div>
+								</div>
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="start-name">Start date</span>
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="start-value">09.11.2015</span>
+									</div>
+								</div>
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="maturity-name">Maturity date</span> 
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="maturity-value">09.11.2018</span>
+									</div>
+								</div>
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="next-name">Next instalment duet date</span> 
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="next-value">09.01.2016</span>
+									</div>
+								</div>
+								<div class='clearfix'>
+									<div class="transaction-describe-name col-xs-6"><span class="pay-name">Account for receiving</span> 
+									</div>
+									<div class="transaction-describe-value col-xs-6"><span class="pay-value">123 456 789<em class="nomenal"><b>Change</b></em></span>
+									</div>
+								</div>
+								</div>
+							</div>
+							<h4 class="details-title">Details of operations</h4>
+							<div class="row my-panel_operations hidden-xs">
+								<div class="col-sm-2 loans-info hidden-xs"><span class="loans-id">ID</span></div>
+								<div class="col-sm-2 loans-info hidden-xs"><span class="loans-date">Date</span></div>
+								<div class="col-sm-2 loans-info hidden-xs"><span class="loans-remaining">Operation</span></div>
+								<div class="col-sm-2 loans-info hidden-xs"><span class="loans-pay">Balans</span></div>
+								<div class="col-sm-4 loans-info hidden-xs"><span class="loans-balance">Description</span></div>
+							</div>
+							<div class="panel-list custom-scroll">
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Description</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+								<div class="row panel-list_item">
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">12348</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name1">31.12.2016</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name2">+1.024,87</div>
+									<div class="col-xs-6 col-sm-2 hidden-xs operation-name operation-name3">1.654,23</div>
+									<div class="col-xs-6 col-sm-4 hidden-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_id">ID</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">12348</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_date">Date</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name1">31.12.2016</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_remaining">Operation</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name2">+1.024,87</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_payment">Balans</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name3">1.654,23</div>
+									</div>
+									<div class="row visible-xs">
+										<div class="col-xs-6 visible-xs"><span class="list_loan">Descriptioon</span></div>
+										<div class="col-xs-6 visible-xs operation-name operation-name4">Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>

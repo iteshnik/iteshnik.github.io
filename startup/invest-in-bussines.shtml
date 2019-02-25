@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>BANKINNO</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--#include file="./ssi/style.shtml"-->
+</head>
+<body>
+<!--[if lt IE 10]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+<div class="basic body-wrapper clearfix invest">
+	<div class="main-content"> 
+		<!--#include file="./ssi/header.shtml"-->
+		<main class="clearfix">
+			<section class="main-section clearfix">
+				<div class="left-content"> 
+					<!--#include file="./ssi/my-accaunt.shtml"-->
+					<div class="my-deposits hidden-xs"> 
+						<!--#include file="./ssi/my-deposits.shtml"-->
+						<div class="row-panel my-lists row-height">
+							<div class="col-sm-6 left">
+								<ul class="navi my-list__nav">
+									<li class="list active"><a href="#" class="title link">Investors dashbord</a></li>
+									<li class="list"><a href="#" class="title link" data-toggle="modal" data-target="#request-invest">new request</a></li>
+									<li class="list"><a href="#" class="title link" data-toggle="modal" data-target="#cancelation">Cancelation</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-6 right">
+								<ul class="navi my-list__nav">
+									<li class="list"><a href="deposits.shtml" class="title link">Deposits</a></li>
+									<li class="list"><a href="pension.shtml" class="title link">pension</a></li>
+									<li class="list"><a href="funds.shtml" class="title link">funds</a></li>
+									<li class="list"><a href="loanss.shtml" class="title link">loans</a></li>
+									<li class="list"><a href="shares.shtml" class="title link">Shares</a></li>
+									<li class="list active"><a href="invest-in-bussines.shtml" class="title link">invest in bussines</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="panel my-panel container">
+						<div class="row-panel my-panel__loans">
+							<div class="row my-panel_title-list slidetr ">
+								<div class="my-loans col-xs-12 col-sm-4"> <span class="calendar-icon calendar-icon__loans datepicker hidden-xs hidden-sm"></span>
+									<h3 class="my-panel_title my-panel_title__loans">My Investments</h3>
+								</div>
+								<div class="col-sm-8 hidden-xs">
+									<div class="col-sm-3 loans-info"><span class="loans-balance paddtop7">Amount</span></div>
+									<div class="col-sm-3 loans-info"><span class="loans-months  paddtop7">Terms</span></div>
+									<div class="col-sm-3 loans-info"><span class="loans-payment  paddtop7">Profit</span></div>
+									<div class="col-sm-3 loans-info"></div>
+								</div>
+							</div>
+							<div class="row my-panel_data-loans section-collapse col-sx-12 paddtopbot ">
+								<div class="data-info data-info__loans col-sm-4 paddtop10 ">
+									<h4>Title invest</h4>
+								</div>
+								<div class="data-info-values col-xs-12 col-sm-8">
+									<div class="col-xs-5  col-sm-3 data-info data-info__loans-balance">
+										<div class="visible-xs"><span class="info-balance">Balance:</span></div>
+										<span class="paddtop10">10.000<b class="cent">.00</b> usd</span> </div>
+									<div class="col-xs-3  col-sm-3 data-info data-info__loans-months">
+										<div class="visible-xs"><span class="info-months">Terms:</span></div>
+										<span class="paddtop10">16</span> </div>
+									<div class="col-xs-4 col-sm-3 data-info data-info__loans-payment">
+										<div class="visible-xs"><span class="info-payment">Profit:</span></div>
+										<span class="paddtop10">12%</span> </div>
+									<div class="col-xs-12  col-sm-3 data-info data-info__view-contract">
+										<button type="submit" class="btn btn__loans" data-toggle="modal" data-target="#details-invest">View contract</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row my-panel_shares-search">
+							<form action="post" class="modal-form modal-form__shares modal-form__shares-search col-sm-8">
+								<div class="row">
+									<div class="col-xs-8 col-sm-9 form-group form-group__shares-search">
+										<input id="search" class="form-control" placeholder="Search (title, category & etc.)">
+									</div>
+									<div class="col-xs-4 col-sm-3 btn-search-wrap">
+										<button onclick="return false" class="btn btn__shares btn__shares-search" data-toggle="modal" data-target="#search-shares">Search</button>
+									</div>
+								</div>
+							</form>
+							<div class="invest-slide col-sm-4">
+								<p>12%</p>
+								<div>
+									<div id="invest-slider"></div>
+									<div class="slider-wrapper clearfix"> <span class="shares-slider_left-info col-md-4">3%</span> <span class="shares-profit col-md-4">Interest</span> <span class="shares-slider_right-info col-md-4">20%</span> </div>
+								</div>
+							</div>
+						</div>
+						<div class="row-panel">
+							<div class="row my-panel_title-list slidetr"> <span class="calendar-icon calendar-icon__loans datepicker hidden-xs hidden-sm" data-toggle="modal" data-target="#cancelation"></span>
+								<h3 class="my-panel_title my-panel_title__loans">Invest in business</h3>
+							</div>
+							<div class=" panel-body panel-list panel-list__loans section-collapse">
+								<div class="col-xs-12 col-sm-6 col-md-4 list-item">
+									<div class="list-content">
+										<h5>Title of invest</h5>
+										<p>short dicription Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a href="#">Read more</a> </div>
+									<span class="money-range"><span>Amount:</span> 1.000-1.000.000 usd</span> <span class="time-range"><span>Term:</span> 3-72 month</span> <span class="time-range"><span>Profit:</span> fix 10.30%</span>
+									<button class="btn" data-toggle="modal" data-target="#request-invest">Request</button>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 list-item">
+									<div class="list-content">
+										<h5>Title of invest</h5>
+										<p>short dicription Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a href="#">Read more</a> </div>
+									<span class="money-range"><span>Amount:</span> 1.000-1.000.000 usd</span> <span class="time-range"><span>Term:</span> 3-72 month</span> <span class="time-range"><span>Profit:</span> fix 10.30%</span>
+									<button class="btn" data-toggle="modal" data-target="#request-invest">Request</button>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 list-item">
+									<div class="list-content">
+										<h5>Title of invest</h5>
+										<p>short dicription Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a href="#">Read more</a> </div>
+									<span class="money-range"><span>Amount:</span> 1.000-1.000.000 usd</span> <span class="time-range"><span>Term:</span> 3-72 month</span> <span class="time-range"><span>Profit:</span> fix 10.30%</span>
+									<button class="btn" data-toggle="modal" data-target="#request-invest">Request</button>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 list-item">
+									<div class="list-content">
+										<h5>Title of invest</h5>
+										<p>short dicription Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a href="#">Read more</a> </div>
+									<span class="money-range"><span>Amount:</span> 1.000-1.000.000 usd</span> <span class="time-range"><span>Term:</span> 3-72 month</span> <span class="time-range"><span>Profit:</span> fix 10.30%</span>
+									<button class="btn" data-toggle="modal" data-target="#request-invest">Request</button>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 list-item">
+									<div class="list-content">
+										<h5>Title of invest</h5>
+										<p>short dicription Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a href="#">Read more</a> </div>
+									<span class="money-range"><span>Amount:</span> 1.000-1.000.000 usd</span> <span class="time-range"><span>Term:</span> 3-72 month</span> <span class="time-range"><span>Profit:</span> fix 10.30%</span>
+									<button class="btn" data-toggle="modal" data-target="#request-invest">Request</button>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 list-item">
+									<div class="list-content">
+										<h5>Title of invest</h5>
+										<p>short dicription Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+										<a href="#">Read more</a> </div>
+									<span class="money-range"><span>Amount:</span> 1.000-1.000.000 usd</span> <span class="time-range"><span>Term:</span> 3-72 month</span> <span class="time-range"><span>Profit:</span> fix 10.30%</span>
+									<button class="btn" data-toggle="modal" data-target="#request-invest">Request</button>
+								</div>
+								<div class="btn-row btn-row__show-more">
+									<button onclick="return false" class="btn__funds-show-more" data-toggle="modal" data-target="#investMore">Show more</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--#include file="./ssi/chat.shtml"--> 
+				</div>
+				<!--#include file="./ssi/sidebar-right.shtml"--> </section>
+		</main>
+		<!--#include file="./ssi/settings_form.shtml"--> 
+	</div>
+	<!--#include file="./ssi/footer.shtml"--> 
+</div>
+<!--#include file="./ssi/scripts.shtml"--> 
+<!-- MODALS begin--> 
+<!--#include file="ajax/request-invest.shtml"--> 
+<!--#include file="ajax/details-invest.shtml"--> 
+<!--#include file="./ajax/invest_more.shtml"--> 
+<!-- standart MODALS begin--> 
+<!--#include file="ajax/activate_card.shtml"--> 
+<!--#include file="ajax/add_new_card.shtml"--> 
+<!--#include file="ajax/block_card.shtml"--> 
+<!--#include file="ajax/change_currency.shtml"--> 
+<!--#include file="ajax/close_account.shtml"--> 
+<!--#include file="ajax/exchange1.shtml"--> 
+<!--#include file="ajax/good_know.shtml"--> 
+<!--#include file="ajax/live_chat.shtml"--> 
+<!--#include file="ajax/make_payment.shtml"--> 
+<!--#include file="ajax/new_account.shtml"--> 
+<!--#include file="ajax/page_exit.shtml"--> 
+<!--#include file="ajax/page_news.shtml"--> 
+<!--#include file="ajax/thank_payment.shtml"--> 
+<!-- MODALS end-->
+</body>
+</html>

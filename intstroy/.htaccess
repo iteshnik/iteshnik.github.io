@@ -1,0 +1,11 @@
+AddDefaultCharset utf8 
+
+#php_flag magic_quotes_gpc off 
+Options Indexes
+#DirectoryIndex index.xhtml index.html  index.php
+
+#RewriteEngine on
+RewriteRule ^index\.zip$  import.php [L]
+
+
+#Options Indexes

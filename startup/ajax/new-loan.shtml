@@ -1,0 +1,115 @@
+<div id="new-loan" class="fade modal loans basic" tabindex="-1" role="dialog">
+  <div class="panel panel-loans panel-loans__new-loan container modal-dialog" role="document"> <span class="close panel_close panel-loans_close" data-dismiss="modal" aria-label="Close"></span>
+    <div class="panel-heading panel-loans-heading">
+      <h3 class="panel-title panel-loans-title">Request new loan</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row panel-body_condition">
+        <div class="panel-body_data">
+          <div class="data-indicator data-indicator-loans"></div>
+          <span>DATA</span> </div>
+        <div class="panel-body_success">
+          <div class="success-indicator success-indicator-loans"></div>
+          <span>TERMINATION</span> </div>
+      </div>
+      <div class="row panel-body_loans-describe">
+        <div class="col-xs-12 col-sm-3 col-sm-push-9">
+          <figure class="figure">
+            <div class="percent">
+              <div class="percent-content"> <span class="percent-number">12%</span> <span>p.a.</span> </div>
+            </div>
+            <h2 class="range-months">6-72 months</h2>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+          <h2>Name of loan</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Ut enim ad minim  nostrud veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.  nostrud Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum... </p>
+          <p class="read-more hidden-xs">Read more</p>
+        </div>
+      </div>
+      <form class="row modal-form modal-form-loans modal-form-loans__new-loan">
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-amount">Amount to request</label>
+            <input type="text" class="form-control" id="amount" placeholder="2.000,24">
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-period">Period in months</label>
+            <select id="loans-period" class="form-control">
+              <option>36 months - 3 years</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <h4>About holder:</h4>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-birth">Date of birth</label>
+            <input type="date" class="form-control setdate" id="loans-birth" value="2016-04-30">
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-marital">Marital status</label>
+            <select id="loans-marital" class="form-control">
+              <option>Married</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-employment">Employment situation</label>
+            <select id="loans-employment" class="form-control">
+              <option>self-employed</option>
+            </select>
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-occupation">Occupation</label>
+            <select id="loans-occupation" class="form-control">
+              <option>Unemployed with income</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-type" class="typeOf">Type of employment contract</label>
+            <select id="loans-type" class="form-control">
+              <option>Permanent</option>
+            </select>
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-with">Years with the company</label>
+            <select id="loans-with" class="form-control">
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-net">Net monthly income</label>
+            <input type="text" class="form-control" id="loans-net" placeholder="In usd">
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-salary">Salary/Pension</label>
+            <select id="loans-salary" class="form-control">
+              <option>I will be direct debited</option>
+            </select>
+          </div>
+        </div>
+        <div class="row last-row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="loans-location">Location of the dwelling</label>
+            <select id="loans-location" class="form-control">
+              <option>Mortgaged property</option>
+            </select>
+          </div>
+        </div>
+        <div class="row_btn">
+          <button type="submit" class="btn" onclick="event.preventDefault();$('#new-loan').click();" data-toggle="modal" data-target="#ThankPayment">Send request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

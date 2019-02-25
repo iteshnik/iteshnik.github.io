@@ -1,0 +1,28 @@
+<div id="change-currency" class="fade modal basic" tabindex="-1" role="dialog">
+						<div class="panel panel-crypto panel-crypto__sell-crypto container modal-dialog" role="document"> <span class="close panel_close panel-crypto_close" data-dismiss="modal" aria-label="Close"></span>
+							<div class="panel-heading panel-crypto-heading">
+								<h3 class="panel-title panel-crypto-title">Change currency</h3>
+							</div>
+							<div class="panel-body">
+								<form class="row modal-form modal-form-crypto modal-form-crypto__sell-crypto">
+									<div class="row">
+										<div class="form-group col-sm-6 col-xs-12">
+											<label for="crypto-currency">Current currency</label>
+											<select id="crypto-currency" class="form-control">
+												<option>Bitcoin-btc</option>
+											</select>
+										</div>
+										<div class="form-group col-sm-6 col-xs-12">
+											<label for="crypto-send">Change currency</label>
+											<select id="crypto-send" class="form-control">
+												<option>Cuban convertble peso</option>
+											</select>
+										</div>
+									</div>
+									<div class="row_btn">
+										<button type="submit" class="btn">Change</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>

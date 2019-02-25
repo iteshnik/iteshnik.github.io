@@ -1,0 +1,162 @@
+<div class="row-panel my-accounts accounts-panel">
+  <div class="title_panel _table slidetr ">
+    <h3 class="title _cell">my accounts</h3>
+  </div>
+  <div class="section-collapse">
+    <div class="title_menu _table">
+      <p class="_cell"><span class="link" data-toggle="modal" data-target="#NewAccount">OPEN NEW ACCOUNT</span></p>
+      <p class="_cell"><span class="_cell link new_credit_card" data-toggle="modal" data-target="#AddNewCard">NEW CREDIT CARD</span></p>
+      <p class="_cell"><span class="_cell link active account_closure" data-toggle="modal" data-target="#CloseAccount">ACCOUNT CLOSURE</span></p>
+      <span class="btn-settings"></span> </div>
+    <div class="row-panel my-accounts__cards">
+      <div class="my-accounts__cards_list">
+        <ul role="tablist" class="navi my-accounts_tabs">
+          <li role="presentation" class="list active"><a href="#card-11" aria-controls="card-11" role="tab" data-toggle="tab" class="tab-link">
+            <div class="col-sm-6 _table">
+              <p class="card-name _cell">123 456 789</p>
+            </div>
+            <div class="col-sm-6 _table">
+              <p class="card-currency _cell">7.433,89<span>eur</span></p>
+            </div>
+            </a> </li>
+          <li role="presentation" class="list"><a href="#card-21" aria-controls="card-21" role="tab" data-toggle="tab" class="tab-link">
+            <div class="col-sm-6 _table">
+              <p class="card-name _cell">555 555 555</p>
+            </div>
+            <div class="col-sm-6 _table">
+              <p class="card-currency _cell">4.433,89<span>eur</span></p>
+            </div>
+            </a></li>
+          <li role="presentation" class="list"><a href="#card-31" aria-controls="card-31" role="tab" data-toggle="tab" class="tab-link">
+            <div class="col-sm-6 _table">
+              <p class="card-name _cell">777 777 777</p>
+            </div>
+            <div class="col-sm-6 _table">
+              <p class="card-currency _cell color-danger">-7.433,89<span>eur</span></p>
+            </div>
+            </a></li>
+        </ul>
+      </div>
+      <div class="my-accounts__cards_info">
+        <div class="tab-content">
+          <div id="card-11" class="tab-pane fade in active">
+            <div class="title_panel _table">
+              <h4 class="title _cell">Account Have<span>2 </span>credit card</h4>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/visa.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee</p>
+              </div>
+              <div class="card-status col-xs-12"><a href='./daily.shtml' class="status-set">history</a><span class="status-set active" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/master.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee</p>
+              </div>
+               <div class="card-status"><span class="status-set active">history</span><span class="status-set" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set active" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/visa.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee dop simbol any</p>
+              </div>
+              <div class="card-status col-xs-12"><a href='./daily.shtml' class="status-set">history</a><span class="status-set active" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+          </div>
+          <div id="card-21" class="tab-pane fade">
+                       <div class="title_panel _table">
+              <h4 class="title _cell">Account Have<span>2 </span>credit card</h4>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/visa.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee</p>
+              </div>
+              <div class="card-status col-xs-12"><a href='./daily.shtml' class="status-set">history</a><span class="status-set active" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/master.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee</p>
+              </div>
+               <div class="card-status"><span class="status-set active">history</span><span class="status-set" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set active" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/visa.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee dop simbol any</p>
+              </div>
+              <div class="card-status col-xs-12"><a href='./daily.shtml' class="status-set">history</a><span class="status-set active" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+          </div>
+          <div id="card-31" class="tab-pane fade">
+                        <div class="title_panel _table">
+              <h4 class="title _cell">Account Have<span>2 </span>credit card</h4>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/visa.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee</p>
+              </div>
+              <div class="card-status col-xs-12"><a href='./daily.shtml' class="status-set">history</a><span class="status-set active" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+            <div class="row-panel card-row_info">
+             <div class="card-img "><img src="./images/master.png" alt="visa"></div>
+              <div class="col-acc">
+              <div class="card-number col-xs-5">
+                <p class="text-num"> **** **** **<span>56 2456</span> </p>
+              </div>
+              <div class="card-name col-xs-7">
+                <p>Anna Tee</p>
+              </div>
+               <div class="card-status"><span class="status-set active">history</span><span class="status-set" data-toggle="modal" data-target="#ActivateCard">Activate</span><span class="status-set active" data-toggle="modal" data-target="#BlockCard">Blocked</span></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row-panel my-accounts__make-pay"><a href="./images/index2.html" class="make-pay_btn" data-toggle="modal" data-target="#MakePayment">MAKE PAYMENT</a><a href="./images/index2.html" class="make-pay_btn" data-toggle="modal" data-target="#Exchange">EXCHANGE</a></div>
+  </div>
+</div>

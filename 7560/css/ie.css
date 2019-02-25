@@ -1,0 +1,26 @@
+body {
+	width:expression(document.documentElement.clientWidth < 908? "908px" : "auto");
+}
+
+.hits .tabs li.active{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='i/tabs-active.png', sizingmethod='crop');
+}
+
+.block-news .tabs li.active{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='i/tabs-active2.png', sizingmethod='crop');
+}
+.tovposition .birka{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='i/birka.png', sizingmethod='crop');
+}
+
+.buttonholder{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='i/buttonhold-bg.png', sizingmethod='crop');
+}
+.buttonholder2{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='i/buttonhold-c-bg.png', sizingmethod='image');
+}

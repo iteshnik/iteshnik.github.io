@@ -1,0 +1,5229 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Phones (<768px)*/
+@media (max-width: 767px)
+{
+	#depositDetails .row-panel-table,
+	#depositDetails .row-table-body{
+		padding:10px 0;
+		font-size:12px;
+		font-weight:700;
+	}
+	#depositDetails ._table
+	{
+		display: block;
+	}
+	#depositDetails ._table ._cell
+	{
+		display: block;
+		float:left;
+		text-transform:uppercase;
+	}
+	#CloseAccount .close-account--content .col-md-8, .close-account--content .col-md-12
+	{
+		padding-top: 13px;
+	}
+	#CloseAccount .close-account--content-title
+	{
+		font-size: 19px;
+		text-align: center;
+	}
+	#CloseAccount .col-sm-5
+	{
+		padding-left: 0px;
+	}
+	#Exchange .acc-proc
+	{
+		margin-left: 0;
+		width: 100%;
+	}
+	#Exchange .close-account--content-title
+	{
+		font-size: 18px;
+	}
+	#Exchange .proc-acc
+	{
+		margin-left: 0;
+		width: 100%;
+	}
+	#MakePayment .close-account--content-title
+	{
+		font-size: 18px;
+	}
+	#MakePayment .make-payment-internal-wrap-unit .close-account--content-title.mar-top-10
+	{
+		margin-top: 50px;
+	}
+	#pageExit .modal-btn
+	{
+		display: block;
+		margin: 0 auto 40px!important;
+	}
+	#pageExit .text_exit
+	{
+		font-size: 32px;
+		margin-bottom: 100px;
+	}
+	#pageExit .title.title-modal
+	{
+		margin: 30px 0;
+	}
+	.accounts-panel.my-accounts
+	{
+		display:block;
+		position: relative;
+	}
+	.account-verification-text
+	{
+		font-size: 12px !important;
+	}
+	.account-verification-text
+	{
+		font-size: 11px !important;
+	}
+	.account-verification-text-name
+	{
+		font-size: 12px !important;
+		width: 175px !important;
+	}
+	.account-verification-text-name
+	{
+		font-size: 12px !important;
+		width: 175px !important;
+	}
+	.account-verification-text-value.text-red
+	{
+		font-size: 12px !important;
+	}
+	.account-verification-text-value.text-red
+	{
+		font-size: 11px !important;
+	}
+	.acc-proc
+	{
+		display: none;
+	}
+	.acc-proc
+	{
+		width: 100%;
+	}
+	.acc-proc.acc-proc-mob
+	{
+		display: block;
+		width: 100%;
+	}
+	.activate-card-btn.btn
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+		width: 100%;
+	}
+	.activate-card-cvc
+	{
+		margin: 33px -14px 0 0;
+		width: 119px;
+	}
+	.activate-card-cvc label
+	{
+		padding-right: 32px;
+	}
+	.activate-card-cvc-wrap span
+	{
+		width: 50px;
+	}
+	.activate-card-cvc-wrap span
+	{
+		display: inline-block;
+		float: left;
+		font-family: 'Arial', sans-serif;
+		font-size: 14px;
+		height: 23px;
+		line-height: 23px;
+		padding-left: 12px;
+		text-transform: uppercase;
+		width: 65px;
+	}
+	.activate-card-form-wrap
+	{
+		height:  auto;
+	}
+	.activate-card-form-wrap
+	{
+		background-size: 100%;
+		width: 290px;
+	}
+	.activate-card-form-wrap .form-group input
+	{
+		height: 20px;
+		line-height: 20px;
+		text-align: center;
+	}
+	.activate-card-numb-card input
+	{
+		padding-left: 0;
+		padding-right: 0;
+		width: 40px;
+	}
+	.activate-card-numb-card-text
+	{
+		padding-left: 0;
+	}
+	.activate-card-numb-card-title
+	{
+		padding: 23px 0 0;
+	}
+	.activate-card-select
+	{
+		margin-right:7px;
+		padding:0;
+
+	}
+	.activate-card-select select
+	{
+	}
+	.activate-card-select-wrap-title
+	{
+		margin-top: -4px;
+	}
+	.activate-card-send
+	{
+		padding: 40px 0 30px;
+	}
+	.add-new-card--content .close-account--content-title
+	{
+		padding-top: 60px;
+	}
+	.add-new-card--content .pad-top-33 .close-account--content-title
+	{
+		padding-top: 18px;
+	}
+	.add-new-card--form .col-sm-6
+	{
+		margin-left: 0px;
+	}
+	.add-new-card--form .col-sm-6.pad-left-15
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.add-news
+	{
+		height: 100%;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.banner__block
+	{
+		width: 50%;
+	}
+	.banner__block
+	{
+		display: none!important;
+	}
+	.basic .account-balance, .basic .total-send
+	{
+		padding: 0;
+		padding-left: 10px;
+		text-align: center;
+	}
+	.basic .account-balance_name
+	{
+		margin-top: -5px;
+		padding-right: 0;
+	}
+	.basic .account-balance_value
+	{
+		padding-right: 35px;
+	}
+	.basic .amount-funds-value
+	{
+		padding: 0;
+		text-align: center;
+	}
+	.basic .amount-funds-value b
+	{
+		color: #262626;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+		text-transform: uppercase;
+	}
+	.basic .available-balance, .basic .from-account, .basic .total
+	{
+		padding: 0;
+		text-align: center;
+	}
+	.basic .available-balance__funds-buy, .basic .modal-form-funds__buy .form-group
+	{
+		padding: 0;
+	}
+	.basic .available-balance__sell, .basic .total-shares__sell
+	{
+		padding-left: 0;
+		text-align: center;
+	}
+	.basic .available-balance_value
+	{
+		display: inline-block;
+		margin-bottom: 15px;
+	}
+	.basic .available-balance_value, .basic .total_value
+	{
+		padding-left: 0;
+	}
+	.basic .bitcoin
+	{
+		margin-bottom: 25px;
+		padding-right: 10px;
+		text-align: center;
+	}
+	.basic .btn__funds:after
+	{
+		display: block;
+	}
+	.basic .btn__shares-buy
+	{
+		margin-left: -53px;
+		width: 240px;
+	}
+	.basic .btn__show-more
+	{
+	}
+	.basic .btn__show-more
+	{
+	}
+	.basic .btn-go-wrap
+	{
+		padding-top: 25px;
+	}
+	.basic .btn-row__show-more
+	{
+		padding-left: 0;
+	}
+	.basic .btn-row-loans
+	{
+		background-color: #c4c4c4;
+		margin-top: 0;
+		text-align: center;
+	}
+	.basic .btn-share-buy
+	{
+		margin-left: -50px;
+	}
+
+	.basic .btn-view-wrap
+	{
+		padding-left: 0;
+	}
+	.basic .converter-info
+	{
+		color: #0e2233;
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 700;
+		left: 25px;
+		line-height: 23px;
+		position: relative;
+		text-transform: uppercase;
+		top: -20px;
+	}
+	.basic .data-info__family
+	{
+		padding: 5px 0 20px;
+		width: 100%;
+	}
+	.basic .data-info__family h4
+	{
+		margin: 0;
+		padding-left: 21px;
+	}
+	.family.basic .my-panel_data-family .data-info__family-balance,
+	.family.basic .my-panel_data-family .data-info__family-date,
+	.family.basic .my-panel_data-family .data-info__family-interest{
+		padding:0 15px;
+	}
+	.family.basic .my-panel_data-family .data-info__view-contract{
+		margin-top:10px;
+	}
+	.basic .data-info__family-balance
+	{
+		margin-top: 0;
+		padding:0;
+	}
+	.basic .data-info__family-balance .cent
+	{
+		padding: 0;
+	}
+	.basic .data-info__family-balance span
+	{
+		color: #383838;
+		font-size: 12px;
+		font-weight: 700;
+		padding: 0;
+	}
+	.basic .data-info__family-date
+	{
+		margin-bottom: 10px;
+		margin-top: 0;
+		padding: 0;
+		text-align: left;
+	}
+	.basic .data-info__family-date span
+	{
+		color: #383838;
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 700;
+		padding: 0;
+		padding-left: 10px;
+	}
+	.basic .data-info__family-date span+span
+	{
+		margin-top: 0;
+	}
+	.basic .data-info__family-interest
+	{
+		padding: 0;
+		text-align: left;
+	}
+	.basic .data-info__family-interest span
+	{
+		color: #383838;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 14px;
+	}
+	.basic .data-info__family-interest span .small
+	{
+		margin: 0;
+		padding: 0;
+	}
+	.basic .data-info__funds
+	{
+		background-color: #e1e4e7;
+		display: inline;
+		display: inline-block;
+		float: left;
+		padding: 0;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		width: 100%;
+		width: 99.94791667%;
+	}
+	.basic .data-info__funds h4
+	{
+		color: #4c2b4f;
+		font-size: 14px;
+		line-height: 20px;
+		padding-left: 20px;
+
+	}
+	.basic .data-info__funds-amount
+	{
+		margin-top: 14px;
+		padding: 0;
+	}
+	.basic .data-info__funds-amount span
+	{
+		color: #262626;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+		text-transform: uppercase;
+	}
+	.basic .data-info__funds-risk
+	{
+		margin-top: 14px;
+		padding: 0;
+	}
+	.basic .data-info__funds-risk span
+	{
+		color: #262626;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+		text-transform: uppercase;
+	}
+	.basic .data-info__funds-view
+	{
+		background-color: #c4c4c4;
+		margin-top: 10px;
+	}
+	.basic .data-info__funds-view
+	{
+		background-color: transparent !important;
+	}
+	.basic .data-info__loans
+	{
+		background-color: #e1e4e7;
+		padding: 14px 0 10px;
+		width: 100%;
+	}
+	.basic .data-info__loans h4
+	{
+		margin: 0;
+		padding-left: 21px;
+	}
+	.basic .data-info__loans-balance
+	{
+		margin-top: 0;
+	}
+	.basic .data-info__loans-balance .cent
+	{
+		padding: 0;
+	}
+	.basic .data-info__loans-balance span
+	{
+		color: #d50877;
+		font-size: 12px;
+		font-weight:normal;
+	}
+	.loans.basic .my-panel_data-loans .cent{
+		font-weight:normal!important
+	}
+	.basic .data-info__loans-interest
+	{
+		margin-top: 0;
+	}
+	.basic .data-info__loans-interest span
+	{
+		color: #d50877;
+		font-size: 11px;
+		font-weight: 400;
+		padding-left: 0;
+	}
+	.basic .data-info__loans-months
+	{
+		margin-top: 0;
+	}
+	.basic .data-info__loans-months span
+	{
+		color: #d50877;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.basic .data-info__loans-payment
+	{
+		margin-top: 0;
+	}
+	.basic .data-info__loans-payment span
+	{
+		color: #d50877;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.basic .data-info__profit
+	{
+		margin-top: 14px;
+		position: relative;
+	}
+	.basic .data-info__profit span
+	{
+		color: #262626;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+		text-transform: uppercase;
+	}
+	.basic .data-info__profit span+span
+	{
+		color: #377447;
+		font-size: 9px;
+		font-weight: 400;
+		left: 15px;
+		position: absolute;
+		text-transform: uppercase;
+		top: 14px;
+	}
+	.basic .data-info__shares
+	{
+		background-color: #e1e4e7;
+		display: inline;
+		display: inline-block;
+		float: left;
+		padding: 0;
+		padding-bottom: 10px;
+		width: 100%;
+		width: 99.94791667%;
+	}
+	.basic .data-info__shares h4
+	{
+		color: #2c595a;
+		padding-left: 20px;
+	}
+	.basic .data-info__shares-action
+	{
+		padding: 0;
+		padding-top: 25px;
+	}
+	.basic .data-info__shares-invested span
+	{
+		color: #215d8e;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+	}
+	.basic .data-info__shares-invested>span
+	{
+		color: #262626;
+	}
+	.basic .data-info__shares-purchase span
+	{
+		color: #215d8e;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+	}
+	.basic .data-info__shares-purchase>span
+	{
+		color: #262626;
+	}
+	.basic .data-info__shares-quntity
+	{
+		margin-top: 16px;
+		padding: 0;
+	}
+	.basic .data-info__shares-quntity span
+	{
+		color: #215d8e;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+	}
+	.basic .data-info__shares-quntity>span
+	{
+		color: #262626;
+	}
+	.basic .data-info__view-contract
+	{
+		background-color: #d1d4d6;
+		margin-top: 5px;
+		padding: 0;
+	}
+	.basic .data-info__view-contract
+	{
+		background-color: #c4c4c4;
+		margin: 0;
+		margin-top: 25px;
+		padding: 0;
+	}
+	.basic .data-info__view-contract .btn__family
+	{
+		height: 45px;
+		margin: 0;
+		margin-left: -47px;
+		width: 115px;
+	}
+	.basic .data-info__view-contract .btn__family:after
+	{
+		display: inline-block;
+	}
+	.basic .data-info__view-contract .btn__loans
+	{
+		height: 45px;
+		margin: 0;
+		margin-left: -50px;
+		width: 110px;
+	}
+	.basic .data-info__view-contract .btn__loans:after
+	{
+		display: inline-block;
+	}
+	.basic .data-info-values
+	{
+		margin-left: 0;
+		padding: 0;
+	}
+	.basic .data-info-values .data-info
+	{
+		text-align: center;
+		margin-top:0;
+	}
+	.basic .filter-calendar
+	{
+		padding-left: 0;
+	}
+	.basic .filter-calendar a
+	{
+		margin-left: 30px;
+	}
+	.basic .filter-years
+	{
+		padding-left: 10px;
+	}
+	.basic .form-group.form-group__funds-search
+	{
+		padding-left: 13px;
+		padding-right: 15px;
+	}
+	.basic .form-group.form-group__funds-search .btn-search-wrap
+	{
+		margin-left: -7px;
+		padding: 0;
+	}
+	.basic .form-group.form-group__funds-search .btn-search-wrap .btn__funds-search
+	{
+		font-size: 14px;
+		width: 91px;
+	}
+	.basic .form-group.form-group__funds-search .btn-search-wrap .btn__funds-search:after
+	{
+		display: block;
+	}
+	.basic .from-account_value
+	{
+		display: inline-block;
+		margin-bottom: 17px;
+		padding-left: 0;
+	}
+	.basic .funds-slide
+	{
+		padding: 0 30px;
+		top: -70px;
+	}
+
+	.my-panel__products .my-products{
+		padding:0;
+	}
+	.basic .funds-table-name, .basic .funds-table-value
+	{
+		font-size: 12px;
+		line-height: 14px;
+		padding: 0;
+	}
+	.basic .have-shares, .basic .price-shares
+	{
+		padding-top: 2px;
+	}
+	.basic .have-shares_name, .basic .have-shares_value
+	{
+		padding-left: 0;
+	}
+	.basic .item__date
+	{
+		color: #fff;
+		font-size: 24px;
+		padding: 0;
+		padding-left: 10px;
+	}
+	.basic .item__date .month-year
+	{
+		font-size: 14px;
+	}
+	.basic .item__transaction-name
+	{
+		font-size: 14px;
+		padding: 0;
+		padding-left: 3px;
+		padding-top: 8px;
+	}
+	.basic .item__transaction-value
+	{
+		font-size: 18px;
+		padding: 0;
+		padding-left: 3px;
+		padding-top: 2px;
+	}
+	.basic .list_balance, .basic .list_date, .basic .list_grow, .basic .list_operation
+	{
+		color: #0a67ae;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 23px;
+		text-transform: uppercase;
+	}
+	.basic .list_date, .basic .list_loan, .basic .list_payment, .basic .list_remaining
+	{
+		color: #ae0a63;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 23px;
+		text-transform: uppercase;
+	}
+	.basic .list_loan
+	{
+		display: inline-block;
+		padding-top: 5px;
+	}
+	.basic .list_payment
+	{
+		display: inline-block;
+		padding-top: 15px;
+	}
+	.basic .list_remaining
+	{
+		line-height: 14px;
+	}
+	.basic .litecoin
+	{
+		padding-left: 15px;
+		text-align: center;
+	}
+	.basic .loans .date-picker-wrapper, .basic .shares .date-picker-wrapper
+	{
+		left: 257.5px !important;
+	}
+	.basic .modal-form
+	{
+		padding: 0;
+	}
+	.basic .modal-form .form-group
+	{
+		margin-bottom: 23px;
+		padding: 0;
+	}
+	.basic .modal-form .form-group__shares-action
+	{
+		padding-right: 10px;
+	}
+	.basic .modal-form .form-group__shares-action .selectric .button
+	{
+		height: 42px;
+		width: 52px;
+	}
+	.basic .modal-form .form-group__shares-action .selectric .label
+	{
+		font-weight: 700;
+		padding-bottom: 11px;
+		padding-top: 11px;
+	}
+	.basic .modal-form .form-group__shares-action label
+	{
+		color: #2c595a;
+		padding-left: 10px;
+		text-align: left;
+	}
+	.basic .modal-form__funds-search
+	{
+		padding: 0;
+		position: relative;
+		top: 70px;
+	}
+	.basic .modal-form__shares-search
+	{
+		padding: 0 15px;
+		position: relative;
+		top: 87px;
+	}
+	.basic .modal-form__shares-search .btn-search-wrap
+	{
+		margin: 0;
+		padding-left: 0;
+	}
+	.basic .modal-form__shares-search .form-group__shares-search
+	{
+		padding-left: 0px;
+	}
+	.basic .modal-form__shares-search .form-group__shares-search
+	{
+		padding-right: 10px;
+	}
+	.basic .modal-form-crypto .btn
+	{
+		margin-left: 0;
+		padding-left: 0;
+		width: 240px;
+	}
+	.basic .modal-form-crypto .form-group
+	{
+		margin-bottom: 25px;
+		padding: 0;
+	}
+	.basic .modal-form-crypto .operation-sell
+	{
+		padding: 0;
+	}
+	.basic .modal-form-crypto .row .form-group:first-child
+	{
+		padding-right: 0;
+	}
+	.basic .modal-form-crypto .row .form-group:last-child
+	{
+		padding-left: 0;
+	}
+	.basic .modal-form-crypto .row_btn
+	{
+		margin: 20px 0;
+	}
+	.basic .modal-form-crypto__buy-crypto
+	{
+		padding: 0;
+	}
+	.basic .modal-form-crypto__buy-crypto .available-balance_name, .basic .modal-form-crypto__buy-crypto .from-account_name, .basic .modal-form-crypto__buy-crypto .total_name
+	{
+		margin-bottom: 13px;
+		padding-left: 0;
+	}
+	.basic .modal-form-crypto__buy-crypto .form-group
+	{
+		margin-bottom: 24px;
+	}
+	.basic .modal-form-crypto__buy-crypto .row_btn
+	{
+		margin: 20px 0 15px;
+	}
+	.basic .modal-form-crypto__sell-crypto
+	{
+		padding: 0;
+	}
+	.basic .modal-form-crypto__sell-crypto .converter
+	{
+		font-size: 12px;
+		padding-left: 0;
+		padding-top: 0;
+		position: relative;
+		top: 0;
+	}
+	.basic .modal-form-family__package-cancel .selectric .label
+	{
+		padding-left: 5px;
+	}
+	.basic .modal-form-family__package-cancel .selectric-wrapper
+	{
+		width: 100%;
+	}
+	.basic .modal-form-funds__buy
+	{
+		padding: 0 13px;
+	}
+	.basic .modal-form-loans__new-loan .btn
+	{
+		width: 240px;
+	}
+	.basic .modal-form-loans__new-loan .form-group
+	{
+		margin-bottom: 25px;
+		padding: 0;
+		text-align:center!important;
+	}
+	.basic .modal-form-loans__new-loan .form-group .typeOf
+	{
+		font-size: 16px;
+		padding-left: 7px;
+	}
+	.basic .modal-form-loans__new-loan .form-group label
+	{
+		padding-left: 10px;
+	}
+	.basic .modal-form-loans__new-loan .last-row
+	{
+		padding-top: 0;
+	}
+	.basic .modal-form-loans__new-loan .last-row .form-group:last-child
+	{
+		padding-left: 0;
+	}
+	.basic .modal-form-loans__new-loan .row .form-group:first-child
+	{
+		padding-right: 15px;
+	}
+	.basic .modal-form-loans__new-loan .row .form-group:first-child label
+	{
+		padding-left: 10px;
+	}
+	.basic .modal-form-loans__new-loan .row .form-group:last-child
+	{
+		padding-left: 0;
+		padding-right: 15px;
+	}
+	#sell-bonds .modal-form-loans__new-loan .row .form-group:last-child{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .modal-form-loans__new-loan .row_btn
+	{
+
+	}
+	.basic .modal-form-loans__new-loan h4
+	{
+		color: #2d2d2d;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 23px;
+		margin: 0;
+		margin-bottom: 12px;
+		padding-left: 10px;
+		padding-top: 22px;
+		text-transform: uppercase;
+	}
+	.basic .modal-form-loans__repayment .row_btn .btn
+	{
+	}
+	.basic .modal-form-loans__repayment .selectric-wrapper
+	{
+		width: 100%;
+	}
+	.basic .modal-form-shares__sell
+	{
+		padding: 0 13px;
+	}
+	.basic .modal-form-shares__transfer-shares .btn
+	{
+		margin: 0 auto;
+		padding-left:0;
+		padding-right:0;
+		width: 240px;
+	}
+	.basic .modal-form-shares__transfer-shares .form-group
+	{
+		margin-bottom: 21px;
+	}
+	.basic .modal-form-shares__transfer-shares .row, .basic .modal-form-shares__transfer-shares .row:first-child
+	{
+		margin-bottom: 0;
+	}
+	.basic .modal-form-shares__transfer-shares .row_btn
+	{
+		margin-bottom: 18px;
+	}
+	.basic .my-funds
+	{
+		display: inline;
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		float: none;
+	}
+	.basic .my-funds .col-xs-12
+	{
+		float: left;
+	}
+
+	.basic .my-loans
+	{
+		padding-left: 0;
+		width: 100%;
+	}
+	.basic .my-panel
+	{
+		border-top: none;
+		min-height: auto;
+	}
+	.basic .my-panel .btn
+	{
+		width:40%;
+		margin:0 auto;
+		display:block;
+	}
+	.funds.basic .btn__funds-search
+	{
+		width:100%;
+	}
+	.basic .my-panel .btn__shares-action
+	{
+		font-size: 14px;
+		height: 43px;
+		width: 55px;
+	}
+	.basic .my-panel .btn__shares-search
+	{
+		font-size: 14px;
+		width: 91px;
+	}
+	.basic .my-panel .btn-share-buy
+	{
+		width: 110px;
+	}
+	.basic .my-panel .panel-body
+	{
+		padding: 45px 25px 15px;
+	}
+	.basic .my-panel .panel-body p
+	{
+		/*
+		color: #3c3c3c;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 23px;
+		text-transform: lowercase;
+		*/
+	}
+	.basic .my-panel.my-panel__crypto .panel-body
+	{
+		padding: 0;
+	}
+	.basic .my-panel.my-panel__crypto .panel-body .you-can
+	{
+		margin-bottom: 50px;
+		padding-right: 10px;
+	}
+	.basic .my-panel.my-panel__crypto .panel-body .you-have
+	{
+		margin-bottom: 37px;
+		padding-left: 0;
+	}
+	.basic .panel-body.panel-list__loans .list-item button.btn
+	{
+		display: block;
+		margin: auto;
+		width:auto;
+	}
+	.basic .my-panel__family
+	{
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	.basic .my-panel__family .btn-row-family
+	{
+		margin: 0;
+	}
+	.basic .my-panel__family .my-panel_heading
+	{
+		padding-top: 0;
+	}
+	.basic .my-panel__family .my-panel_heading
+	{
+		padding-top: 15px;
+	}
+	.basic .my-panel__funds .btn__funds-view
+	{
+		font-size: 13px;
+	}
+	.basic .my-panel__funds .btn-row__show-more
+	{
+		padding-left: 0;
+	}
+	.basic .my-panel__funds .data-info-values .info-amount, .basic .my-panel__funds .data-info-values .info-profit, .basic .my-panel__funds .data-info-values .info-risk, .basic .my-panel__funds .panel-list_item .info-amount, .basic .my-panel__funds .panel-list_item .info-profit, .basic .my-panel__funds .panel-list_item .info-risk
+	{
+		color: #377447;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 23px;
+		text-transform: uppercase;
+	}
+	.basic .my-panel__funds .data-info-values, .basic .my-panel__funds .panel-list_item
+	{
+		padding: 0;
+	}
+	.basic .my-panel__funds .my-panel_data-funds
+	{
+		border-bottom: 3px solid #b0ffc4;
+		padding: 0;
+	}
+	.basic  .my-panel_heading
+	{
+		padding: 0;
+	}
+	.basic  .panel-body.panel-list
+	{
+		padding: 0;
+	}
+	.basic .panel-list_item
+	{
+		height: auto;
+		padding: 0;
+	}
+	.basic .my-panel__loans
+	{
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	.basic .my-panel__loans .my-panel_heading
+	{
+		padding-top: 0;
+	}
+	.basic .my-panel__shares .my-panel_heading
+	{
+		padding: 0;
+	}
+	.basic .my-panel__shares .my-panel_heading
+	{
+		padding-top: 0;
+	}
+	.basic .my-panel__shares .panel-list
+	{
+		padding: 0;
+	}
+	.basic .my-panel_card
+	{
+		background-color: #381e34;
+		margin-bottom: -50px;
+		margin-top: 48px;
+		padding: 10px 20px;
+	}
+	.basic .my-panel_card .chose-card
+	{
+		color: #db69ce;
+		font-size: 12px;
+		font-weight: 700;
+		padding: 0;
+	}
+	.basic .my-panel_card .chose-card:after
+	{
+		left: 105%;
+		top: 50%;
+		transform: translateY(-50%);
+		webkit-transform: translateY(-50%);
+	}
+	.basic .my-panel_data-family
+	{
+		border-bottom: 3px solid #f1f1f1;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	.basic .my-panel_data-family .data-info-values
+	{
+		margin-left: 0;
+		padding: 0;
+		padding-top: 1px;
+	}
+	.basic .my-panel_data-family .data-info-values .info-balance
+	{
+		color: #215d8e;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 12px;
+		margin-top: 8px;
+		padding-left: 10px;
+		text-transform: uppercase;
+	}
+	.basic .my-panel_data-family .data-info-values .info-date
+	{
+		color: #215d8e;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 14px;
+		margin-top: 12px;
+		padding-left: 10px;
+		text-transform: uppercase;
+	}
+	.basic .my-panel_data-family .data-info-values .info-interest
+	{
+		color: #215d8e;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 14px;
+		padding: 0;
+		padding-left: 10px;
+		padding-right: 30px;
+		text-transform: uppercase;
+	}
+	.basic .my-panel_data-loans
+	{
+		border-bottom: 4px solid #ffb3dc;
+		padding:0;
+		
+	}
+	.basic .my-panel_data-loans .data-info-values
+	{
+		margin-left: 0;
+		padding:10px 0 0 0;
+		text-align:center;
+	}
+	.basic .my-panel_data-loans .data-info-values .info-balance
+	{
+		color: #530b32;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 14px;
+		text-transform: uppercase;
+	}
+	.basic .my-panel_data-loans .data-info-values .info-interest
+	{
+		color: #530b32;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 14px;
+		padding: 0;
+		text-transform: uppercase;
+	}
+	.basic .my-panel_data-loans .data-info-values .info-months
+	{
+		color: #530b32;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 14px;
+		text-transform: uppercase;
+	}
+	.basic .my-panel_data-loans .data-info-values .info-payment
+	{
+		color: #530b32;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 14px;
+		text-transform: uppercase;
+		display:block!important
+	}
+	.basic .my-panel_data-shares
+	{
+		padding: 0;
+	}
+	.my-panel_data-shares .data-info-values{
+		padding-top:10px;
+	}
+	.shares.basic .name-value{
+		padding-left:15px;
+	}
+	.basic .my-panel_data-shares .data-info-values
+	{
+		margin-left: 0;
+	}
+	.basic .my-panel_filter
+	{
+		margin-top: 8px;
+	}
+	.basic .my-panel_heading
+	{
+		padding-top: 20px 0 16px 55px;
+		width: 100%;
+	}
+	.basic .my-panel_heading
+	{
+		border-bottom: none;
+		padding: 0;
+	}
+	.basic .my-panel_shares-search
+	{
+		padding-bottom: 15px;
+	}
+	.basic .my-panel_title
+	{
+	
+		padding-bottom: 16px !important;
+		padding-left: 55px !important;
+		padding-top: 20px !important;
+		width: 100%;
+		position:relative;
+		
+	}
+	.basic .my-panel_title:before{
+		background-image: url(../images/sprite.png);
+		background-position: -103px -153px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		content: '';
+		height: 17px;
+		position: absolute;
+		top: 24px;
+		width: 17px;
+		display:block;
+		left:24px;
+	}
+	.basic .my-panel_title.my-panel_title.my-panel_title__family
+	{
+		text-align: left;
+	}
+	.basic .my-panel_title.my-panel_title.my-panel_title__loans
+	{
+		text-align: left;
+	}
+	.basic .my-panel_title.open
+	{
+		background-image: url(../images/arrow__up.png);
+	}
+	.basic .my-panel_title__crypto
+	{
+		padding-left: 55px;
+		text-align: left;
+	}
+	.basic .my-panel_title__loans
+	{
+		background-position: 23px 53%;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 25px;
+		padding-left: 55px;
+		padding-right: 5px;
+		width: 100%;
+	}
+	.basic .my-shares
+	{
+		display: inline;
+		display: inline-block;
+		padding: 0;
+		vertical-align: top;
+		width: 100%;
+		width: 99.94791667%;
+	}
+	.basic .my-shares .col-xs-12
+	{
+		float: left;
+	}
+	.basic .my-shares .col-xs-12, .col-lg-12, .col-md-12, .col-sm-12, .col-xlg-12
+	{
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+		position: relative;
+	}
+	.basic .my-shares-info
+	{
+		padding-left: 35px;
+	}
+	.basic .name-funds-value
+	{
+		background-color: #e1e4e7;
+		color: #4c2b4f;
+		font-size: 14px;
+		line-height: 18px;
+		padding-bottom: 15px;
+		padding-left: 20px;
+		padding-top: 15px;
+	}
+	.basic .name-value
+	{
+		color: #272727;
+		font-size: 18px;
+		line-height: 20px;
+		padding: 0 20px 10px;
+	}
+	.basic .name-value span
+	{
+		color: #262626;
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.basic .operation-name__shares2
+	{
+		padding: 0;
+	}
+	.basic .operation-name__shares3
+	{
+		margin-left: 0;
+		padding: 0;
+	}
+	.basic .operation-name__shares4, .basic .operation-name__shares5
+	{
+		padding: 0;
+	}
+	.basic .operation-name__shares5 .currency-paper
+	{
+		display: inline-block;
+	}
+	.basic .operation-name__shares6
+	{
+		padding: 0;
+	}
+	.basic .operation-name__shares6 .trans-id
+	{
+		font-size: 12px;
+		padding-left: 0;
+	}
+	.basic .operation-name__shares7
+	{
+		padding: 0;
+	}
+	.basic .operation-name__shares7 .cancel
+	{
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.basic .operation-name__shares7 .wrong
+	{
+		font-size: 8px;
+		line-height: 12px;
+	}
+	.basic .operation-name1
+	{
+		font-size: 12px;
+		padding-left: 3px;
+	}
+	.basic .operation-name1
+	{
+		padding: 2px 0;
+	}
+	.basic .operation-name2, .basic .operation-name3
+	{
+		font-size: 12px;
+		padding-left: 3px;
+		padding-top: 17px;
+	}
+	.basic .operation-name2,
+			.basic .operation-name3,
+			.basic .list_payment,
+			.basic .list_loan,
+			.subordinated.basic .panel-list_item .operation-name4
+	{
+		line-height: normal;
+		padding: 0 !important;
+	}
+	.basic .operation-name3
+	{
+		line-height: 12px;
+		padding-right: 15px;
+		
+	}
+	.basic .operation-name4
+	{
+		font-size: 12px;
+		padding-left: 3px;
+		padding-top: 7px;
+	}
+	.basic .operations-info__shares
+	{
+		clear: left;
+	}
+	.basic .operations-info__shares .shares-orders-action, .basic .operations-info__shares .shares-orders-cost, .basic .operations-info__shares .shares-orders-quantity, .basic .operations-info__shares .shares-orders-share, .basic .operations-info__shares .shares-orders-status, .basic .operations-info__shares .shares-orders-total
+	{
+		padding-left: 0;
+	}
+	.basic .operations-info__shares+.operations-info__shares
+	{
+		padding-top: 0;
+	}
+	.basic .panel
+	{
+		width: 320px;
+	}
+	.basic .panel
+	{
+		width: auto;
+	}
+	.modal.basic .panel, .modal-dialog
+	{
+		max-width: 700px;
+		width: 90% !important;
+	}
+	
+	.basic .panel-body.panel-list__family
+	{
+		padding: 0;
+	}
+	.basic .panel-body.panel-list__family .list-item
+	{
+		border-bottom: 3px solid #215d8e;
+		margin-bottom: 0;
+		padding: 0;
+	}
+	.basic .panel-body.panel-list__family .list-item .list-content
+	{
+		min-height: 120px;
+		padding: 0;
+		padding-bottom: 15px;
+	}
+	.basic .panel-body.panel-list__family .list-item .list-content p
+	{
+		font-size: 12px;
+		font-weight: 700;
+		padding-top: 8px;
+	}
+	.basic .panel-body.panel-list__family .list-item .percent-year
+	{
+		border-radius: 14px;
+		font-size: 12px;
+		height: 28px;
+		line-height: 28px;
+		padding: 0;
+		right: 35px;
+		text-align: center;
+		top: 45%;
+		width: 70px;
+	}
+	.basic .panel-body.panel-list__family .list-item .row
+	{
+		background-color: #e1e4e7;
+	}
+	.basic .panel-body.panel-list__family .list-item button.btn
+	{
+		background-color: #0a67ae;
+		font-size: 12px;
+		margin-left: 80px;
+		text-align: center;
+		width: auto;
+	}
+	.basic .panel-body.panel-list__family .list-item h5
+	{
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 26px;
+		margin: 0;
+		margin-bottom: 3px;
+		padding: 9px 22px 10px;
+		text-align: center;
+	}
+	.basic .panel-body.panel-list__family .list-item span
+	{
+		padding-bottom: 5px;
+		padding-left: 58px;
+		padding-right: 20px;
+		text-align: left;
+	}
+	.basic .panel-body.panel-list__loans
+	{
+		padding: 0;
+	}
+	.basic .panel-body.panel-list__loans .list-item
+	{
+		border-bottom: 3px solid #ffb3dc;
+		margin-bottom: 0;
+		padding: 0;
+	}
+	.basic .panel-body.panel-list__loans .list-item .list-content
+	{
+		min-height: auto;
+		padding: 0;
+		padding-bottom: 15px;
+	}
+	.basic .panel-body.panel-list__loans .list-item .list-content p
+	{
+		padding-top: 10px;
+		padding-bottom:10px;
+	}
+	.basic .panel-body.panel-list__loans .list-item .btn_loan_row{
+		background:#edcede;
+	}
+	.basic .panel-body.panel-list__loans .list-item button.btn
+	{
+		background-color: #d50877;
+		font-size: 14px;
+		text-align: center;
+	}
+	.basic .panel-body.panel-list__loans .list-item h5
+	{
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 30px;
+		margin: 0;
+		margin-bottom: 3px;
+		padding: 10px 22px 8px;
+		text-align: left;
+	}
+	.basic .panel-body.panel-list__loans .list-item span
+	{
+		padding-left: 0;
+		padding-right: 20px;
+		text-align: center;
+	}
+	.basic .panel-body_condition
+	{
+		margin-bottom: 42px;
+	}
+	.basic .panel-body_graph
+	{
+		height: 262px;
+		margin: 0;
+		margin-bottom: 35px;
+	}
+	.basic .panel-body_graph.chart1, .basic .panel-body_graph.chart2, .basic .panel-body_graph.chart3, .basic .panel-body_graph.chart4
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.basic .panel-body_graph.chart3
+	{
+		margin-bottom: 30px;
+	}
+	.basic .panel-body_loans-describe
+	{
+		margin-bottom: 22px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.basic .panel-body_loans-describe .col-sm-3
+	{
+		padding-left: 0;
+		text-align: center;
+	}
+	.basic .panel-body_loans-describe .col-sm-9
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-body_loans-describe .percent
+	{
+		margin: 25px auto 0;
+	}
+	.basic .panel-body_loans-describe .percent .percent-number
+	{
+		color: #fff;
+		display: block;
+		font-size: 36px;
+		margin-bottom: 5px;
+	}
+	.basic .panel-body_loans-describe .range-months
+	{
+		margin-top: 8px;
+		padding-left: 5px;
+	}
+	.basic .panel-body_loans-describe figure
+	{
+		margin-bottom: 20px;
+	}
+	.basic .panel-body_loans-describe h2
+	{
+		color: #3f3f3f;
+		font-size: 18px;
+		margin: 17px 0 5px;
+		text-transform: uppercase;
+	}
+	.basic .panel-body_loans-describe p
+	{
+		color: #3f3f3f;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 23px;
+		margin: 0;
+		text-transform: uppercase;
+	}
+	.basic .panel-body_table
+	{
+		margin-bottom: 17px;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.basic .panel-body_table
+	{
+		margin-bottom: 45px;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.basic .panel-body_table .row
+	{
+		padding: 8px 5px;
+	}
+	.basic .panel-body_transaction-describe
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-body_transaction-describe
+	{
+		margin-bottom: 25px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-body_transaction-describe span
+	{
+		line-height: 30px;
+	}
+	.basic .panel-body_transaction-describe__family
+	{
+		margin-bottom: 33px;
+	}
+	.basic .panel-crypto__buy-crypto .panel-crypto-heading
+	{
+		margin-bottom: 8px;
+	}
+	.basic .panel-crypto__sell-crypto .panel-crypto-heading
+	{
+		margin-bottom: 7px;
+	}
+	.basic .panel-family .btn
+	{
+		margin-left: 0;
+		padding-left: 12px;
+		width: 240px;
+		text-align:center;
+	}
+	.basic .panel-family .panel-body h3
+	{
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 55px;
+		padding: 0;
+	}
+	.basic .panel-family .panel-body_condition
+	{
+		margin-bottom: 50px;
+		padding: 0;
+	}
+	.basic .panel-family label
+	{
+		font-size: 16px;
+		padding-left: 5px;
+		padding-right: 0;
+		text-align: left;
+	}
+	.basic .panel-family__details .details-title
+	{
+		margin-bottom: 15px;
+		padding-left: 20px;
+	}
+	.basic .panel-family__details .filter-calendar
+	{
+		padding-left: 5px;
+	}
+	.basic .panel-family__details .filter-calendar a
+	{
+		margin-left: 0;
+	}
+	.basic .panel-family__details .filter-years
+	{
+		padding-left: 15px;
+	}
+	.basic .panel-family__details .my-panel_filter
+	{
+		margin-top: 0;
+	}
+	.basic .panel-family__details .panel-body
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-family__details .panel-family-heading
+	{
+		margin-bottom: 4px;
+		padding-bottom: 15px;
+	}
+	.basic .panel-family__details .panel-list_item
+	{
+		height: auto;
+		padding: 20px 0;
+	}
+	.basic .panel-family__details .panel-list_item .operation-name1, .basic .panel-family__details .panel-list_item .operation-name2, .basic .panel-family__details .panel-list_item .operation-name3, .basic .panel-family__details .panel-list_item .operation-name4
+	{
+		font-size: 12px;
+		line-height: 12px;
+		padding-top: 4px;
+	}
+	.basic .panel-family__details .panel-list_item .row
+	{
+		margin-bottom: 7px;
+	}
+	.basic .panel-family__details h4
+	{
+		margin-bottom: 25px;
+		padding-left: 20px;
+	}
+	.basic .panel-family__package-cancel .row_btn
+	{
+		margin: 40px 0 25px;
+		padding-left: 0;
+	}
+	.basic .panel-family__transaction .filter-calendar a
+	{
+		background-position: 50% 50%;
+	}
+	.basic .panel-family__transaction .my-panel_filter
+	{
+		padding-left: 17px;
+		padding-right: 10px;
+		position: relative;
+		top: -40px;
+	}
+	.basic .panel-family__transaction .panel-heading.panel-family-heading
+	{
+		background-color: #581b51;
+		margin-bottom: 0;
+		padding: 17px 0 10px;
+	}
+	.basic .panel-family__transaction .panel-list_content .content__name
+	{
+		padding-left: 0;
+	}
+	.basic .panel-family__transaction .panel-list_content .content__value
+	{
+		padding-right: 2px;
+	}
+	.basic .panel-family__transaction .panel-list_content li
+	{
+		padding: 15px 12px;
+	}
+	.basic .panel-family__transaction .panel-list_content span, .basic .transactions-title
+	{
+		padding: 0;
+	}
+	.basic .panel-family__transaction .panel-list_item
+	{
+		padding: 10px 0 20px 10px;
+	}
+	.basic .panel-family-title
+	{
+		background-position: 8px 3px;
+		padding-left: 40px;
+		padding-right: 30px;
+	}
+	.basic .panel-family-title
+	{
+		font-size: 16px;
+		margin-bottom: 20px;
+		padding-right: 0;
+		padding-top: 3px;
+	}
+	.basic .panel-funds .btn__funds-buy
+	{
+		width: 240px;
+	}
+	.basic .panel-funds .panel-body
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-funds .panel-body_condition
+	{
+		margin-bottom: 42px;
+	}
+	.basic .panel-funds .panel-body_graph
+	{
+		height: 262px;
+		margin: 0;
+		margin-bottom: 17px;
+	}
+	.basic .panel-funds .panel-funds-heading
+	{
+		margin-bottom: 25px;
+	}
+	.basic .panel-funds .row_btn
+	{
+		margin: 0;
+		margin-bottom: 15px;
+		margin-top: 10px;
+	}
+	.basic .panel-funds__view .panel-body_table
+	{
+		margin-bottom: 33px;
+	}
+	.basic .panel-funds__view .panel-body_table .profit-view, .basic .panel-funds__view .row:last-child .funds-table-name
+	{
+		font-size: 12px;
+	}
+	.basic .panel-funds__view .panel-funds-heading
+	{
+		margin-bottom: 25px;
+	}
+	.basic .panel-heading
+	{
+		margin-bottom: 43px;
+		padding-left: 10px;
+	}
+	.basic .panel-heading.panel-family-heading
+	{
+
+		margin-bottom: 17px;
+		padding-bottom: 30px;
+		padding-right: 5px;
+	}
+	.basic .panel-heading.panel-loans-heading
+	{
+		margin-bottom: 0;
+		padding-right: 5px;
+	}
+	.basic .panel-list_item
+	{
+		height: auto;
+		padding: 0;
+	}
+	.basic .panel-list_item
+	{
+		height: auto;
+		padding: 0;
+	}
+	.basic .panel-list_item
+	{
+		border-bottom: 3px solid #0c2953;
+		padding: 10px 0 0;
+	}
+	.basic .panel-list_item
+	{
+		border-bottom: 1px solid #fff;
+	}
+	.basic .panel-list_item
+	{
+		padding: 0;
+	}
+	.basic .panel-list_item
+	{
+		border-bottom: none;
+	}
+	.basic .panel-list_item .exact-date
+	{
+		display: inline-block;
+	}
+	.basic .panel-list_item .operation-name__shares
+	{
+		color: #373637;
+		font-size: 12px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		padding-left: 5px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	.basic .panel-list_item .operation-name__shares1
+	{
+		font-size: 10px;
+	}
+	.basic .panel-list_item .operations-info__shares
+	{
+		margin-bottom: 10px;
+		padding-left: 22px;
+		text-align:center;
+	}
+	
+
+	.basic .panel-list_item .operations-info__shares .date-time
+	{
+		display: block;
+		font-size: 12px;
+		font-weight: 400;
+		padding-left: 0;
+	}
+	.basic .panel-list_item .operations-info__shares span
+	{
+		color: #373637;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.basic .panel-list_item .row
+	{
+		padding-left: 5px;
+		text-align: left;
+	}
+	.basic .panel-list_item .row
+	{
+		padding-left: 5px;
+	}
+
+	.basic .panel-list_item.cancelled .operation-name__shares7
+	{
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	.basic .panel-list_item.pending .operation-name__shares6
+	{
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.basic .panel-list_item.pending .operation-name__shares7
+	{
+		padding-left: 0;
+	}
+
+	.basic .panel-loans .btn
+	{
+	}
+	.basic .panel-loans .panel-body h3
+	{
+		line-height: 24px;
+		margin-bottom: 46px;
+		padding-left: 32px;
+	}
+	#sell-bonds .panel-loans .panel-body h3{
+		margin-bottom:0;
+	}
+	.basic .panel-loans .panel-body_condition
+	{
+		margin-bottom: 45px;
+	}
+	.basic .panel-loans label
+	{
+		padding: 0;
+	}
+	.basic .panel-loans__details .details-title
+	{
+		margin-bottom: 25px;
+		padding-left: 20px;
+	}
+	.basic .panel-loans__details .panel-body
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-loans__details .panel-list_item
+	{
+		margin-right: 0;
+		padding: 5px 0 5px 5px;
+	}
+	.basic .panel-loans__details h4
+	{
+		padding-left: 20px;
+	}
+	.basic .panel-loans__new-loan .panel-body
+	{
+		padding-right: 0;
+	}
+	.basic .panel-loans__new-loan .panel-body_condition
+	{
+		margin-bottom: 0;
+	}
+	.basic .panel-loans__new-loan .panel-loans-heading
+	{
+		margin-bottom: 28px;
+		padding-bottom: 30px;
+	}
+	.basic .panel-loans__repayment .row_btn
+	{
+		margin: 23px 0 15px;
+		padding-left: 0;
+	}
+	.basic .panel-loans-title
+	{
+		background-image: url(../images/panel-insurance_dollar-sign.png);
+		background-position: 8px 50%;
+		padding-left: 44px;
+		padding-right: 30px;
+	}
+	.basic .panel-shares__buy .btn__shares-buy
+	{
+		width: 240px;
+	}
+	.basic .panel-shares__buy .modal-form__shares
+	{
+		padding: 0 13px;
+	}
+	.basic .panel-shares__buy .modal-form__shares .available-balance__sell
+	{
+		margin-top: 17px;
+		padding-left: 0;
+	}
+	.basic .panel-shares__buy .modal-form__shares .form-group
+	{
+		padding-right: 0;
+	}
+	.basic .panel-shares__buy .modal-form__shares .total-shares
+	{
+		margin-top: 0;
+		padding-left: 0;
+	}
+	.basic .panel-shares__buy .panel-body
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-shares__buy .panel-body_condition
+	{
+		margin-bottom: 40px;
+		padding: 0 15px;
+	}
+	.basic .panel-shares__buy .panel-body_graph
+	{
+		margin: 0;
+		margin-bottom: 31px;
+	}
+	.basic .panel-shares__buy .panel-body_table
+	{
+		margin-bottom: 45px;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.basic .panel-shares__buy .panel-body_table .row
+	{
+		padding: 8px 5px;
+	}
+	.basic .panel-shares__buy .panel-shares-heading
+	{
+		margin-bottom: 25px;
+	}
+	.basic .panel-shares__buy .range
+	{
+		display: none;
+	}
+	.basic .panel-shares__buy .row_btn
+	{
+		margin: 0;
+		margin-bottom: 15px;
+		margin-top: 10px;
+	}
+	.basic .panel-shares__buy .table-info
+	{
+		left: 15px;
+		top: -30px;
+	}
+	.basic .panel-shares__orders .filter-calendar, .basic .panel-shares__orders .filter-years
+	{
+		padding-left: 0;
+	}
+	.basic .panel-shares__orders .filter-months
+	{
+		padding-left: 10px;
+	}
+	.basic .panel-shares__orders .filter-week
+	{
+		padding: 0;
+		padding-left: 7px;
+	}
+	.basic .panel-shares__orders .my-panel_filter
+	{
+		margin-top: 25px;
+	}
+	.basic .panel-shares__orders .panel-list_item
+	{
+		height: auto;
+		padding-top: 15px;
+	}
+	.basic .panel-shares__orders .panel-list_item
+	{
+		margin-right: 18px;
+	}
+	.basic .panel-shares__orders .panel-shares-heading
+	{
+		padding-bottom: 15px;
+	}
+	.basic .panel-shares__sell .btn__shares-sell
+	{
+		width: 240px;
+	}
+	.basic .panel-shares__sell .panel-body
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.basic .panel-shares__sell .panel-body_condition
+	{
+		margin-bottom: 40px;
+	}
+	.basic .panel-shares__sell .panel-shares-heading
+	{
+		margin-bottom: 25px;
+	}
+	.basic .panel-shares__sell .row_btn
+	{
+		margin: 0;
+		margin-bottom: 15px;
+		margin-top: 10px;
+	}
+	.basic .panel-shares__transfer-shares .panel-body_condition
+	{
+		margin-bottom: 33px;
+		padding: 0;
+	}
+	.basic .panel-shares__transfer-shares .panel-shares-heading
+	{
+		margin-bottom: 25px;
+	}
+	.basic .panel-shares__transfer-shares .row_btn
+	{
+		margin: 0;
+		margin-bottom: 65px;
+	}
+	.basic .panel-title
+	{
+		padding-left: 43px;
+	}
+	.basic .panel-title
+	{
+		font-size: 15px;
+		padding-right: 0 !important;
+	}
+	.basic .price-shares
+	{
+		padding-left: 10px;
+	}
+	.basic .price-shares_date
+	{
+		left: 50%;
+		top: -15px;
+	}
+	.basic .price-shares_name
+	{
+		font-size: 11px;
+		padding-left: 0;
+	}
+	.basic .price-shares_value
+	{
+		padding-left: 0;
+	}
+	.basic .price-share-value
+	{
+		background-color: #fdfdfd;
+		padding: 20px 25px 25px 20px;
+	}
+	.basic .profit-funds-buy
+	{
+		background-color: #b4d6bd;
+		margin-top: 13px;
+		padding-left: 0;
+		text-align: center;
+	}
+	.basic .profit-funds-buy .btn-funds-buy
+	{
+		background-color: #377447;
+		font-size: 14px;
+
+	}
+	.basic .profit-funds-value
+	{
+		padding: 0;
+		position: relative;
+		text-align: center;
+	}
+	.basic .profit-funds-value b
+	{
+		color: #262626;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+		text-transform: uppercase;
+	}
+	.basic .profit-funds-value span+span
+	{
+		color: #377447;
+		font-size: 9px;
+		font-weight: 400;
+		left: 15px;
+		position: absolute;
+		text-transform: uppercase;
+		top: 11px;
+	}
+	.basic .risk-funds-value
+	{
+		padding: 0;
+		text-align: center;
+	}
+	.basic .risk-funds-value b
+	{
+		color: #262626;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		padding-left: 0;
+		text-transform: uppercase;
+	}
+	.basic .row.my-panel_title-list
+	{
+		padding: 0;
+	}
+	.basic .row.my-panel_title-list .my-panel_title__family
+	{
+		background-position: 23px 53%;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 25px;
+		margin: 0;
+		padding-left: 60px;
+		padding-right: 5px;
+		width: 100%;
+	}
+	.basic .row.my-panel_title-list .my-panel_title__funds
+	{
+		margin-left: 0;
+		padding-left: 55px;
+		text-align: left;
+		width: 100%;
+	}
+	.basic .row.my-panel_title-list .my-panel_title__loans
+	{
+		background-position: 23px 53%;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 25px;
+		margin: 0;
+		padding-left: 55px;
+		padding-right: 5px;
+		width: 100%;
+	}
+	.basic .row.my-panel_title-list .my-panel_title__shares
+	{
+		margin-left: 0;
+		padding-left: 55px;
+		text-align: left;
+		width: 100%;
+	}
+	.basic .row.row.my-crypto_content
+	{
+		margin-bottom: 24px;
+		padding-left: 20px;
+		padding-right: 10px;
+		padding-top: 25px;
+	}
+	.basic .row.row.my-crypto_content b
+	{
+		color: #26a3dc;
+		font-family: Roboto Condensed;
+		font-size: 12px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.basic .row.row.my-crypto_content p
+	{
+		color: #0a0a0a;
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.basic .row__crypto
+	{
+		margin-bottom: 55px;
+	}
+	.basic .row-btns__crypto
+	{
+		margin-bottom: 15px;
+	}
+	.basic .row-btns__crypto .btn
+	{
+		font-size: 14px;
+		width:30%;
+	}
+	.basic .row-btns__shares
+	{
+		margin-bottom: 23px;
+		margin-top: 25px;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: right;
+	}
+	.basic .row-btns__shares .btn__shares__print, .basic .row-btns__shares .row-btns_wrapper span
+	{
+		display: none;
+	}
+	.basic .row-btns__shares .checkbox
+	{
+		display: inline-block;
+		float: left;
+		margin-right: 0;
+		top: 0;
+	}
+	.basic .row-btns__shares .checkbox:first-child
+	{
+		margin-left: 112px;
+	}
+	.basic .row-btns__shares .checkbox+.checkbox
+	{
+		margin-left: 47px;
+	}
+	.basic .row-btns__shares .row-btns_wrapper
+	{
+		margin-top: 55px;
+		padding: 0;
+		padding-left: 60px;
+		width: 100%;
+	}
+	.basic .row-btns_wrapper
+	{
+		padding-left: 78px;
+		width: 100%;
+	}
+	.basic .row-btns_wrapper .btn.btn__buy
+	{
+		display: block;
+		float: none;
+		margin-bottom: 15px;
+		width: 110px;
+	}
+	.basic .row-btns_wrapper .btn.btn__sell
+	{
+		display: block;
+		float: none;
+		width: 110px;
+	}
+	.basic .safe-family
+	{
+		padding-left: 0;
+		width: 100%;
+	}
+	.basic .share-buy
+	{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.basic .shares-price-share
+	{
+		padding-right: 20px;
+	}
+	.basic .shares-price-share
+	{
+		color: #377447;
+		float: left;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.basic .shares-slide
+	{
+		padding: 0 40px;
+		position: relative;
+		top: -67px;
+	}
+	.basic .shares-slide .shares-slider_right-info
+	{
+		padding-right: 20px;
+	}
+	.basic .shares-slide p
+	{
+		padding-left: 0;
+	}
+	.basic .share-table-value, .basic .shares-table-name
+	{
+		font-size: 12px;
+		line-height: 14px;
+		padding: 0;
+	}
+	.basic .share-table-value.min
+	{
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.basic .share-table-value__price
+	{
+		font-size: 12px;
+	}
+	.basic .text-center.share-table-value
+	{
+		font-size: 10px;
+		line-height: 14px;
+		padding-left: 0;
+	}
+	.basic .total-send_name
+	{
+		margin-top: 10px;
+		padding-right: 60px;
+	}
+	.basic .total-send_value
+	{
+		padding-right: 40px;
+	}
+	.basic .total-shares__sell
+	{
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.basic .transaction-describe-name
+	{
+		font-size: 12px;
+		padding: 7px 5px 10px 20px;
+	}
+	.basic .transaction-describe-name .monthly-name
+	{
+		margin-top: 20px;
+	}
+	.basic .transaction-describe-name .monthly-name
+	{
+		margin-top: 20px;
+	}
+	.basic .transaction-describe-name .monthly-name,
+			.basic .transaction-describe-name .next-name,
+			.basic .transaction-describe-value .monthly-value,
+			.basic .transaction-describe-value .next-value
+	{
+		line-height: 30px;
+		margin-top: 0;
+	}
+	.basic .transaction-describe-name .next-name
+	{
+		line-height: 20px;
+		margin-top: 5px;
+	}
+	.basic .transaction-describe-name .next-name
+	{
+		line-height: 20px;
+		margin-top: 5px;
+	}
+	.basic .transaction-describe-value
+	{
+		font-size: 12px;
+		padding: 7px 5px 10px;
+	}
+	.basic .transaction-describe-value
+	{
+		font-size: 12px;
+		padding: 7px 15px 10px 5px;
+	}
+	.basic .transaction-describe-value .monthly-value
+	{
+		margin-top: 5px;
+	}
+	.basic .transaction-describe-value .next-value
+	{
+		margin-top: 17px;
+	}
+	.basic .transaction-describe-value .nomenal
+	{
+		display: inline-block;
+	}
+	.basic .transaction-describe-value .nomenal
+	{
+		margin-left: 10px;
+	}
+	.basic .transaction-describe-value .pay-value
+	{
+		line-height: 20px;
+		margin-top: 5px;
+	}
+	.basic .transaction-describe-value .remaining-value
+	{
+		line-height: 20px;
+		margin-top: 5px;
+	}
+	.basic .transaction-describe-value b
+	{
+		color: #ae0a63;
+		padding-left: 0;
+	}
+	.basic .transactions-title .calendar-icon__family
+	{
+		margin: 0 10px 0 15px;
+	}
+	.basic .transactions-title h3
+	{
+		padding-left: 0;
+	}
+	.block-card--atention p
+	{
+		padding: 29px 0;
+	}
+	.block-card--info img
+	{
+		display: block;
+		margin: 0 auto 7px;
+	}
+	.block-card--info img
+	{
+	}
+	.block-card-numb
+	{
+		padding-bottom: 18px;
+	}
+	.block-card-send
+	{
+		padding-bottom: 30px;
+	}
+
+	.btn-group, .btn-group-vertical
+	{
+		float: left;
+	}
+	
+	.close-account--carousel
+	{
+		padding-top: 12px;
+	}
+	.close-account--content
+	{
+		padding: 35px 0;
+	}
+	.close-account--content .block-card--atention p
+	{
+		font-size: 13px;
+	}
+	.close-account--content .close-account--content-select-wrap
+	{
+		margin-bottom: 25px;
+	}
+	.close-account--content .col-md-8, .close-account--content .col-md-12
+	{
+		padding: 0;
+	}
+	.close-account--content .col-sm-5 .close-account--content-title
+	{
+		margin-left: -7px;
+		text-align: center;
+	}
+	.close-account--content-select-wrap, .add-new-card--form input, .new-account--select-wrap, .exchange2.exchange .make-payment-internal-wrap-unit .new-account--select-wrap, .exchange2.exchange .make-payment-internal-wrap-unit input, .exchange2.exchange .make-payment-internal-wrap-unit .col-md-5 input, .exchange2.exchange .make-payment-internal-wrap-unit .col-md-5 .new-account--select-wrap
+	{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.close-account--content-text
+	{
+		padding-left: 0px;
+		text-align: center;
+	}
+	.close-account--content-title
+	{
+		font-size: 13px;
+		margin-bottom: 0;
+	}
+	.close-account--content-title.pad-top-25
+	{
+		padding-top: 15px;
+	}
+	.close-account--content-title.text-left.mar-bot-0
+	{
+		margin-left: -17px;
+	}
+	.close-account--content-title.text-left.mar-bot-0
+	{
+		margin-left: -20px;
+	}
+	.close-account--send.text-center.pad-clear-but
+	{
+		padding-top: 10px;
+	}
+	.close-deposite .open-deposit
+	{
+		margin-top: 40px;
+	}
+	.close-mod-jora
+	{
+		display: block;
+		padding-left: 283px;
+		position: relative;
+		top: 1px;
+	}
+	.close-setting__form
+	{
+		background: 0 0;
+		cursor: pointer;
+		height: 20px;
+		left: 30px;
+		position: absolute;
+		top: 12px;
+		width: 20px;
+		z-index: 10;
+	}
+	.col-md-12.make-payment-internal-wrap-unit
+	{
+		clear: both;
+	}
+	.col-xs-3
+	{
+		padding: 0;
+	}
+	.container
+	{
+		padding: 0;
+	}
+	.contract-deposite .cansel-btn
+	{
+		background: #d6ced7;
+		height: 46px;
+		line-height: 46px;
+		margin-top: 0;
+	}
+	.contract-deposite .cansel-btn, .contract-deposite .contract-btn, .contract-deposite .request-btn
+	{
+		/*width: 50%!important;*/
+	}
+	.crypto.basic .my-panel_heading
+	{
+		padding-top: 0;
+	}
+	.crypto.basic .my-panel_title
+	{
+		background-position: 15px 53%;
+		padding-left: 50px;
+	}
+	.date-nav .hidden-xs
+	{
+		display: inline-block !important;
+	}
+	.datepicker.dropdown-menu
+	{
+		left: 50% !important;
+		margin-left: -115px;
+		position: fixed !important;
+		top: 160px !important;
+	}
+	.deposits .terms-top
+	{
+		margin-top: 0;
+	}
+	.deposits-all .deposits-terms__head
+	{
+		padding-top: 0;
+	}
+	.deposits-all .deposits-terms__head ._table, .deposits-terms__head ._table
+	{
+		height: 3.5em;
+	}
+	.deposits-all .deposits-terms__head .title-deposit .title span
+	{
+		padding-right: 12px;
+	}
+	.basic .deposits-all .deposits-terms__head, .basic .deposits-terms__head
+	{
+		background: #4d2b4e!important;
+		border-top: 2px solid #886c8c;
+	}
+	.deposits-all .deposits-terms__info .title,
+			.deposits-terms__info .contract-deposite ._cell
+	{
+		vertical-align: top;
+	}
+	.deposits-all .deposits-terms__title .title
+	{
+		padding-left: 20px;
+	}
+	.deposits-terms .my-accounts__make-pay
+	{
+		padding-bottom: 0!important;
+	}
+	.deposits-terms .my-accounts__make-pay .make-pay_btn
+	{
+		margin: 0 auto!important;
+	}
+	.deposits-terms, .my-accounts, .my-deposits .my-accounts, .operarions.concept
+	{
+		transition: margin-top .3s;
+	}
+	.deposits-terms__head .title-deposit
+	{
+	}
+	.deposits-terms__head .title-deposit .title span
+	{
+		background: 0 0;
+		color: #cb87c5;
+	}
+	.deposits-terms__head .title-deposit .title span:before
+	{
+		background-position: -120px -74px;
+		height: 11px;
+		left: -27px;
+		top: 12px;
+		width: 18px;
+	}
+	.deposits-terms__info
+	{
+		padding: 0;
+	}
+	.deposits-terms__info ._table
+	{
+		padding-top: 15px;
+	}
+	.deposits-terms__info ._table
+	{
+	}
+	.deposits-terms__info .amount-deposite,
+			.deposits-terms__info .interest-deposite,
+			.deposits-terms__info .term-deposite
+	{
+		height: auto;
+		margin: 20px 0;
+	}
+	.deposits-terms__info .amount-deposite,
+			.deposits-terms__info .interest-deposite,
+			.deposits-terms__info .term-deposite,
+			.deposits-terms__info .amount-deposite ._cell,
+			.deposits-terms__info .interest-deposite ._cell,
+			.deposits-terms__info .term-deposite ._cell
+	{
+		display: block;
+	}
+	.deposits-terms__info .contract-deposite
+	{
+		width: 100%;
+	}
+	.deposits-terms__info .contract-deposite .wrap
+	{
+		padding-top: 0;
+	}
+	.deposits-terms__info .contract-deposite .wrap > a
+	{
+		font-size: 12px;
+	}
+	.deposits-terms__info .title-deposit
+	{
+		background: #e1e4e7;
+		padding: 10px 20px;
+	}
+	.deposits-terms__info .title-deposit .title
+	{
+		padding-left: 20px;
+	}
+	.deposits-terms__info .title-deposit .title,
+	.deposits-all .deposits-terms__title .title,
+	{
+		padding-left: 35px;
+	}
+		.deposits-terms__head .title-deposit
+	{
+		padding-left: 0;
+	}
+	.deposits-terms__info-title
+	{
+		color: #4d2b4e;
+		display: block;
+		font-size: 12px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.detail-block .left
+	{
+		margin-bottom: 20px;
+		padding:0;
+	}
+	.details-modal .navi.date-nav
+	{
+		margin: 0 auto;
+		padding: 0;
+		width: 300px;
+	}
+	.details-modal .navi.date-nav .list
+	{
+		color: white;
+	}
+	.details-modal .navi.date-nav .list .date-set:not(.inp2)
+	{
+		font-size: 12px;
+		margin-right: 45px;
+		padding: 8px 12px;
+	}
+	.details-modal .row-panel-head
+	{
+		height: auto;
+		/*min-height: 7.6em;*/
+		padding: 10px 15px;
+	}
+	.details-modal .row-panel-head
+	{
+		/*min-height: 9.1em;*/
+	}
+	.details-modal .row-panel-head
+	{
+		height: auto;
+	}
+	.details-modal .row-panel-head div.title_panel,
+	.details-modal .row-panel-head div.select-date  {
+		overflow:hidden;
+	}
+	.details-modal .row-panel-head .navi.date-nav, .request-modal .info-block .head, .row-panel-table .row-table-body .title
+	{
+		text-align: left;
+	}
+	.details-modal .row-panel-head .select-date
+	{
+		clear: both;
+		display: block;
+		float: none;
+		width: auto;
+	}
+	.details-modal .row-panel-head .select-date
+	{
+		padding-top: 10px;
+	}
+	.details-modal .row-panel-head .title_panel
+	{
+		height: 91px;
+	}
+	.details-modal .row-panel-head .title_panel
+	{
+		height: 70px;
+	}
+	.details-modal .row-panel-head .title_panel
+	{
+		padding-left: 15px;
+	}
+	.details-modal .row-panel-head .title_panel .title .ammount
+	{
+		font-size: 13px;
+	}
+	.details-modal .row-panel-head .title_panel .title:before
+	{
+		left: -15px;
+	}
+	.details-modal .row-panel-head .title_panel .title:before
+	{
+	}
+	.exchange .make-payment--content
+	{
+		padding-top: 25px;
+	}
+	.exchange .make-payment-internal--button
+	{
+		margin-bottom: 44px;
+	}
+	.exchange .make-payment-internal-wrap-unit .close-account--content-title
+	{
+		margin-top: 22px;
+	}
+	.exchange .make-payment-internal-wrap-unit .make-payment-internal-wrap-unit-title, .exchange .make-payment-internal-wrap-unit .close-account--content-title
+	{
+		margin-top: 22px;
+	}
+	.exchange .make-payment-internal-wrap-unit input
+	{
+		display: block !important;
+		float: none !important;
+		margin: 0 auto 10px !important;
+		width: 100% !important;
+	}
+	.exchange .make-payment-internal-wrap-unit input, .exchange .make-payment-internal-wrap-unit .new-account--select-wrap, .make-payment-internal-wrap-unit input
+	{
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	.exchange .mar-left--10
+	{
+		margin-bottom: 15px;
+	}
+	.exchange .modal-body
+	{
+		padding: 0 15px;
+	}
+	.exchange .modal-body, .exchange.exchange2 .modal-body
+	{
+		padding: 0 15px;
+	}
+	.exchange2 .close-account--send.text-center.pad-clear-but
+	{
+		padding-top: 25px;
+	}
+	.exchange-content--bottom
+	{
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.family .basic .my-panel_heading
+	{
+		padding-top: 20px;
+	}
+	.family.basic .my-panel_data-family
+	{
+		padding-top: 10px;
+		padding-left:0;
+		padding-right:0;
+	}
+	.family.basic .my-panel_data-family span{
+		padding:0!important;
+	}
+	.family.basic .my-panel_title.my-panel_title.my-panel_title__family
+	{
+		width: 100%;
+	}
+	.family.basic .panel-body.panel-list__family .list-item .row
+	{
+		text-align: center;
+	}
+	.family.basic .panel-body.panel-list__family .list-item button.btn
+	{
+		margin:0 auto;
+	}
+	.family.basic .panel-list__family .list-item span
+	{
+		padding-left: 35px;
+	}
+	.form-group
+	{
+		margin-bottom: 6px;
+	}
+	.form-group .activate-card-cvc-wrap input
+	{
+		padding-left: 0;
+		padding-right: 0;
+		width: 38px;
+	}
+	.form-group__new-account
+	{
+		margin-top: 34px;
+	}
+	.funds.basic .btn__funds-view, .funds.basic .btn-funds-buy
+	{
+
+	}
+	.funds.basic .data-info-values .btn-view-wrap
+	{
+		background-color: #BABABA!important;
+	}
+	.funds.basic .data-info-values .data-info
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.funds.basic .funds-slide
+	{
+		top: -80px;
+	}
+	.funds.basic .funds-slide .funds-slider_left-info,
+			.funds.basic .funds-slide .funds-slider_right-info
+	{
+		float: none;
+	}
+	.funds.basic .modal-form__funds-search
+	{
+		top: 90px;
+	}
+	.funds.basic .modal-form__funds-search
+	{
+		margin: auto;
+		width: 96%;
+	}
+	.funds.basic .modal-form__funds-search .btn-search-wrap
+	{
+	}
+	.funds.basic .my-panel__funds .btn__funds-view
+	{
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.funds.basic .my-panel_data-funds .data-info-values
+	{
+		margin-left: 0;
+	}
+	.funds.basic .name-funds-value
+	{
+		margin-top: -1px;
+	}
+	.funds.basic .panel-list_item
+	{
+		border-bottom: 2px solid #08D53D;
+	}
+	.funds.basic .panel-list_item .col-md-9
+	{
+		padding: 0;
+	}
+	.funds.basic .panel-list_item .profit-funds-buy
+	{
+		padding: 0;
+	}
+	.funds.basic .profit-funds-value span + span,
+			.funds.basic .data-info__profit span + span
+	{
+		display: block;
+		line-height: 0;
+		position: static;
+	}
+	.funds.basic .risk-funds-value b,
+			.funds.basic .data-info__funds-risk span
+	{
+		line-height: 24px;
+	}
+	.funds.basic .row.my-panel_title-list .my-panel_title__funds
+	{
+		width: 100%;
+	}
+	.good-tonow
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.good-tonow
+	{
+		padding-bottom: 0;
+	}
+	.good-tonow .link__show-more span
+	{
+		background: #1f322d;
+	}
+	.good-tonow .link__show-more span
+	{
+	
+		display: inline-block;
+		padding: 12px 35px 10px;
+	}
+	
+	.news-block .link__show-more span
+	{
+		background: #28a671;
+		display: inline-block;
+		padding: 12px 35px 10px;
+	}
+	.good-tonow .link__show-more, .news-block .link__show-more
+	{
+		background: #93bca8;
+		display: block;
+		padding: 0;
+		text-align: center;
+	}
+	.good-tonow .read-block__wrap
+	{
+		padding: 0;
+	}
+	.good-tonow .read-block__wrap .read-block__text
+	{
+		padding: 0 20px;
+	}
+	.good-tonow .read-block__wrap .read-block__text
+	{
+		max-height: none;
+	}
+	.good-tonow .title_panel .title
+	{
+		padding-top: 4px;
+	}
+	.head-top
+	{
+		left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 10;
+	}
+	.head-top .head-top__side
+	{
+		height: 50px;
+	}
+	.head-top .head-top__side .title
+	{
+		padding-left: 0;
+		padding-right: 30px;
+		text-align: center;
+	}
+	.head-top .head-top__side .title.live-banker .live-banker_text
+	{
+		top: 59px;
+	}
+	.head-top .head-top__side.bottom-ui .live-banker
+	{
+		padding-left: 70px;
+		text-align: left!important;
+	}
+	.head-top .head-top__side.top-ui
+	{
+		background: #266a9d;
+	}
+	.head-top__side.bottom-ui
+	{
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+	.hidden-xs
+	{
+		display: none!important;
+	}
+	.h-news
+	{
+		font-size: 20px;
+	}
+	.home .banker-form
+	{
+		padding: 0;
+	}
+	.home .good-tonow
+	{
+		padding: 0;
+	}
+	.home .modal-widj .modal__dialog
+	{
+
+		width: 99%;
+	}
+	.home .news-block
+	{
+		padding: 0;
+		width: 100%;
+	}
+	.home .operarions__last
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.insurance .data-info__days-left, .insurance .data-info__price
+	{
+		margin-top: 3px;
+	}
+	.insurance .data-info-values .info-price
+	{
+		padding-left: 0;
+	}
+	.insurance .my-panel_data-insurance .info-coverage,
+	.insurance .my-panel_data-insurance .info-price,
+	.insurance .my-panel_data-insurance .info-days-left
+	{
+		font-size: 12px;
+		color:#391a2a;
+		font-weight:500;
+		text-transform:uppercase;
+	}
+	.insurance .data-info__insurance{
+		padding:0;
+	}
+
+	.insurance .data-info__insurance h4{
+		margin:0;
+		padding:15px 0 15px 25px;
+		background:#e0e4e7;
+	}
+	.insurance .my-panel_data-insurance span
+	{
+		font-size: 12px;
+	}
+	.insurance .row.my-panel_title-list h3
+	{
+		padding-left: 55px;
+	}
+	.insurance.basic .my-panel__insurance button.btn
+	{
+	}
+	.insurance-slide .slider-left-info
+	{
+		font-size: 12px;
+		margin-top: 5px;
+		padding: 0;
+	}
+	.insurance-slide .slider-right-info
+	{
+		float: right;
+		font-size: 12px;
+		margin-top: 5px;
+		padding: 0;
+	}
+	.internal-btn
+	{
+		font-size: 15px;
+		height: 37px;
+		width: 50%;
+	}
+	.invest.basic .btn__shares-search
+	{
+		margin-left: 3px;
+	}
+	.invest.basic .data-info .cent
+	{
+		color: #ccc;
+	}
+	.invest.basic .data-info span
+	{
+		color: #000;
+	}
+	.invest.basic .data-info__loans
+	{
+		1padding-top: 29px;
+	}
+	.invest.basic .invest-slide
+	{
+		margin: auto;
+		top: -77px;
+		width: 260px;
+	}
+	.invest.basic .invest-slide .shares-slider_right-info
+	{
+		top: -37px;
+	}
+	.invest.basic .modal-form__shares-search
+	{
+		top: 110px;
+	}
+	.invest.basic .my-loans
+	{
+		top: 15px;
+	}
+	.invest.basic .my-loans
+	{
+		padding: 0;
+		top: -15px;
+	}
+	.invest.basic .my-panel_heading
+	{
+		padding-top: 0px;
+	}
+	.invest.basic .my-panel_operations .loans-info .loans-id
+	{
+		padding-left: 10px;
+	}
+	.invest.basic .my-panel_shares-search
+	{
+		padding-bottom: 0;
+	}
+	.invest.basic .my-panel_title
+	{
+		width: 100%;
+	}
+	.invest.basic .panel-body.panel-list__loans .list-item
+	{
+		border-bottom-color: #CBC89B;
+	}
+	.invest.basic .panel-body.panel-list__loans .list-item button.btn
+	{
+		background-color: #DED32A;
+	}
+	.invest.basic .row.my-panel_title-list .my-panel_title__loans
+	{
+		width: 100%;
+	}
+	.invest .invest.basic .my-panel_heading
+	{
+		padding-top: 15px;
+	}
+	.last-check-slide
+	{
+		padding-top: 18px;
+	}
+	.last-transactions .row-panel-collapse .col-sm-3
+	{
+		padding-top: 2px;
+	}
+	.last-transactions .row-panel-collapse .col-sm-7
+	{
+		padding-top: 15px;
+	}
+	.last-transactions .row-panel-collapse .col-sm-7, .last-transactions .row-panel-collapse .col-sm-3
+	{
+		display: block;
+		float: none;
+		height: auto;
+		padding-left: 60px;
+		width: auto;
+	}
+	.last-transactions .row-panel-head
+	{
+		clear: both;
+		height: auto;
+		padding-bottom: 45px;
+		position: relative;
+	}
+	.last-transactions .row-panel-head:not(.section-collapse)
+	{
+		padding-bottom: 0;
+	}
+	.last-transactions .select-date
+	{
+		clear: both;
+		display: block !important;
+		float: none !important;
+		margin-left: -21px;
+		width: auto;
+		white-space: nowrap;
+		width: 100%;
+		z-index: 5;
+	}
+	.last-transactions .select-date .navi.date-nav
+	{
+		display: table;
+		margin: 0 auto;
+		width: 100%;
+		height:50px;
+	}
+	.last-transactions .select-date.date-dn
+	{
+		position: static;
+		z-index: 10;
+	}
+	.last-transactions .select-product
+	{
+		width: 43%;
+	}
+	.last-transactions .select-product
+	{
+		bottom: 0;
+		clear: both;
+		display: block;
+		float: none;
+		left: 0;
+		position: absolute;
+		right: 0;
+		width: auto;
+	}
+	.last-transactions .select-product
+	{
+	}
+	.last-transactions .select-product .select-product-set.bootstrap-select
+	{
+		background-color: #3B243D;
+		width: 100%!important;
+	}
+	.last-transactions .select-product .select-product-set.bootstrap-select .caret
+	{
+		position: static;
+	}
+	.last-transactions .select-product .select-product-set.bootstrap-select .caret:before
+	{
+		left: 140px;
+	}
+	.last-transactions .select-product .select-wrap
+	{
+		display: block;
+		margin-bottom: 0;
+		width: auto;
+	}
+	.last-transactions .title_panel
+	{
+		height: 60px;
+		width: 100% !important;
+	}
+	.last-transactions .title_panel .title
+	{
+		padding-left: 21px;
+	}
+	.last-transactions .title_panel .title:before
+	{
+		left: -12px;
+	}
+	.left-content, .radial
+	{
+		width: 100%;
+	}
+	.loans.basic .data-info__loans
+	{
+		padding-top: 29px;
+	}
+	.loans.basic .my-loans
+	{
+		top: 15px;
+	}
+	.m_news .m_close
+	{
+		left: auto;
+		right: 0;
+	}
+	.main-content
+	{
+		flex: 0;
+		padding-top:50px;
+	}
+	.main-section
+	{
+		padding-top: 60px;
+		position: relative;
+	}
+	.make-payment--content
+	{
+		padding: 30px 0 30px;
+	}
+	.make-payment-internal--button
+	{
+		width: 280px;
+	}
+	.make-payment-internal--content
+	{
+		padding-bottom: 35px;
+	}
+	.make-payment-internal-wrap-unit .make-payment-internal-wrap-unit-title, .make-payment-internal-wrap-unit .close-account--content-title
+	{
+		margin-top: 18px;
+	}
+	.make-payment-internal-wrap-unit input
+	{
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	.make-payment--next-payment
+	{
+		font-size: 14px;
+		padding-top: 43px;
+	}
+	.make-payment--ok
+	{
+		border-radius: 37px;
+		font-size: 30px;
+		height: 74px;
+		line-height: 74px;
+		width: 74px;
+	}
+	.make-payment-or
+	{
+		display: block;
+		left: 133px;
+		top: -38px;
+	}
+	.make-payment--text
+	{
+		font-size: 27px;
+		padding-bottom: 30px;
+	}
+	.make-payment--title
+	{
+		font-size: 17px;
+		padding: 0 54px 20px;
+	}
+	.market .data-info__view
+	{
+		text-align: center;
+	}
+	.market .my-panel .btn.btn__view-product
+	{
+	}
+	.market .my-panel_heading
+	{
+		margin-top: 15px;
+	}
+	.mar-left--15
+	{
+		margin-left: 0;
+	}
+	.mar-right--15
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.mob-dis_n
+	{
+		display: none;
+		font-weight: 700;
+	}
+	.mob-dis_n
+	{
+		display: none;
+		font-weight: 700;
+	}
+	.mob-double-block
+	{
+		display: block;
+		margin-top: 25px;
+	}
+	.modal
+	{
+		padding-right: 15px!important;
+	}
+	.modal
+	{
+		padding-left: 0 !important;
+		padding-right: 0!important;
+	}
+	.modal.in
+	{
+		padding-top: 35px;
+	}
+	.modal__content .row-panel-table .title_panel .title
+	{
+		color: #48284d !important;
+		font-size: 11px!important;
+	}
+	.modal__content .row-panel-table .title_panel,
+			.modal__content .row-panel-table .row-table-body
+	{
+		height: 30px;
+	}
+	.modal__content .row-table-body .title
+	{
+		font-size: 12px;
+		font-weight: 700;
+	}
+	.modal-body
+	{
+		padding: 0 15px;
+	}
+	.modal-body-title
+	{
+		margin-bottom: 0;
+		padding: 18px 0 48px;
+	}
+	.modal-close__btn
+	{
+		right: 0;
+		top: -36px;
+	}
+	.modal-content
+	{
+		border-radius: 0px;
+		box-shadow: none !important;
+		margin-bottom: 15px;
+	}
+	.modal-dialog
+	{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 675px !important;
+	}
+	.modal-form-insurance__new-contract .row-gender-female:before,
+			.modal-form-insurance__new-contract .row-gender-male:before,
+			.modal-form-insurance__new-contract .row-pay:before,
+			.modal-form-insurance__new-contract .row-period:before
+	{
+		left: 50%;
+		margin-left: -160px;
+		display:none;
+	}
+	.modal-form-loans > .row.visible-xs
+	{
+		border: 1px solid #DDD8DE;
+		margin: 20px 0;
+		margin-right: 15px;
+		padding: 10px 0;
+	}
+	.modal-header
+	{
+		background: #215d8e url('../images/activate-card.png') no-repeat 15px center;
+		padding: 32px 35px;
+	}
+	.modal-open .modal
+	{
+		padding-left: 0 !important;
+	}
+	.modal-widj .chat__room
+	{
+		background-color: #c56611;
+	}
+	.modal-widj .chat__room
+	{
+		width: 95%;
+	}
+	.modal-widj .chat__room .title_panel
+	{
+		height: 48px;
+	}
+	.modal-widj .chat__room .title_panel .title
+	{
+		padding-top: 15px;
+	}
+	.modal-widj .m_news
+	{
+		padding: 20px 15px;
+		width: 97%;
+	}
+	.modal-widj .modal__dialog
+	{
+		margin-top: 30px;
+	}
+	.modal-widj .modal__dialog
+	{
+		margin-top: 30px;
+		width: auto !important;
+	}
+	.modal-widj .refresh-btn
+	{
+		margin-top: 15px;
+	}
+	.modal-widj .title-modal
+	{
+		font-size: 35px;
+	}
+	.my-accounts
+	{
+		margin-top: 295px;
+	}
+	.my-accounts .section-collapse > .title_menu .new_credit_card,
+			.my-accounts .section-collapse > .title_menu .account_closure
+	{
+		display: none;
+	}
+	.my-accounts .title_menu
+	{
+		height: 70px;
+	}
+	.my-accounts .title_menu
+	{
+		padding-right: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.my-accounts .title_menu
+	{
+		height: 50px;
+		padding-top: 15px;
+	}
+	.my-accounts .title_menu .btn-settings
+	{
+		right: 20px;
+		top: 15px;
+	}
+	.my-accounts .title_menu .link
+	{
+		font-size: 12px;
+		padding-left: 25px;
+		text-align: center;
+	}
+	.my-accounts .title_menu .link.active
+	{
+		color: white;
+	}
+	.my-accounts .title_menu .link:before
+	{
+		display: inline-block;
+		float: none;
+		left: 0;
+		left: -8px;
+		position: relative;
+		top: 3px;
+	}
+	.my-accounts .title_panel
+	{
+		background: #223e54;
+		height: 60px;
+		padding-top: 0;
+		width: 100%;
+	}
+	.my-accounts .title_panel
+	{
+		background-color: transparent;
+	}
+	.my-accounts .title_panel
+	{
+		float: none;
+	}
+	.my-accounts .title_panel .title
+	{
+		color: #b5d9fd;
+		padding-left: 25px;
+		padding-top: 3px;
+		position: relative;
+	}
+	.my-accounts .title_panel .title:before
+	{
+		background-position: -120px -74px;
+		height: 11px;
+		position: absolute;
+		top: 20px;
+		width: 17px;
+	}
+	.my-accounts .title_panel h4.title:before
+	{
+		background: 0 0!important;
+	}
+	.my-accounts > .title_panel
+	{
+		background: #223e54 !important;
+	}
+	.my-accounts, .my-lists
+	{
+		height: auto!important;
+	}
+	.my-accounts__cards
+	{
+		margin-bottom: 30px;
+	}
+	.my-accounts__cards
+	{
+		padding: 0;
+	}
+	.my-accounts__cards .list
+	{
+		clear: both;
+		padding-left: 0;
+	}
+	.my-accounts__cards .list.active .tab-link,
+			.my-accounts__cards .list .title_menu
+	{
+		background: #223e54;
+	}
+	.my-accounts__cards .my-accounts__cards_info
+	{
+		width: 100%;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info
+	{
+		padding: 10px 15px;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info .card-img
+	{
+		margin-top: 13px;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info .card-name
+	{
+		width: 42%;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info .card-name
+	{
+		width: 49%;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info .card-number .text-num
+	{
+		font-size: 10px;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info .card-status
+	{
+		margin-left: 17px;
+		margin-top: -10px;
+		padding: 0;
+	}
+	.my-accounts__cards .my-accounts__cards_info .card-row_info .card-status
+	{
+		text-align: center;
+	}
+	.my-accounts__cards .my-accounts__cards_info .tab-content
+	{
+		margin-bottom: 35px;
+		padding-right: 0;
+	}
+	.my-accounts__cards .my-accounts__cards_info .tab-pane .title_panel._table
+	{
+		padding-left: 0;
+	}
+	.my-accounts__cards .my-accounts__cards_list
+	{
+		padding: 0 15px;
+	}
+	.my-accounts__cards .my-accounts__cards_list
+	{
+		float: left;
+		width: 100%;
+	}
+	.my-accounts__cards .tab-link
+	{
+		border: 1px solid #1c4460;
+		padding-left: 10px;
+	}
+	.my-accounts__cards .tab-link ._table
+	{
+		float: left;
+		width: 50%;
+	}
+	.my-accounts__cards .tab-pane
+	{
+	}
+	.my-accounts__cards > .my-accounts__cards_info
+	{
+		display: none;
+	}
+	.my-accounts__make-pay
+	{
+		background: 0 0;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.my-accounts__make-pay .make-pay_btn
+	{
+		display: block;
+		margin: 0 auto 10px!important;
+	}
+	.my-deposits .my-accounts
+	{
+		width: 100%!important;
+	}
+	.my-deposits .my-accounts .my-accounts__cards
+	{
+		padding-bottom: 5px;
+	}
+	.my-deposits .my-accounts, .my-deposits .my-lists
+	{
+		padding-right: 0;
+		width: 100%!important;
+	}
+	.my-deposits .my-list__nav .list .link
+	{
+		font-size: 16px;
+		padding: 8px 0 8px 20px;
+	}
+	.my-deposits .my-lists
+	{
+		width: 100%!important;
+	}
+	.my-deposits .my-lists .left, .my-deposits .my-lists .right
+	{
+		float: left;
+		width: 50%;
+	}
+	.my-deposits .toggler-btn
+	{
+		display: none;
+	}
+	.my-deposits.open .my-accounts
+	{
+		height: auto;
+	}
+	.my-panel__funds .btn-view-wrap,
+			.my-panel__funds .btn-view-wrap::after,
+			.my-panel__funds .btn-view-wrap::before
+	{
+		background: transparent !important;
+	}
+	.my-panel__funds .panel-list,
+			.my-panel__funds .btn-row__show-more
+	{
+	}
+	.my-panel__insurance .data-info-values .info-coverage
+	{
+		padding-left: 0px;
+	}
+	.my-panel__insurance .my-panel_heading
+	{
+		padding-top: 15px;
+	}
+	.my-panel__insurance button.btn
+	{
+		display: block;
+		margin: auto;
+	}
+	.my-panel__pension-account .view
+	{
+		width: 100%;
+	}
+	.navi.date-nav .list
+	{
+		display: table-cell !important;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.navi.date-nav .list .date-set
+	{
+		font-size: 12px;
+		padding: 1px;
+	}
+	.navi.date-nav .list .date-set
+	{
+		display: inline-block !important;
+		font-size: 11px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.navi.date-nav .list .date-set
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.navi.date-nav .list.datepicker .inp, .navi.date-nav .list.datepicker .inp2, .navi.date-nav .list.load-pdf
+	{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.navi.date-nav .list.datepicker .inp, .navi.date-nav .list.datepicker .inp2, .navi.date-nav .list.load-pdf .title
+	{
+		display: inline-block;
+		font-size: 11px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.new-account--content
+	{
+		padding-bottom: 30px;
+	}
+	.new-account--content-form
+	{
+		width: 100%;
+	}
+	.new-account--content-title
+	{
+		padding-top: 30px;
+	}
+	.new-account--select-wrap
+	{
+		margin: 0 auto 30px;
+	}
+	.new-account--select-wrap, .exchange2.exchange .make-payment-internal-wrap-unit .new-account--select-wrap, .exchange2.exchange .make-payment-internal-wrap-unit input, .exchange2.exchange .make-payment-internal-wrap-unit .col-md-5 input, .exchange2.exchange .make-payment-internal-wrap-unit .col-md-5 .new-account--select-wrap
+	{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.news-block .link__show-more
+	{
+		display: none !important;
+	}
+	.news-block .news-posts__block
+	{
+		padding: 0 20px 20px;
+	}
+
+	.news-txt
+	{
+		height: auto;
+	}
+	.nextbank-make-payment{
+		padding-bottom:0;
+	}
+	.nextbank-make-payment-icon-button
+	{
+		width:auto;
+	}
+	.nextbank-make-payment-title
+	{
+		margin-top: -13px;
+	}
+	.nextbank-make-payment-title-wrap
+	{
+		background: #d50877;
+		border-top: none;
+	}
+	.nextbank-make-payment-units>.col-md-4
+	{
+		padding: 0;
+	}
+	.nextbank-make-payment-units-block
+	{
+		margin-top: 0;
+	}
+	.operarions.concept
+	{
+		margin-top: 355px;
+	}
+	.operarions__last .operarions__last_bottom ._table:last-child .title
+	{
+		padding-right: 45px;
+	}
+	.operarions__last .operarions__last_list .price
+	{
+		float: right;
+		margin-bottom: 0;
+		padding-right: 0;
+	}
+	.operarions__last .operarions__last_list .row-panel .col-xs-6:first-child
+	{
+		width: 58.3333333333%;
+	}
+	.operarions__last .operarions__last_list .row-panel .col-xs-6:last-child
+	{
+		width: 41.6666666667%;
+	}
+	.operarions__last .operarions__last_list .text
+	{
+		font-size: 12px;
+		margin-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.operarions__last .operarions__last_list .text span
+	{
+		padding-right: 0;
+	}
+	.operarions__wealth
+	{
+		background: #287b5a;
+	}
+	.operarions__wealth .radial .title
+	{
+		padding-left: 50px;
+	}
+	.operarions__wealth .title_panel .title .link
+	{
+		padding-right: 20px;
+	}
+	.owl-buttons>div
+	{
+		position: absolute;
+		top: 59px;
+	}
+	.owl-next
+	{
+		right: -31px !important;
+	}
+	.owl-prev
+	{
+		left: -68px !important;
+	}
+	.pad-left-26
+	{
+		padding-left: 63px !important;
+		padding-right: 26px !important;
+	}
+	.pad-left-33, .exchange2 .pad-left-33
+	{
+		padding-left: 0 !important;
+	}
+	.pad-left-44
+	{
+		padding-left: 0 !important;
+	}
+
+	.panel.my-panel__pension-account
+	{
+	}
+	.panel-insurance .btn
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.panel-pension .panel-pension-title
+	{
+		font-size: 15px;
+	}
+	.panel-pension__details-transaction .btn__save
+	{
+		width: 250px;
+	}
+	.panel-pension__details-transaction .btn__save
+	{
+		margin-left: -3px;
+		width: 270px !important;
+	}
+	.panel-pension__open-account .checkbox span
+	{
+		vertical-align: middle;
+	}
+	.pension .my-panel .btn__view-product, .btn__pension.btn-view
+	{
+		width: 109px;
+	}
+	.pension .my-panel__pension
+	{
+		margin-top: 355px;
+	}
+	.pension .my-panel_data-pension
+	{
+		background-color: #f9f9f9;
+		padding-top: 0;
+	}
+	.pension .my-panel_data-pension .data-info__account
+	{
+		padding: 15px 0 10px;
+	}
+	.pension .operation-name
+	{
+		padding: 0 0 0 15px;
+	}
+	.pension .panel.modal-dialos
+	{
+		margin-top: 60px;
+	}
+	.pension .panel-body.panel-list
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.pension .panel-body.panel-list
+	{
+		padding-top: 0;
+	}
+	.pension .list_date{
+		color:#262626;
+	}
+	.pension .list_operation,  .pension .list_balance{
+		color:#262626;
+	}
+	.pension .panel-list_item
+	{
+		padding-bottom: 0;
+	}
+	.pension .panel-list_item
+	{
+		border-bottom: 3px solid;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	.pension .panel-list_item .col-xs-3
+	{
+		width: 20%;
+	}
+	.pension .panel-list_item + .panel-list_item
+	{
+		margin-top: 0;
+	}
+	.pension .panel-list_item-inner
+	{
+		overflow: hidden;
+	}
+	.pension .panel-list_item-inner
+	{
+		background-color: #ededed;
+		margin-bottom: 10px;
+		padding: 15px 15px 0;
+	}
+	.pension .panel-list_item-inner .list_date
+	{
+		margin-bottom: 15px;
+	}
+	.pension .view
+	{
+		margin-top: 15px;
+	}
+	.personal-banker .title_panel
+	{
+		height: 60px;
+	}
+	.proc-acc .pull-left
+	{
+		margin-left: 0;
+		text-align: left;
+	}
+	.proc-acc .pull-right
+	{
+		text-align: right;
+	}
+	.radial
+	{
+		border-bottom: 1px solid #175139;
+		padding-bottom: 20px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.request-modal .bottom, .request-modal .top
+	{
+		margin-bottom: 15px;
+	}
+	.request-modal .cash
+	{
+		padding-top: 5px;
+	}
+	.request-modal .info-block
+	{
+		height: auto;
+		padding: 15px 10px;
+	}
+	.request-modal .info-block .body
+	{
+		text-align: right;
+	}
+	.request-modal .info-block .body .title
+	{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.request-modal .info-block .col-xs-12
+	{
+		min-height: 40px;
+	}
+	.request-modal .info-block .head .title
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.request-modal .open-deposit
+	{
+		left: 0;
+		margin: 40px auto 10px;
+		max-width: 340px;
+		position: relative;
+	}
+	.request-modal .right
+	{
+		padding: 0;
+	}
+	.request-modal .row-panel-content
+	{
+		padding: 60px 20px 20px;
+	}
+	.request-modal .row-panel-head
+	{
+		/*height: 90px!important;*/
+		/*min-height: 90px!important;*/
+		padding: 0 10px;
+	}
+	.row-panel
+	{
+	}
+	.row-panel ._table
+	{
+	}
+	.row-panel .title_panel
+	{
+		padding: 0 0 0 30px;
+		position: relative;
+	}
+	.row-panel .title_panel .title
+	{
+		height: 65px;
+		margin: 0 0 0 0;
+		padding: 0 0 0 25px;
+		position: relative;
+	}
+	.my-accounts .title_panel .title{
+		/*padding-top:22px;*/
+	}
+	.row-panel .title_panel .title:before
+	{
+		1left: -7px!important;
+		background-image: url(../images/sprite.png)!important;
+		background-position: -103px -153px;
+		content: '';
+		height: 17px;
+		position: absolute;
+		top: 24px;
+		width: 17px;
+	}
+	.row-panel-collapse ._table
+	{
+		float: left;
+		width: 40%;
+	}
+	.row-panel-collapse .title-cash
+	{
+		font-size: 18px;
+	}
+	.row-panel-collapse .title-date._cell
+	{
+		padding-left: 10px;
+		padding-top:19px;
+	}
+	.row-panel-collapse .title-date._cell
+	{
+		font-size: 23px;
+		text-align: center;
+	}
+	.row-panel-collapse .title-transaction
+	{
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	.row-panel-hide .row-panel-info
+	{
+		height: auto;
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.row-panel-hide .row-panel-info
+	{
+		height: 60px;
+		padding-top: 3px;
+	}
+	.row-panel-hide .row-panel-info .left .text
+	{
+		padding-left: 0;
+	}
+	.row-panel-hide .row-panel-info .right .text
+	{
+		padding-right: 0;
+	}
+	.row-panel-table .row-table-body, .row-panel-table .title_panel
+	{
+		height: 40px;
+		padding: 0 15px;
+	}
+	.row-panel-table.hidden-head .title_panel
+	{
+		background: 0 0;
+	}
+	.section-close .toggle-list-single,
+			.section-close .toggle-list-group
+	{
+		display: none;
+	}
+	.section-collapse
+	{
+		display: none;
+	}
+	.setting-form
+	{
+		right: 0;
+		width: 300px!important;
+		box-shadow: -6px 0px 5px -5px rgba(50, 50, 50, 0.7);
+	}
+	.setting-form .porgress-title .left
+	{
+		float: left;
+		margin-left: 32px;
+	}
+	.setting-form .porgress-title .right
+	{
+		float: right;
+		margin-right: 0;
+	}
+	.setting-form .progress__title
+	{
+		float: left;
+		font-size: 13px;
+		margin-top: 4px;
+	}
+	.setting-form .setting-form_nav .list .name
+	{
+		padding-left: 50px;
+	}
+	.setting-form .setting-form_nav .list .name:before
+	{
+		left: 18px;
+	}
+	.shares .basic .my-panel_heading
+	{
+		padding-top: 0;
+	}
+	.shares.basic .btn__shares-action
+	{
+		text-align: center;
+		width: 60px;
+	}
+	.shares.basic .btn-go-wrap
+	{
+		padding-top: 26px;
+	}
+	.shares.basic .btn-share-buy
+	{
+	}
+	.shares.basic .btn-share-buy
+	{
+		width: 109px;
+	}
+	.shares.basic .data-info__shares h4
+	{
+		padding-top: 15px;
+		margin-top:0;
+	}
+	.shares.basic .data-info__shares-quntity
+	{
+		margin-top: 0px;
+	}
+	.shares.basic .modal-form
+	{
+		margin: auto;
+		width: 96%;
+	}
+	.shares.basic .modal-form__shares-search
+	{
+		top: 100px;
+	}
+	.shares.basic .my-panel_data-shares .data-info-values
+	{
+		margin-left: 0;
+	}
+	.shares.basic .my-panel_title
+	{
+		border-bottom: 1px solid #80BABC;
+	}
+	.shares.basic .row.my-panel_title-list
+	{
+		padding-top: 0;
+		padding-bottom:0;
+	}
+	.shares.basic .shares-price-share
+	{
+		padding-left: 0;
+	}
+	.shares.basic .shares-slide
+	{
+		top: -75px;
+	}
+	.shares.basic .shares-slide .shares-slider_left-info,
+			.shares.basic .shares-slide .shares-slider_right-info
+	{
+		float: none;
+	}
+	.solution .nextbank-make-payment-units-block
+	{
+		1margin-top: 20px;
+	}
+	.solution .panel
+	{
+		max-width: 100%;
+	}
+	.solution .raw
+	{
+		position: relative;
+		top: 15px;
+	}
+	.subordinated.basic .btn__funds-view
+	{
+	}
+	.subordinated.basic .data-info__funds .name-h4
+	{
+		margin-top: 0;
+	}
+	.subordinated.basic .data-info__funds h4
+	{
+		padding-left: 25px;
+	}
+	.subordinated.basic .data-info__profit
+	{
+		margin-top: 0;
+	}
+	.subordinated.basic .data-info-values .data-info.data-info__funds-view
+	{
+		background-color: #D6CED7 !important;
+		margin-top: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	.subordinated.basic .my-panel_data-funds .data-info-values .data-info{
+		display:block;
+		float:left;
+	}
+	.subordinated.basic .funds-info .funds-profit
+	{
+		margin-top: 0;
+	}
+	.subordinated.basic .modal .data-info span
+	{
+		font-size: 12px;
+		text-align: left;
+	}
+	.subordinated.basic .modal .data-info-values .data-info
+	{
+		margin: 7px 0;
+		overflow: hidden;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+	.subordinated.basic .modal .data-info-values .data-info > *:nth-child(1):not(.btn-view-wrap) span
+	{
+		color: #48284D;
+		font-weight: normal;
+	}
+	.subordinated.basic .modal .data-info-values .data-info > *:nth-child(1):not(.btn-view-wrap),
+			.subordinated.basic .modal .data-info-values .data-info > *:nth-child(2):not(.btn-view-wrap)
+	{
+		float: left;
+		width: 50%;
+	}
+	.subordinated.basic .modal .my-panel_data-funds .data-info-values
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.subordinated.basic .modal-dialog .btn__funds-view
+	{
+	}
+	.subordinated.basic .my-funds
+	{
+		padding:0;
+	}
+	.subordinated.basic .my-panel
+	{
+		margin-top: 350px;
+	}
+	.subordinated.basic .my-panel.my-panel__funds
+	{
+		margin-top: 0;
+	}
+	.subordinated.basic .my-panel.my-panel__funds .my-funds
+	{
+		background-color: #C078C9;
+		padding-top: 0px;
+		width: 100%;
+	}
+	.subordinated.basic .my-panel__funds .my-panel_heading
+	{
+		background-color: #C078C9;
+	}
+	.subordinated.basic .my-panel_data-funds .data-info-values
+	{
+		padding-bottom: 0;
+		padding-left: 0px;
+		padding-right: 0px;
+		display:block;
+	}
+
+	.subordinated.basic .my-panel_title
+	{
+		padding-left: 55px;
+		text-align: left;
+		width: 100%;
+	}
+	.subordinated.basic .panel-loans-title > span
+	{
+		font-size: 11px;
+	}
+	.subordinated.basic .row.my-panel_title-list .my-panel_title__funds
+	{
+		padding-left: 55px;
+		padding-top: 15px;
+		text-align: left;
+		width: 100%;
+	}
+	.subordinated.basic .row.my-panel_title-list .my-panel_title__funds,
+			.subordinated.basic .my-panel_title
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.tab-content .tab-pane.fade
+	{
+		display: block;
+		opacity: 1;
+	}
+	.terms-top
+	{
+		margin-top: 340px;
+	}
+	.title.live-banker._cell
+	{
+		display: none;
+	}
+	.title-ui
+	{
+		cursor: pointer;
+	}
+	.title-ui .title, .title-ui.title_panel
+	{
+	}
+	.title-ui.title_panel
+	{
+		position: relative;
+	}
+	.wrap .deposits-terms__info
+	{
+		text-align: center;
+	}
+	.wrap .deposits-terms__info .contract-deposite
+	{
+		background: #d6ced7;
+		border-bottom: 3px solid #886c8c;
+		height: 46px;
+		min-height: 46px;
+		padding-top: 0;
+	}
+	.wrap .deposits-terms__info .contract-deposite .request-btn
+	{
+		float: none;
+		width: 180px;
+	}
+	span.slide-text-more-text
+	{
+		margin-right: 17px;
+		margin-top: 3px;
+	}
+.basic .btn{
+	padding:11px 12px;
+}
+.accounts-panel .col-acc{
+	width: calc(100% - 35px);
+	overflow:hidden;
+	float:left;
+	padding:0 0 0 10px;
+}
+.accounts-panel  .card-row_info .card-img{
+	padding:0;
+	margin:0!important;
+}
+.accounts-panel  .card-row_info .card-number{
+	padding:0;
+}
+.accounts-panel  .card-row_info .card-number .text-num{
+	font-size:10px!important;
+}
+.accounts-panel  .card-row_info .card-name{
+	font-size:10px;
+	padding:0!important;
+	text-align:left!important;
+}
+.accounts-panel  .card-row_info .card-status{
+	font-size:10px;
+	padding:0;
+	margin:0!important;
+	text-align:left!important;
+}
+.my-accounts__cards .my-accounts__cards_info .card-row_info .card-status .status-set{
+	font-size:10px;
+}
+.operarions .operarions__last_bottom{
+	font-size:13px;
+}
+.add-plus__list .col-sm-4
+{
+	width: 100%;
+}
+.activate-card-numb-card{
+	width:195px;
+}
+	.open-slide .title:before,
+	.open-slide .my-panel_title:before{
+		background-position: -103px -78px!important;
+	}
+.form-group__new-account .or {
+	transform:translateY(0);
+}
+.panel-pension__open-account .checkbox{
+	margin-left:40px;
+}
+.panel-body_insurance-policy span{
+	font-size:12px;
+	line-height:14px;
+}
+.modal .panel-insurance__new-contract .row-pay:before{
+	display:none;
+}
+	.modal .panel-insurance__new-contract  .form-group__triple{
+		padding:0 20px;
+	}
+	.modal .panel-insurance__new-contract .form-group__date-of-birth
+	{
+		padding:5px 0;
+	}
+	.modal .panel-insurance__new-contract .form-group__month, .panel-insurance__new-contract .form-group__year
+	{
+		padding:5px 0;
+	}
+	.modal .panel-insurance__new-contract .form-group__pay-from
+	{
+		padding:0 20px;
+	}
+	.modal  .panel-insurance__new-contract .form-group__payment
+	{
+		padding:0 20px;
+	}
+	.modal  .panel-insurance__new-contract .form-group__period
+	{
+		padding:0 20px;
+	}
+	.modal  .panel-insurance__new-contract .form-group__persons
+	{
+		padding:0 20px;
+	}
+	.modal .panel-insurance__new-contract .form-group__second-name
+	{
+		padding:0 20px;
+	}
+	.modal .panel-insurance__new-contract .form-group__first-name label, .panel-insurance__new-contract .form-group__second-name label
+	{
+		padding-left: 0;
+	}
+	.modal .panel-insurance__new-contract .month-period_name{
+		padding:0;
+	}
+	.modal .panel-insurance__new-contract .month-period{
+		text-align:center;
+	}
+	.short-describe-name{
+		font-size:11px;
+	}
+	.short-describe-value{
+		font-size:11px;
+	}
+	.my-accounts.row-panel{
+	}
+	
+	.basic .my-pension_content
+{
+	margin-bottom: 58px;
+	padding-left: 25px;
+	padding-right: 10px;
+}
+	.row.my-panel_data-funds{
+		padding:0;
+	}
+	.basic .panel-body .data-info-values{
+		padding-top:15px;
+		overflow:hidden;
+	}
+	.shares.basic .panel-body .data-info-values{
+		padding-top:0px;
+		overflow:hidden;
+	}
+
+	.pension.basic .panel-body .data-info-values{
+		background:#faf9f6;
+	}
+	.basic .deposits-terms__info{
+		padding:0;
+	}
+	.basic .deposits-terms__info .data-info-name{
+		padding:0;
+	}
+	.basic .contract-deposite{
+		padding:0;
+	}
+	.basic .deposits-terms__info .cansel-btn
+	{
+		background-color: #F1F1F1;
+		float: right;
+		height: 46px;
+		text-align: center;
+		width: 50%;
+	}
+	.basic .deposits-terms__info .contract-btn
+	{
+		float: left;
+		margin: 0;
+		text-align: center;
+		width: 50%;
+	}
+	.deposits .panel-body  .title-deposit {
+		background: #e1e4e7;
+		padding: 10px 20px;
+
+	}
+	.deposits .panel-body  .title-deposit p{
+		color: #10243c;
+		text-transform:uppercase;
+		font-size:14px;
+		font-weight:700;
+    
+	}
+	.nextbank-make-payment-title-wrap{
+		padding:0;
+	}
+	.my-panel__pension{
+		padding:0;
+		border:none;
+	}
+	.my-panel__pension .btn-row__pension{
+		width:100%;
+	}
+	.my-panel__pension .btn-row__pension .btn{
+		min-width:50%;
+		width:auto;
+	}
+	.data-info__account .status{
+		display:inline;
+	}
+	.pension .my-panel .id-value{
+		padding-left:5px;
+	}
+	.pension .my-panel  .view{
+		background:#e9e4db;
+	}
+	
+	.data-info.data-info__family-interest .text-left span{
+		text-align:left;
+	}
+	.data-info.data-info__family-balance .text-left span{
+		text-align:left;
+	}
+.modal .my-panel_data-funds{
+	padding:0!important;
+}
+.modal .data-info-values{
+	padding-top:10px!important;
+}
+.data-info.data-info__funds-view{
+	padding:0;
+}
+
+.modal-form-insurance__cancel .selectric-wrapper, .modal-form-pension__close-account .selectric-wrapper{
+	width:100%;
+}
+#settingsForm.setting-form{
+	right:0;
+}
+.sidebar-right .collapse-wrap{
+	right:-40px!important;
+}
+.basic .modal-form-loans__new-loan .row_btn{
+	margin:10px ;
+}
+
+.modal .row_btn .btn {
+	width:80%;
+}
+#transfer-shares .price-shares_date
+	{
+		left: 0;
+		top: -15px;
+		display:block;
+		text-align:center;
+		transform:none;
+		width:100%;
+	}
+
+#pensionMore.modal .operation-name{
+	text-align:left;
+	padding-left:25px;
+}
+#pensionMore.modal .list_operation,
+#pensionMore.modal .list_balance{
+	text-align:center;
+	display:block;
+}
+#pensionMore.modal .btn{
+	display:block;
+}
+#pensionMore .custom-scroll .fs-scrollbar-content{
+	margin-right:0;
+}
+#pensionMore .panel-list_item-inner{
+	padding:0;
+}
+#investMore .list-content{
+	padding-bottom:0;
+}
+#investMore .btn-request-wrap{
+	background:#e5e4c8
+}
+.modal-form-pension__open-account .row_btn {
+	padding:0 25px;
+}
+#market-description .row_btn{
+	padding:0 25px;
+}
+#market-description .row_btn .btn{
+	margin-left:0;
+}
+#family-repayment .form-group__recieve label{
+	text-align:center;
+}
+#family-repayment .form-group__recieve{
+}
+#close-pension-account .row_btn{
+	padding: 0 10px;
+}
+.nextbank-make-payment-icon-button.nextbank-make-payment-icon-button-blue{
+	background:none;
+	padding:0;
+}
+
+.news-block .title_panel{
+	width:100%;
+}
+.basic .my-panel__crypto .panel-body h4{
+	padding:0 !important;
+	margin:0 0 20px 0!important;
+}
+.basic .my-panel__crypto .panel-body .litecoin,
+.basic .my-panel__crypto .panel-body .bitcoin{
+	padding:0!important;
+}
+.basic .my-panel__crypto .panel-body .row__crypto{
+	margin-bottom:22px;
+}
+.basic .my-panel__crypto .panel-body .row-btns_wrapper{
+	padding-left:0!important;
+	padding-right:0!important;
+	width:115px;
+	margin:0 auto;
+}
+.panel-insurance .panel-body_condition{
+	margin-bottom:20px;
+}
+.panel-body_condition{
+	padding:0;
+}
+
+.modal .panel-body.panel-list .btn{
+	width:50%;
+}
+.bonds  .panel-body.panel-list .info-amount,
+.bonds  .panel-body.panel-list .info-profit,
+.bonds  .panel-body.panel-list .info-risk,
+.bonds  .panel-body.panel-list .info-amount{
+	color:#385773;
+	font-weight:700!important;
+}
+.bonds.basic .panel-list .my-panel_data-funds{
+	background-color:#f8f8f8;
+}
+.data-info data-info__view-contract .btn{
+	margin:0 auto;
+}
+#view-contract .panel-insurance__view-contract .row-btns_wrapper .btn{
+	float:none!important;
+	width:100%!important;
+}
+.modal-form-insurance__new-contract .row-pay{
+	margin-top:0;
+}
+.modal-form-insurance__new-contract .row-gender-female{
+	margin-top:0;
+}
+	.month-period
+	{
+		margin-top: 25px;
+	}
+	.my-panel_data-insurance .data-info-values{
+		padding-top:10px;
+	}
+	#new-contr .row_btn{
+		padding:0 15px;
+		
+	}
+	.modal-form-insurance__new-contract .row-period{
+		border-top:1px solid #dcdcdc;
+	}
+	.my-panel_data-insurance{
+		padding:0!important;
+	}
+	.my-panel_data-insurance .data-info__policy{
+		background:#d0d4d7;
+		margin:10px 0 0 0!important;
+		padding:0;
+	}
+	.basic .my-panel_data-loans .data-info{
+		padding-left:2px;
+		padding-right:2px;
+	}
+	.my-panel_data-products.row {
+		padding:0;
+		border-bottom:3px solid #271815;
+	}
+	.my-panel_data-products.row .data-info__products{
+		padding:0;
+	
+	}
+	.my-panel_data-products.row .my-panel_data-products{
+		
+	}
+	.my-panel_data-products .data-info__products h4 {
+		padding:10px 25px!important;
+		background:#e0e4e7;
+	}
+	.my-panel_data-products.row .data-info__view{
+		background:#d0d4d7;
+	}
+	
+	.figure .package-describe{
+		width:100%;
+		line-height:15px;
+	}
+	.figure h3{
+		text-transform:uppercase;
+		margin-top:10px;
+	}
+	.figure img{
+		margin:0;
+	}
+	.market .panel-list__products {
+		background:#f8f8f8;
+	}
+	.market .panel-list__products .figure-wrapper{
+		margin-bottom:5px;
+		border-bottom:1px solid #1c1c1c;
+	}
+	.market .panel-list__products .figure-wrapper:last-child{
+		border:none;
+	}
+	.market .btn-row__products {
+		margin:0;
+		padding:0;
+	}
+	.market .btn-row__products .btn__show-more{
+		margin:0 auto;
+	}
+	.pension .my-panel_data-pension{
+		padding:0;
+		background:#f5f5f5;
+	}
+	.pension .my-panel_data-pension .data-info__account{
+		background:#e9e6e1;
+		padding-left:15px;
+	}
+	.pension .my-panel_data-pension .data-info__term .data-info__term_value{
+			padding-top:10px;
+	}
+	.pension .my-panel_data-pension .data-info__term .data-info__term_value span{
+		display:inline;
+	
+	}
+	.my-panel_operations .panel-list_item{
+		background:#faf9f5;
+	}
+	.pension .my-panel_filter .filter-months,
+	.pension .my-panel_filter .filter-years,
+	.pension .my-panel_filter .filter-calendar {
+		right:0;
+		margin:0;
+	}
+	.data-info__family-date .text-left span{
+		text-align:left;
+	}
+	.my-panel_data-family{
+		background:#fdfdfd;
+	}
+	.my-panel_data-family h4{
+		color:#2d5a83!important;
+	}
+	.basic .panel-list__family .list-item p{
+		font-size:14px!important;
+	}
+	.basic .shares-price-share{
+		font-weight:normal!important;
+	}
+	.shares.basic .my-panel__shares-list .name-value{
+		padding:10px 15px;
+	}
+	.shares.basic .my-panel__shares-list .panel-list_item{
+		border-bottom:3px solid #112848;
+	}
+		.shares.basic .my-panel__shares-list .panel-list_item:last-child{
+			border-bottom:none;
+		}
+		.subordinated.basic .my-panel .row.my-panel_funds-title{
+			padding-top:10px;
+			padding-bottom:10px;
+			background:#fcfafd;
+		}
+		.subordinated .data-info__profit .info-amount, 
+		.subordinated .data-info-values .info-risk,
+		.subordinated .data-info-values .info-amount{
+			color:#4c2b4f!important;
+			font-weight:normal!important;
+		}
+		.subordinated .data-info__profit span{
+				font-weight:normal!important;
+		}
+		.subordinated.basic .my-pension_content p {
+			font-weight:700;
+		}
+		.subordinated.basic .panel-list .my-panel_data-funds{
+			background:#fdfdfd!important;
+		}
+		.basic.subordinated .data-info__funds{
+
+		}
+		.basic.subordinated .data-info__funds span b{
+			font-weight:bold;
+		}
+		#details-transaction .transaction-describe-name{
+			padding:0 0 5px 0;
+			font-size:14px;
+		}
+		#details-transaction .transaction-describe-value{
+			padding-top:0;
+			padding-bottom:0;
+			padding-left:0;
+		}
+		#details-transaction .panel-body_transaction-describe{
+			padding:15px 5px 20px;
+			background:#ececec;
+			margin:0 10px;
+		}
+		#details-transaction .row-btns_wrapper button{
+			width:100%;
+			float:none;
+		}
+.panel-list__insurance .list-item{
+	padding-top:0;
+	padding-bottom:0;
+	border-bottom:3px solid #a485a5;
+}
+.insurance.basic .panel label{
+	padding-left:38px;
+}
+.insurance-slide .slider-left-info {
+	margin-top:29px;
+}
+.insurance .my-panel_insurance-type{
+	position:relative;
+}
+.insurance .insurance-slide{
+	position:relative;
+	top:-75px;
+}
+.insurance .form-health{
+	position:relative;
+	top:75px;
+}
+
+	.month-period__quarterly .month-period_value {
+		padding-left:0!important;
+	}
+	.month-period__monthly .month-period_value, .month-period__monthly p
+	{
+		padding-left: 0!important;
+	}
+	.month-period_name {
+		margin-bottom:5px;
+	}
+	.modal-form-insurance__new-contract .row_btn{
+		margin:20px 0;
+	}
+	#insurance-more .panel-list__insurance{
+		padding:0;
+	}
+	#insurance-more .panel-list__insurance .list-item{
+		padding:0;
+	}
+	.pension.basic .my-panel_filter
+	{
+		background:#a0937c;
+		margin-top:0;
+	}
+	
+
+.basic.pension .my-panel_filter a
+{
+	color: #fff;
+
+}
+.basic.pension .my-panel_filter a.active
+{
+	background-color: rgba(207,196,176,.44);
+}
+
+.basic.pension .my-panel_filter a:hover, .data-info__account a:hover
+{
+	color: #fff;
+}
+.basic.pension .my-panel_filter span
+{
+	color: #fff;
+}
+.basic.pension .filter-calendar a{
+	background:url("../images/calendar__loans__white.png") no-repeat 50% 50%;
+}
+	.family .my-panel_data-family {
+		padding-top:0!important;
+	}
+	.family .my-panel_data-family .data-info__family{
+		padding: 15px 0;
+		background:#fcfafd;
+		margin-bottom:10px;
+	}
+	.family .my-panel__family-catalog .row_btn-family{
+		background:#e0e4e7;
+	}
+	.subordinated.basic .my-panel_data-funds .data-info-values span + span{
+		position:relative;
+		font-size:13px;
+		color:#585858;
+		left:0;
+		top:0;
+		text-align:center;
+	}
+	.subordinated.basic .my-panel_data-funds .data-info-values span{
+		font-size:13px;
+		color:#585858!important;
+		font-weight:normal;
+	}
+	.subordinated.basic .my-panel_data-funds .data-info-values span strong{
+		color:#262626;
+	}
+	#subordinated-list .data-info-values .data-info{
+		padding:5px 0;
+	}
+	#subordinated-list .data-info-values .visible-xs span{
+		text-align:left!important;
+		font-weight:bold!important;
+	}
+	#subordinated-list .data-info-values span{
+			text-align:left!important;
+	}
+}
+@media (max-width: 350px){
+	.make-payment-internal--button
+	{
+		width: 250px;
+	}
+	.modal .row_btn .btn{
+		width:100%;
+	}
+	.details-modal .row-panel-head .title_panel .title .ammount .term{
+		padding-left:7px;
+	}
+.footer-bottom .footer-bottom__nav .list:nth-child(1),
+.footer-bottom .footer-bottom__nav .list:nth-child(3){
+	padding-right:17px!important;
+	padding-left:5px;
+}
+.footer-bottom .footer-bottom__nav .list:nth-child(2),
+.footer-bottom .footer-bottom__nav .list:nth-child(4){
+	padding-left:17px!important;
+}
+
+}

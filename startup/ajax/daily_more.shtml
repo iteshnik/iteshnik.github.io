@@ -1,0 +1,1083 @@
+<div id="dailyMore" tabindex="-1" role="dialog" class="modal fade basic ">
+  <div class="modal__dialog details-modal">
+    <div class="modal__content">
+      <div class="row-panel-head">
+        <button type="button" data-dismiss="modal" class="modal-close__btn"></button>
+        <div class="col-xs-12 col-sm-6 title_panel _table">
+          <h3 class="title _cell">LAST TRANSACTIONS</h3>
+        </div>
+        <div class="col-xs-12 col-sm-6 select-date _table">
+          <ul class="navi date-nav _cell">
+            <li class="list title date active"><span class="date-set">month</span></li>
+            <li class="list title date"><span class="date-set">year</span></li>
+            <li class="list title date datepicker">
+              <div id="datepicker4" class="dateinp"><input type="date" value=""><span class="date-set inp2"></span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="custom-scroll">
+        <div class="row-panel last-transactions clearfix">
+          <div class="row-panel-conent clearfix  ">
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-1" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-1" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-2" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash color-danger">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-2" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-3" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash color-danger">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-3" class="row-panel-hide collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-4" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-4" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-5" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-5" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-6" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash color-danger">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-6" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-7" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash color-danger">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-7" class="row-panel-hide collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-8" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-8" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-9" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-9" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-10" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-10" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-11" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-11" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-12" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-12" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-13" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-13" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-13" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-13" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-14" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-14" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-panel__block clearfix">
+              <div role="button" data-toggle="collapse" href="#hideDetail2-15" class="row-panel-collapse collapsed" aria-expanded="false">
+                <div class="col-sm-2 _table">
+                  <p class="title-date _cell">23<br>
+                    <span>10.15</span></p>
+                </div>
+                <div class="col-sm-7 _table">
+                  <p class="_cell title title-transaction">ATM-transaction</p>
+                </div>
+                <div class="col-sm-3 _table">
+                  <p class="_cell title title-cash">- $ 1.473,<span>89</span></p>
+                </div>
+              </div>
+              <div id="hideDetail2-15" class="row-panel-hide collapse" aria-expanded="false">
+                <div class="panel-hide__inner clearfix">
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Transaction №</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">1245789645</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Date/time</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">26.10.2015 / 23:32</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Card</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">Visa **** **** **56 2534</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">AMOUNT</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">359,00</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Currency</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">eur</p>
+                    </div>
+                  </div>
+                  <div class="row-panel-info">
+                    <div class="col-xs-6 left _table">
+                      <p class="title text _cell">Details</p>
+                    </div>
+                    <div class="col-xs-6 right _table">
+                      <p class="title text _cell">ATM 234, Mercado~ Calle j. Simon, Girona, Es</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

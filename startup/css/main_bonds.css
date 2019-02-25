@@ -1,0 +1,493 @@
+.bonds .panel-list.custom-scroll
+{
+	height: 492px;
+}
+.bonds .panel-list.custom-scroll .fs-scrollbar-bar
+{
+	right: 1px;
+}
+.bonds .panel-list.custom-scroll .fs-scrollbar-bar, .bonds .panel-list.custom-scroll .fs-scrollbar-track
+{
+	background: transparent none repeat scroll 0% 0%;
+	border: medium none;
+}
+.bonds .panel-list.custom-scroll .fs-scrollbar-bar, .bonds .panel-list.custom-scroll .fs-scrollbar-track
+{
+	background: transparent none repeat scroll 0% 0%;
+	border: medium none;
+}
+.bonds .panel-list.custom-scroll .fs-scrollbar-content
+{
+	padding-left: 0px;
+}
+.bonds .panel-list.custom-scroll .fs-scrollbar-handle
+{
+	background-color: #215D8E;
+	border: medium none;
+	border-radius: 0px;
+	left: 0px;
+	width: 10px;
+}
+.bonds.basic #list-bonds .btn__funds-view
+{
+	width: 91px;
+}
+.bonds.basic #list-bonds .btn-view-wrap
+{
+	padding-left: 0px;
+}
+.bonds.basic #list-bonds .panel-body
+{
+	padding: 0;
+}
+.bonds.basic #list-bonds .panel-loans .btn
+{
+	padding-left: 12px;
+}
+.bonds.basic #sell-bonds .modal-form-loans__new-loan .btn
+{
+	margin-left: -50px;
+}
+.bonds.basic .available-balance_name
+{
+	color: #215D8E;
+}
+.bonds.basic .btn__funds::after
+{
+	background-color: #215D8E;
+	background-image: url("../images/view__family.png");
+	height: 45px;
+}
+.bonds.basic .btn__funds-show-more
+{
+	background-color: #C83883;
+}
+.bonds.basic .btn__funds-view
+{
+
+}
+.bonds.basic .btn__funds-view
+{
+	background-color: #4E90C5;
+}
+.bonds.basic .btn__put-market
+{
+	background-color: #ECF3F9;
+	border: 0;
+	color: #215D8E;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	outline: 0;
+	padding: 10px 0 0 0;
+	text-transform: uppercase;
+	margin:0 auto;
+}
+.bonds.basic .btn-view-contract .btn__funds-view
+{
+}
+.bonds.basic .btn-view-wrap
+{
+	padding-left: 0;
+}
+.bonds.basic .data-indicator-loans
+{
+	background-color: #215D8E;
+}
+.bonds.basic .data-info span
+{
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+.bonds.basic .data-info__funds
+{
+}
+.bonds.basic .data-info__funds .name-h4
+{
+	font-size: 14px;
+}
+.bonds.basic .data-info__profit span
+{
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.bonds.basic .funds-info .funds-amount, .bonds.basic .funds-info .funds-risk
+{
+	padding-top: 0;
+}
+.bonds.basic .funds-info > span
+{
+	color: #215D8E;
+	padding-left: 0;
+	padding-right: 0;
+}
+.bonds.basic .information-request
+{
+	border: 1px solid #DDD8DE;
+	margin: 30px 15px 25px;
+	padding: 35px 0px;
+}
+.modal.bonds.basic .information-request{
+	padding:10px 0;
+}
+.bonds.basic .information-request .data-info
+{
+	margin-top: 0;
+}
+.bonds.basic .information-request .data-info span
+{
+	font-weight: 700;
+}
+.bonds.basic .information-request .data-info__funds-type span
+{
+	display: block;
+	padding-left: 5px;
+	text-align: left;
+}
+.bonds.basic .information-request .my-panel_data-funds
+{
+	background-color: transparent;
+	border-bottom: 0;
+}
+.bonds.basic .modal .panel-loans__details .panel-loans-heading
+{
+	margin-bottom: 0;
+}
+.bonds.basic .modal-dialog .data-info__funds
+{
+}
+.bonds.basic .modal-dialog .my-panel_data-funds .data-info-values
+{
+
+	margin-left: 0px;
+	padding: 0;
+}
+.bonds.basic .modal-dialog .my-panel_title
+{
+	font-size: 14px;
+}
+.bonds.basic .modal-dialog .my-panel_title-list .data-info-values
+{
+	padding: 0;
+}
+.bonds.basic .modal-dialog .my-panel_title-list .funds-info > span
+{
+	line-height: 1;
+}
+.bonds.basic .modal-dialog .row.my-panel_title-list .my-panel_title__funds
+{
+	margin-left: 48px;
+	width: 160px;
+}
+.bonds.basic .modal-form .funds-info > span
+{
+	color: #215D8E;
+	font-size: 16px;
+}
+.bonds.basic .modal-form-loans .selectric .button:after
+{
+	background-image: url(../images/select-arrow__down__crypto.png);
+}
+.bonds.basic .modal-form-loans .selectric, .bonds.basic .modal-form-loans .selectric-hover .selectric, .bonds.basic .modal-form-loans .selectric-open .selectric
+{
+
+	border: 1px solid #215D8E;
+}
+.bonds.basic .modal-form-loans .selectric-open .selectric .button:after
+{
+	background-image: url(../images/select-arrow__up__crypto.png);
+}
+.bonds.basic .modal-form-loans__new-loan .form-group__pay-from
+{
+	margin: auto;
+	max-width: 387px;
+}
+.bonds.basic .modal-form-loans__new-loan .row .form-group:last-child
+{
+	text-align:left;
+}
+.bonds.basic .my-panel
+{
+	min-height: auto;
+}
+.bonds.basic .my-panel
+{
+	border-top-color: #215D8E;
+}
+.bonds.basic .my-panel__funds .btn__funds-show-more
+{
+	background-color: #215d8e;
+}
+.bonds.basic .my-panel__funds .my-panel_heading
+{
+	background-color: #D6E5F2;
+}
+.bonds.basic .my-panel_data-funds
+{
+	background-color: #ECF3F9;
+	border-bottom: 6px solid #215D8E;
+}
+.bonds.basic .my-panel_filter a.active
+{
+	background-color: #3A7AAD;
+}
+.bonds.basic .my-panel_filter a:hover
+{
+	color: white;
+}
+.bonds.basic .my-panel_heading h3.my-panel_title__pension
+{
+	color: #333;
+	font-size: 20px;
+	width: 100%;
+}
+.bonds.basic .my-panel_operations .loans-info span
+{
+	color: #215D8E;
+}
+.bonds.basic .my-panel_title
+{
+	font-size: 16px;
+	padding: 7px 35px 6px 55px;
+}
+.bonds.basic .my-panel_title
+{
+	padding-left: 30px;
+	width: 250px;
+}
+.bonds.basic .my-panel_title__funds
+{
+	background-color: #8FA0AE;
+	width: 203px;
+}
+.bonds.basic .my-panel_title-list .funds-info > span
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+.bonds.basic .my-pension_content a
+{
+	color: #215D8E;
+	display: inline-block;
+	font-weight: 700;
+	margin: 10px 0px 20px;
+	text-transform: uppercase;
+}
+.bonds.basic .my-pension_content p
+{
+	color: #323232;
+	font-weight: 700;
+	margin: 10px 0px;
+	text-transform: uppercase;
+}
+.bonds.basic .panel-list .my-panel_data-funds
+{
+	background-color: #fff;
+	border-bottom: 0px solid #215D8E;
+}
+
+.bonds.basic .panel-list .my-panel_data-funds:first-child
+{
+	background-color: #F6F7F8;
+}
+.bonds.basic .panel-list .my-panel_data-funds:nth-child(odd)
+{
+	background-color: #F8F8F8;
+}
+.bonds.basic .panel-loans .btn
+{
+	background-color: #4E90C5;
+	text-align: center;
+}
+.bonds.basic .panel-loans .btn::after
+{
+	background-image: url("../images/btn-ok__family-bg.png");
+}
+.bonds.basic .panel-loans .btn::after
+{
+	background-color: #215D8E;
+}
+.bonds.basic .panel-loans .panel-body h3
+{
+	color: #215D8E;
+}
+.bonds.basic .panel-loans label, .bonds.basic .panel-loans label:hover
+{
+	color: #215D8E;
+}
+.bonds.basic .panel-loans__details h4
+{
+	color: #215D8E;
+}
+.bonds.basic .panel-loans_close
+{
+	background-color: #215D8E;
+}
+.bonds.basic .panel-loans-heading
+{
+	background-color: #4E90C5;
+}
+.bonds.basic .success-indicator-loans
+{
+	background-image: url("../images/success-icon.png");
+	border: 0;
+	height: 36px;
+	width: 36px;
+}
+.bonds.basic .transaction-describe-value b
+{
+	color: #215D8E;
+}
+
+
+@media (max-width: 767px)
+{
+	.bonds .list_date,
+		.bonds .list_loan,
+		.bonds .list_payment,
+		.bonds .list_remaining
+	{
+		color: #215D8E;
+	}
+	
+	.bonds.basic #list-bonds .btn-view-wrap
+	{
+		margin-top: 30px;
+	}
+	.bonds.basic #list-bonds .panel-loans .btn
+	{
+		margin-left: -77px;
+	}
+	.bonds.basic #sell-bonds .modal-form-loans__new-loan .btn
+	{
+		margin-left: -60px;
+		margin-top: 30px;
+	}
+	.bonds.basic .btn__funds-view
+	{
+	}
+	.bonds.basic .btn-view-wrap
+	{
+	}
+	
+	.bonds.basic .btn-view-wrap.btn-view-contract
+	{
+		padding-left: 0;
+	}
+	.bonds.basic .data-info.data-info__funds
+	{
+		max-width: 100%;
+		width: 100%;
+		padding:10px;
+	}
+	.bonds.basic .data-info__funds
+	{
+		background-color: #ECF3F9;
+		max-width: 100%;
+		width: 100%;
+	}
+	.bonds.basic .data-info__funds-amount
+	{
+	}
+	.bonds.basic .data-info__view-contract .btn__funds-view
+	{
+		float: left;
+		margin-left: 0;
+		text-align: center;
+		width: 50%;
+	}
+	.bonds.basic .data-info__view-contract .btn__put-market
+	{
+		background-color: #F1F1F1;
+		float: right;
+		height: 46px;
+		text-align: center;
+		width: 50%;
+	}
+	.bonds.basic .data-info-values .data-info
+	{
+	}
+	.bonds.basic .data-info-values .data-info.data-info__funds-view
+	{
+		background-color: #ECF3F9!important;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.bonds.basic .data-info-values .data-info.data-info__view-contract
+	{
+		text-align: left;
+	}
+	.bonds.basic .modal-dialog .my-panel_data-funds .data-info-values
+	{
+		margin-left: 0px;
+	}
+	.bonds.basic .modal-dialog .row.my-panel_title-list .my-panel_title__funds
+	{
+		margin-left: 0;
+		width: 100%;
+	}
+	.modal.bonds.basic .modal-dialog .row.my-panel_title-list .my-panel_title__funds:before{
+		display:none;
+	}
+	.modal.bonds.basic .modal-dialog .row.my-panel_title-list .my-panel_title__funds{
+		padding-left:20px!important;
+	}
+	.bonds.basic .my-panel_data-funds .data-info-values
+	{
+		margin-left: 0;
+	}
+	.bonds.basic .my-panel_data-funds .data-info-values
+	{
+	}
+	.bonds.basic .my-panel_data-funds,
+			.basic .my-panel_funds-title
+	{
+	}
+	.bonds.basic .my-panel_heading
+	{
+		margin: 0!important;
+		padding: 0!important;
+	}
+	.bonds.basic .my-panel_heading .funds-info > span
+	{
+		line-height: 1;
+	}
+	.bonds.basic .my-panel_title
+	{
+
+		padding: 20px 0 16px 55px!important;
+	}
+	.bonds.basic .my-panel_title__funds
+	{
+		height: 65px;
+		margin-left: 0;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.bonds.basic .my-panel_title__pension
+	{
+		background-color: #a0937c;
+	}
+	.bonds.basic .my-panel_title-list .funds-info .funds-amount,
+			.bonds.basic .my-panel_title-list .funds-info .funds-risk
+	{
+		padding-top: 0;
+	}
+	.bonds.basic .panel-list .my-panel_data-funds
+	{
+		display: block;
+	}
+	.bonds.basic .panel-list .my-panel_data-funds
+	{
+		border-bottom: 6px solid #215D8E;
+	}
+	.bonds.basic .panel-list .my-panel_data-funds
+	{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	
+}

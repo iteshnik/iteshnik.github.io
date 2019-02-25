@@ -1,0 +1,65 @@
+<!-- begin Close Account -->
+
+<div class="modal fade activate-card account-modal" id="CloseAccount" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" class="modal-close__btn"></button>
+        <h4 class="modal-title" id="myModalLabel">close account</h4>
+      </div>
+        <div class="bonds basic">
+          <div class="row panel-body_condition">
+            <div class="panel-body_data">
+              <div class="data-indicator data-indicator-loans"></div>
+              <span>DATA</span> </div>
+            <div class="panel-body_success">
+              <div class="success-indicator success-indicator-loans"></div>
+              <span>SUCCESS</span> </div>
+          </div>
+        </div>
+      <div class="modal-body">
+        <div class="close-account--content">
+          <div class="col-md-12 col-sm-12">
+            <div class="col-md-7 col-sm-7">
+              <p class="close-account--content-title"> select the account you wish to close </p>
+              <div class="close-account--content-select-wrap">
+                <select class="set-select" name="" id="">
+                  <option value="">358 456 697</option>
+                  <option value="">358 364 455</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-5">
+              <p class="close-account--content-title">Available balance</p>
+              <p class="close-account--content-text">5.806,21</p>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 pad-top-50">
+            <div class="col-md-7 col-sm-7">
+              <p class="close-account--content-title"> select the account you wish to close </p>
+              <div class="close-account--content-select-wrap">
+                <select class="set-select" name="" id="">
+                  <option value="">358 456 697</option>
+                  <option value="">358 364 455</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-5">
+              <p class="close-account--content-title">Available balance</p>
+              <p class="close-account--content-text close-account--content-text-minus">-12,7</p>
+            </div>
+          </div>
+          <div class="block-card--atention">
+            <p class="text-center"> IF YOU HAVE ANY CARD - IT WILL BE CLOSED! <br>
+              OPERATION IS IRREVERSIBLE </p>
+          </div>
+          <div class="close-account--send text-center"> <span class="nextbank-make-payment-icon-button nextbank-make-payment-icon-button-red">
+            <button onclick="event.preventDefault();$('#CloseAccount').click();" data-toggle="modal" data-target="#ThankPayment" class="activate-card-btn btn">close account</button>
+            </span> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end Close Account --> 

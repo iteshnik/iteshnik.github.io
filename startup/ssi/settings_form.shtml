@@ -1,0 +1,392 @@
+<div id="settingsForm" class="setting-form">
+  <div class="setting-form__header">
+    <h4 class="setting-form__title">Settings</h4>
+    <span class="close-setting__form"></span>
+    <ul class="navi setting-form_nav">
+      <li class="list">
+        <div class="not-verify-statuss">NOT VERIFY</div>
+        <p role="button" data-toggle="collapse" data-target=".setting-1" class="name">Personal details</p>
+        <div class="hidden-settings collapse setting-1">
+          <div class="hidden-settings__inner">
+            <div class="set-input__group">
+              <label class="set-label">FIRST NAME(S)</label>
+              <input type="text" class="set-input" placeholder="Anna">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">SECOND NAME(S)</label>
+              <input type="text" class="set-input" placeholder="Tee">
+            </div>
+            <div class="setting-1-p-or-id">PASSPORT OR ID</div>
+            <div class="set-input__group set-input__group-s1">
+              <label class="set-label">ISSUING COUNTRY</label>
+              <select name="" class="set-select1">
+                <option value="">UK</option>
+                <option value="">UK</option>
+                <option value="">UK</option>
+				 <option value="">UK</option>
+                <option value="">UK</option>
+                <option value="">UK</option>
+				 <option value="">UK</option>
+                <option value="">UK</option>
+                <option value="">UK</option>
+				 <option value="">UK</option>
+                <option value="">UK</option>
+                <option value="">UK</option>
+              </select>
+            </div>
+            <div class="set-input__group">
+              <label for="cld1" class="set-label calendar-label">ISSUE DATE<span class="date-set"></span></label>
+              <input type="date" id="cld1" class="set-input setdate" value="2016-04-30">
+            </div>
+            <div class="set-input__group s1-date">
+              <label for="cld1" class="set-label calendar-label">VALID TILL<span class="date-set"></span></label>
+              <input type="date" id="cld2" class="set-input setdate" value="2016-04-30">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">ISSUED BY</label>
+              <input type="text" class="set-input" placeholder="ISSUED BY">
+            </div>
+            <div class="please-s1">Please upload your scanned documents and sent to verify</div>
+            <div class="set-input__group set-buttons">
+              <input type="submit" value="save changes" class="submit-input">
+              <button class="file-btn">
+              <input type="file" class="hidden-input">
+              <span></span>
+              </button>
+              <label class="input-send">
+                <input type="submit">
+              </label>
+            </div>
+            <div class="clearfix">
+              <p class="set-load"><i class="delete"></i><span>file_invoice...</span>.pdf</p>
+            </div>
+            <div class="clearfix">
+              <p class="set-load"><i class="delete"></i><span>file_invoice...</span>.pdf</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="list">
+        <div class="verify-statuss">VERIFY</div>
+        <p role="button" data-toggle="collapse" data-target=".setting-2" class="name">ADDRESS</p>
+        <div class="hidden-settings collapse setting-2">
+          <div class="setting-2-edit"></div>
+          <div class="hidden-settings__inner">
+            <div class="set-adress">
+              <buttot type="button" class="set-edit"></buttot>
+              <p class="set-text">Asparuhovo, ab./kutia 17, Varna, Bul...</p>
+              <div data-toggle="buttons" class="btn-group">
+                <label class="btn set-tax">
+                  <input type="radio" name="opt" autocomplete="off">
+                  Tax adress </label>
+                <label class="btn set-tax">
+                  <input type="radio" name="opt" autocomplete="off">
+                  POSTAL ADDRESS </label>
+              </div>
+            </div>
+            <div class="set-adress">
+              <buttot type="button" class="set-edit"></buttot>
+              <p class="set-text">Asparuhovo, ab./kutia 17, Varna, Bul...</p>
+              <div data-toggle="buttons" class="btn-group">
+                <label class="btn set-tax">
+                  <input type="radio" name="opt" autocomplete="off">
+                  Tax adress </label>
+                <label class="btn set-tax">
+                  <input type="radio" name="opt" autocomplete="off">
+                  POSTAL ADDRESS </label>
+              </div>
+            </div>
+            <p class="set-title-new">new</p>
+            <div class="set-input__group">
+              <label class="set-label"> Country</label>
+              <input type="text" placeholder="choose country" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">region</label>
+              <input type="text" placeholder="your region" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">city</label>
+              <input type="text" placeholder="enter city" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">postcode</label>
+              <input type="text" placeholder="enter postcode" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">address 1</label>
+              <input type="text" placeholder="enter address" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">address 2</label>
+              <input type="text" placeholder="enter address" class="set-input">
+            </div>
+            <div class="set-input__group set-buttons">
+              <input type="submit" value="save changes" class="submit-input">
+              <button class="file-btn">
+              <input type="file" class="hidden-input">
+              <span></span>
+              </button>
+              <label class="input-send">
+                <input type="submit">
+              </label>
+            </div>
+            <div class="clearfix">
+              <p class="set-load"><i class="delete"></i><span>file_invoice...</span>.pdf</p>
+            </div>
+            <div class="clearfix">
+              <p class="set-load"><i class="delete"></i><span>file_invoice...</span>.pdf</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="list">
+        <p role="button" data-toggle="collapse" data-target=".setting-3" class="name">Notifications</p>
+        <div class="hidden-settings collapse setting-3">
+          <div class="sms-code-popup">
+            <div class="set-input__group">
+              <label class="set-label">CODE FROM SMS</label>
+              <input type="tel" placeholder="CODE FROM SMS" class="set-input">
+            </div>
+            <a href="#" class="sms-again">SEND SMS AGAIN</a>
+            <div class="set-input__group set-buttons set-save">
+              <input type="submit" value="verify" class="submit-input">
+              <label class="input-send">
+                <input type="submit">
+              </label>
+            </div>
+          </div>
+          <div class="hidden-settings__inner thank-you-wrap" style="display: none;">
+            <p class="thank-you text-center"> thank you! </p>
+            <p class="thank-you-again text-center"><a href="#">again</a></p>
+          </div>
+          <div class="main_content_s3">
+            <div class="hidden-settings__inner">
+              <div class="set-input__group">
+                <label class="set-label">email</label>
+                <input type="email" placeholder="mail@mail.com" class="set-input">
+              </div>
+              <div class="set-input__group">
+                <label class="set-label">Mobile</label>
+                <input type="tel" placeholder="+895862566537" class="set-input">
+              </div>
+              <div class="porgress-title">
+                <p class="col-sm-4 left"><a href="#">verify</a></p>
+                <p class="col-sm-8 right"><a href="#">change</a></p>
+              </div>
+              <div class="set-input__group set-progress">
+                <div data-toggle="buttons" class="col-sm-3 btn-group">
+                  <label class="btn set-box">
+                    <input type="checkbox" autocomplete="off">
+                  </label>
+                </div>
+                <div class="col-sm-9 progress__title">
+                  <p>OPERATIONS</p>
+                </div>
+              </div>
+              <div class="set-input__group set-progress">
+                <div data-toggle="buttons" class="col-sm-3 btn-group">
+                  <label class="btn set-box">
+                    <input type="checkbox" autocomplete="off">
+                  </label>
+                </div>
+                <div class="col-sm-9 progress__title">
+                  <p>CARD TRANSACTIONS</p>
+                </div>
+              </div>
+              <div class="set-input__group set-progress">
+                <div data-toggle="buttons" class="col-sm-3 btn-group">
+                  <label class="btn set-box">
+                    <input type="checkbox" autocomplete="off">
+                  </label>
+                </div>
+                <div class="col-sm-9 progress__title">
+                  <p>MESSAGES</p>
+                </div>
+              </div>
+              <div class="set-input__group set-progress">
+                <div data-toggle="buttons" class="col-sm-3 btn-group">
+                  <label class="btn set-box">
+                    <input type="checkbox" autocomplete="off">
+                  </label>
+                </div>
+                <div class="col-sm-9 progress__title">
+                  <p>NEWS</p>
+                </div>
+              </div>
+              <div class="set-input__group set-buttons set-save">
+                <input type="submit" value="save changes" class="submit-input">
+                <label class="input-send">
+                  <input type="submit">
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="list">
+        <p role="button" data-toggle="collapse" data-target=".setting-4" class="name">security</p>
+        <div class="hidden-settings collapse setting-4">
+          <div class="hidden-settings__inner">
+            <div class="set-input__group">
+              <label class="set-label">email</label>
+              <input type="email" placeholder="mail@mail.com" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">old password</label>
+              <input type="password" placeholder="********" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">new password</label>
+              <input type="password" placeholder="********" class="set-input">
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">re-type new password</label>
+              <input type="password" placeholder="********" class="set-input">
+            </div>
+            <div class="set-input__group set-buttons set-save">
+              <input type="submit" value="save changes" class="submit-input">
+              <label class="input-send">
+                <input type="submit">
+              </label>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="list">
+        <p role="button" data-toggle="collapse" data-target=".setting-5" class="name">Account verification</p>
+        <div class="hidden-settings collapse setting-5">
+          <div class="hidden-settings__inner">
+            <p class="account-verification-text"> <span class="account-verification-text-name">personal details</span> <span class="account-verification-text-value">Verify</span> </p>
+            <p class="account-verification-text"> <span class="account-verification-text-name">address</span> <span class="account-verification-text-value text-red">not verify</span> </p>
+            <p class="account-verification-text"> <span class="account-verification-text-name">scanned documents</span> <span class="account-verification-text-value text-red">not upload</span> </p>
+            <div class="set-input__group set-buttons">
+              <input type="submit" value="save & upload" class="submit-input">
+              <button class="file-btn">
+              <input type="file" class="hidden-input">
+              <span></span>
+              </button>
+              <label class="input-send">
+                <input type="submit">
+              </label>
+            </div>
+            <div class="clearfix">
+              <p class="set-load"><i class="delete"></i><span>file_invoice...</span>.pdf</p>
+            </div>
+            <div class="clearfix">
+              <p class="set-load"><i class="delete"></i><span>file_invoice...</span>.pdf</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="list">
+        <p role="button" data-toggle="collapse" data-target=".setting-6" class="name">MOBILE APPLICATION</p>
+        <div class="hidden-settings collapse setting-6">
+          <div style="">
+            <div class="setting-6-title">DOWNLOAD OUR MOBILE APPLICATION</div>
+            <div class="setting-6-desc">description, Lorem impsum dolor sit amet, Lorem impsum dolor sit amet, Lorem impsum dolor sit amet, Lorem impsum dolor sit amet, Lorem impsum dolor sit amet, Lorem impsum dolor sit amet, Lorem impsum dolor sit amet, Lorem impsum dolor sit amet &nbsp;&nbsp;&nbsp; <a href="">>>></a>&nbsp;&nbsp;&nbsp; </div>
+            <div class="setting-6-appstores">
+              <div class="setting-6-appstore"><a href="#"><img src="images/appstore.png" alt=""></a></div>
+              <div class="setting-6-gplay"><a href="#"><img src="images/gplay.png" alt=""></a></div>
+            </div>
+            <div class="setting-6-factor-title">2 FACTOR AUTHENTICATION</div>
+            <div class="hidden-settings__inner">
+              <div class="set-input__group">
+                <label class="set-label">SELECT APLICATION</label>
+                <select name="" class="set-select1">
+                  <option value="">GOOGLE AUTHENTICATOR</option>
+                  <option value="">GOOGLE AUTHENTICATOR</option>
+                  <option value="">GOOGLE AUTHENTICATOR </option>
+				  <option value="">GOOGLE AUTHENTICATOR</option>
+                  <option value="">GOOGLE AUTHENTICATOR</option>
+                  <option value="">GOOGLE AUTHENTICATOR </option>
+				  <option value="">GOOGLE AUTHENTICATOR</option>
+                  <option value="">GOOGLE AUTHENTICATOR</option>
+                  <option value="">GOOGLE AUTHENTICATOR </option>
+                </select>
+              </div>
+            </div>
+            <div class="setting-6-nextstep">NEXT STEP</div>
+            <div class="setting-6-nextstep-desc">description, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+            <div class="setting-6-qrcode"><img src="images/qrcode.png" alt=""></div>
+            <div class="set-input__group">
+              <label class="set-label">CODE FROM APLICATION</label>
+              <input type="text" placeholder="enter code" class="set-input">
+            </div>
+            <div class="set-input__group set-buttons set-save">
+              <input type="submit" value="save changes" class="submit-input">
+              <label class="input-send">
+                <input type="submit">
+              </label>
+            </div>
+          </div>
+          <div class="hidden-settings__inner" style="display: none;">
+            <p class="thank-you text-center"> thank you! </p>
+            <p class="thank-you-again text-center"><a href="#">again</a></p>
+          </div>
+        </div>
+      </li>
+      <li class="list">
+        <p role="button" data-toggle="collapse" data-target=".setting-7" class="name">CHOOSE LANGUAGE</p>
+        <div class="hidden-settings collapse setting-7">
+          <div class="hidden-settings__inner">
+            <div class="set-input__group">
+              <label class="set-label">ONLINE BANKING</label>
+              <select name="" class="set-select1">
+                <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+              </select>
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">personal banker</label>
+              <select name="" class="set-select1">
+                <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english</option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+              </select>
+            </div>
+            <div class="set-input__group">
+              <label class="set-label">legal documents</label>
+              <select name="" class="set-select1">
+                <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+				 <option value="">english</option>
+                <option value="">franch</option>
+                <option value="">english </option>
+              </select>
+            </div>
+            <div class="set-input__group set-buttons set-save">
+              <input type="submit" value="save changes" class="submit-input">
+              <label class="input-send">
+                <input type="submit">
+              </label>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

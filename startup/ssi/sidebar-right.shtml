@@ -1,0 +1,79 @@
+<div class="sidebar-right clearfix st-effect-1">
+	<div class="collapse-wrap">
+		<button class="toggle-btn-aside">
+		<p class="title-hide">navigation</p>
+		<span></span><span></span><span></span> </button>
+	</div>
+	<div class="sidebar-right__inner clearfix">
+		<div class="sidebar-right__title-ui"></div>
+		<div class="sidebar-right__person clearfix">
+			<div class="sidebar-right__person_mobile-back-button">
+				<div class="sidebar-right__person_mobile-back-button_arrow"></div>
+				Navigation
+				<div class="sidebar-right__person_mobile-back-button_logo"></div>
+			</div>
+			<div class="sidebar-right__person_img"><img src="./images/person.jpg" alt="person"></div>
+			<p class="sidebar-right__person_title title">Welcome,  Anna Tee Anna Tee Anna Tee</p>
+			<p class="sidebar-right__person_date">Last login: 30.10.2015 10:10 <br>
+				<span>New Zealand</span></p>
+			<div class="sidebar-btn__wrap"><a href="#" class="sidebar-right__person_custom">Settings</a><a href="#" data-toggle="modal" data-target="#pageExit" class="sidebar-right__person_enter">Exit</a></div>
+		</div>
+		<h2 class="title title_board">Dashboard</h2>
+		<div class="sidebar-right__board clearfix">
+			<ul class="navi dashboard_nav">
+				<li class="list">
+					<p class="hide-badges"><small class="nem-small">new</small><span class="count-small">5</span></p>
+					<a href="daily.shtml" class="link title">Daily Operations</a>
+					<ul class="navi dashboard__subnav">
+						<li class="list">
+							<p class="title title_subnav"> Deposits<span class="hide-badges"><small class="nem-small">new</small></span> </p>
+							<a href="deposits.shtml" class="title link">My deposit<span class="hide-badges"><small class="nem-small">new</small></span></a><a href="deposits.shtml" class="title link" data-toggle="modal" data-target="#depositRequest" class="request-btn">new contract<span class="hide-badges"><small class="nem-small">new</small></span></a> </li>
+						<li class="list">
+							<p class="title title_subnav">pension</p>
+							<a href="pension.shtml" class="title link">My pension</a><a href="pension.shtml" class="title link">new contract</a> </li>
+						<li class="list">
+							<p class="title title_subnav">funds</p>
+							<a href="funds.shtml" class="title link">My Funds</a><a href="funds.shtml" class="title link">My Funds</a><a href="funds.shtml" class="title link">sell</a> </li>
+						<li class="list">
+							<p class="title title_subnav">Shares</p>
+							<a href="shares.shtml" class="title link">My shares</a><a href="shares.shtml" class="title link">buy</a><a href="shares.shtml" class="title link">sell</a><a href="shares.shtml" class="title link">orders</a> </li>
+						<li class="list">
+							<p class="title title_subnav">insurance<span class="hide-badges"><small class="nem-small">new</small></span></p>
+							<a href="insurance.shtml" class="title link">life insurance</a><a href="insurance.shtml" class="title link" data-toggle="modal" data-target=".new-contr">new contract</a> </li>
+						<li class="list">
+							<p class="title title_subnav">our solutions</p>
+							<a href="crypto.shtml" class="title link">cryptocyrynces</a><a href="invest-in-bussines.shtml" class="title link">invest in business</a><a href="bonds.shtml" class="title link">BANKINNO BOUND</a><a href="subordinated_loans.shtml" class="title link">subordinated loans</a><a href="safe_family.shtml" class="title link">safe family</a> </li>
+					</ul>
+				</li>
+				<li class="list"><a href="#" class="link title">INVEST</a>
+					<ul class="navi dashboard__subnav">
+						<li class="list">
+							<p class="title title_subnav"> Deposits<span class="hide-badges"><small class="nem-small">new</small></span> </p>
+							<a href="deposits.shtml" class="title link">My deposit<span class="hide-badges"><small class="nem-small">new</small></span></a><a href="deposits.shtml" class="title link">new contract<span class="hide-badges"><small class="nem-small">new</small></span></a> </li>
+						<li class="list">
+							<p class="title title_subnav">pension</p>
+							<a href="pension.shtml" class="title link">My pension</a><a href="pension.shtml" class="title link">new contract</a> </li>
+						<li class="list">
+							<p class="title title_subnav">funds</p>
+							<a href="funds.shtml" class="title link">My Funds</a><a href="funds.shtml" class="title link">My Funds</a><a href="funds.shtml" class="title link">sell</a> </li>
+						<li class="list">
+							<p class="title title_subnav">Shares</p>
+							<a href="shares.shtml" class="title link">My shares</a><a href="shares.shtml" class="title link">buy</a><a href="shares.shtml" class="title link">sell</a><a href="shares.shtml" class="title link">orders</a> </li>
+						<li class="list">
+							<p class="title title_subnav">insurance<span class="hide-badges"><small class="nem-small">new</small></span></p>
+							<a href="insurance.shtml" class="title link">life insurance</a><a href="insurance.shtml" class="title link"data-toggle="modal" data-target=".new-contr">new contract</a> </li>
+						<li class="list">
+							<p class="title title_subnav">our solutions</p>
+							<a href="crypto.shtml" class="title link">cryptocyrynces</a><a href="invest-in-bussines.shtml" class="title link">invest in business</a><a href="bonds.shtml" class="title link">BANKINNO BOUND</a><a href="subordinated_loans.shtml" class="title link">subordinated loans</a><a href="safe_family.shtml" class="title link">safe family</a> </li>
+					</ul>
+				</li>
+				<li class="list">
+					<p class="hide-badges"><span class="count-small">10</span></p>
+					<a href="loans.shtml" class="link title">BORROW</a> </li>
+				<li class="list">
+					<p class="hide-badges"><small class="nem-small">new</small></p>
+					<a href="market.shtml" class="link title">Market</a> </li>
+			</ul>
+		</div>
+	</div>
+</div>

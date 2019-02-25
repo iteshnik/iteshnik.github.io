@@ -1,0 +1,41 @@
+<!-- Заперет на кэширование, после внедрения удалить -->
+<meta HTTP-EQUIV="Expires" CONTENT="0"> 
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+<link href="./css/owl.carousel.css" rel="stylesheet">
+<link href="./css/owl.theme.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+
+
+
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/main_st-menu.css">
+
+
+<link rel="stylesheet" href="./css/main_tmp.css">
+
+
+<link rel="stylesheet" href="./css/main_mobile_1200.css">
+<link rel="stylesheet" href="./css/main_mobile_992.css">
+<link rel="stylesheet" href="./css/main_mobile_768.css">
+<link rel="stylesheet" href="./css/main_mobile_320.css">
+
+<link rel="stylesheet" href="./css/main_footer.css">
+<link rel="stylesheet" href="./css/chat.css">
+<link rel="stylesheet" href="./css/banker-form.css">
+<link rel="stylesheet" href="./css/sidebar-right.css">
+<link rel="stylesheet" href="./css/main_bonds.css">
+
+<link rel="stylesheet" href="./css/main_bootstrap.css">
+<link rel="stylesheet" href="./css/custom-scroll.css">
+<link rel="stylesheet" href="./css/daterangepicker.css">
+<script>(function(){window.onbeforeunload&&(window.onbeforeunload=null)})();</script>

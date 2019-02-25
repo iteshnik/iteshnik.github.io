@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>INDEX BANKINO</title>
+<style>
+	body{
+		font-size:1.2em;
+		font-family:sans-serif;
+	}
+	a{
+		text-decoration:none;
+	}
+</style>
+</head>
+
+<body>
+<p><a href="./modals.shtml" style="background:#F43538; color:#fff; padding:7px 10px;">modal windows here</a></p>
+<p><a href="./bonds.shtml">bonds</a></p>
+<p><a href="./crypto.shtml">crypto</a></p>
+<p><a href="./daily.shtml">daily</a></p>
+<p><a href="./deposits.shtml">deposits</a> </p>
+<p><a href="./funds.shtml">funds</a> </p>
+<p><a href="./main.shtml">main.html (INDEX.HTML)</a> </p>
+<p><a href="./insurance.shtml">insurance</a> </p>
+<p><a href="./invest-in-bussines.shtml">invest-in-bussines</a></p>
+<p><a href="./loans.shtml">loans</a></p>
+<p><a href="./market.shtml">market</a></p>
+<p><a href="./out_solutions.shtml">out_solutions</a></p>
+<p><a href="./pension1.shtml">pension1</a></p>
+<p><a href="./pension.shtml">pension</a></p>
+<p><a href="./safe_family.shtml">safe_family</a></p>
+<p><a href="./shares.shtml">shares</a></p>
+<p><a href="./subordinated_loans.shtml">subordinated_loans</a> </p>
+</body>
+</html>

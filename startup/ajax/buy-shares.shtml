@@ -1,0 +1,102 @@
+<div class="fade modal shares basic" id="buy-shares" tabindex="-1" role="dialog">
+  <div class="panel panel-shares panel-shares__buy container modal-dialog" role="document"> <span class="close panel_close panel-shares_close" data-dismiss="modal" aria-label="Close"></span>
+    <div class="panel-heading panel-shares-heading">
+      <h3 class="panel-title panel-shares-title">Buy shares</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row panel-body_condition">
+        <div class="panel-body_data">
+          <div class="data-indicator data-indicator-shares"></div>
+          <span>DATA</span> </div>
+        <div class="panel-body_success">
+          <div class="success-indicator success-indicator-shares"></div>
+          <span>COMPLETE</span> </div>
+      </div>
+      <div class="panel-body_table">
+        <div class="table-info"> <span class="sign" data-sign="-">+</span> <span class="info">Info</span> </div>
+        <span class="range"></span>
+        <div class="row first-row">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Company name</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">Regis resources limited</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Sphere of activity</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">Gold and mineral exploration</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Issuer code</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">Rrl</div>
+        </div>
+        <div class="row full">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Oficial listing date</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">1987/02/19</div>
+        </div>
+        <div class="row full">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Gics industry group</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">Materials</div>
+        </div>
+        <div class="row full">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Exempt foreight</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">No</div>
+        </div>
+        <div class="row full">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Internet address</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">www.regisresourses.com</div>
+        </div>
+        <div class="row full">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Registred office address</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value min">Level1, 1 Alvan street, Subiaco, wa, Australia</div>
+        </div>
+        <div class="row full">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Head office telephone/fax</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">+359 25 256487787878</div>
+        </div>
+        <div class="row full">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Share registry</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value min">Computershare investor services pykglg ...</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-5 col-sm-6 shares-table-name">Minimum amount</div>
+          <div class="col-xs-7 col-sm-6 text-right share-table-value">1.000,00 usd</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 shares-table-name">Share price</div>
+          <div class="col-xs-5 col-sm-4 text-center share-table-value">2015/12/15 12:23 UTC</div>
+          <div class="col-xs-3 col-sm-4 text-right share-table-value share-table-value__price">204,29 usd</div>
+        </div>
+      </div>
+      <div id="chartdiv2" class="panel-body_graph panel-body_graph__buy chart2"></div>
+      <form class="row modal-form modal-form__shares modal-form-shares__sell">
+        <div class="row">
+          <div class="form-group col-sm-7 col-md-6 col-xs-12">
+            <label for="shares-pay-from-bank">From my bank account</label>
+            <select id="shares-pay-from-bank" class="form-control">
+              <option>123 456 789</option>
+            </select>
+          </div>
+          <div class="available-balance available-balance__sell col-sm-5 col-md-6 col-xs-12 hidden-xs">
+            <p class="available-balance_name">Available balance</p>
+            <span class="available-balance_value available-balance_value__shares">5.806,21<span class="shares-paper small">usd</span></span> </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-7 col-md-6 col-xs-12">
+            <label for="shares-quantity-sell">Enter quantity</label>
+            <input type="text" class="form-control" id="shares-quantity-sell" placeholder="11">
+          </div>
+          <div class="visible-xs available-balance available-balance__sell col-sm-5 col-md-6 col-xs-12">
+            <p class="available-balance_name">Available balance</p>
+            <span class="available-balance_value available-balance_value__shares">5.806,21<span class="shares-paper small">usd</span></span> </div>
+          <div class="total-shares total-shares__sell col-sm-5 col-md-6 col-xs-12">
+            <p class="total-shares_name">Total</p>
+            <span class="total-shares_value">2.247,19<span class="shares-paper small">usd</span></span>
+            <p class="total-shares_warning">Funds in the account are not enought</p>
+          </div>
+        </div>
+        <div class="row_btn">
+      
+          <button type="submit" class="btn btn__shares btn__shares-buy" onclick="event.preventDefault();$('#buy-shares').click();" data-toggle="modal" data-target="#ThankPayment">Buy shares</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

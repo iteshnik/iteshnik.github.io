@@ -1,0 +1,115 @@
+.brand .t {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-brand-t.png', sizingmethod='crop');
+}
+.brand .c {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-brand-c.png', sizingmethod='scale');
+}
+.main .m1 {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-main-t.png', sizingmethod='crop');
+}
+.main .m2 {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-main-c.png', sizingmethod='scale');
+}
+.main .m3 {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-main-b.png', sizingmethod='crop');
+}
+.main-heading .t {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-main-heading-t.png', sizingmethod='crop');
+}
+.product .t {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-product-t.png', sizingmethod='crop');
+}
+.product .c {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-product-c.png', sizingmethod='scale');
+}
+.product .b {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-product-b.png', sizingmethod='crop');
+}
+.login-popup .t {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-login-t.png', sizingmethod='crop');
+}
+.login-popup .c {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-login-c.png', sizingmethod='scale');
+}
+.login-popup .b {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-login-b.png', sizingmethod='crop');
+}
+.popup01 .t {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-popup01-t.png', sizingmethod='crop');
+}
+.popup01 .c {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-popup01-c.png', sizingmethod='scale');
+}
+.popup01 .b {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-popup01-b.png', sizingmethod='crop');
+}
+.additional .holder {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-additional.png', sizingmethod='crop');
+}
+ul.tabset .l {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-l.png', sizingmethod='crop');
+}
+ul.tabset .c {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-c.png', sizingmethod='scale');
+}
+ul.tabset .r {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-r.png', sizingmethod='crop');
+}
+ul.tabset a:hover .l {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-l02.png', sizingmethod='crop');
+}
+ul.tabset a:hover .c {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-c02.png', sizingmethod='scale');
+}
+ul.tabset a:hover .r {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-r02.png', sizingmethod='crop');
+}
+ul.tabset li.active .l,
+ul.tabset li.active a:hover .l {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-l03.png', sizingmethod='crop');
+}
+ul.tabset li.active .c,
+ul.tabset li.active a:hover .c {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-c03.png', sizingmethod='scale');
+}
+ul.tabset li.active .r,
+ul.tabset li.active a:hover .r {
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-r03.png', sizingmethod='crop');
+}
+
+
+
+.brand-holder ul img {
+	position:relative;
+	behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?	(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "images/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+);
+}

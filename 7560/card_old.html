@@ -1,0 +1,886 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Технохата - Карточка товара</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+		<link rel="stylesheet" type="text/css" href="css/fancybox.css" />
+		<!--[if IE]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen"/><![endif]-->
+		<script type='text/javascript' src='js/jquery-1.3.2.min.js'>
+		</script>
+		<script type='text/javascript' src='js/jquery.flash.js'>
+		</script>
+		<script type='text/javascript' src='js/jquery.jcarousel.js'>
+		</script>
+		<script type='text/javascript' src='js/fancybox.js'></script>
+		<script type='text/javascript' src='js/jquery.cookie.js'>
+		</script>
+		<script type='text/javascript' src='js/main.js'>
+		</script>
+		<script type='text/javascript'>
+			$(document).ready(function() {
+				$('.gallery ul').jcarousel({
+					scroll: 3
+				});
+				$("a.gr_fancybox").fancybox({
+					'transitionIn': 'none',
+					'transitionOut': 'none',
+					'titlePosition': 'over',
+					'titleFormat': function(title, currentArray, currentIndex, currentOpts) {
+						return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+					}
+				});
+			});
+		</script>
+		<link id="favicon" href="favicon.ico" rel="icon" type="image/x-icon" />
+		</head>
+		<body>
+		<div id="main">
+			<div id="header">
+				<strong class="logo"><a href="#">Технохата</a></strong>
+				<strong class="slogan">Интернет-магазин бытовой техники и электроники</strong>
+				<form action="">
+					<div class="login">
+						<div class="top">
+							<a href="#">зарегистрироваться</a>
+						</div>
+						<div class="logholder">
+							<div>
+								<label for="login">
+									e-mail 
+								</label>
+								<input type="text" id="login" />
+							</div>
+							<div>
+								<label for="pass">
+									пароль 
+								</label>
+								<input type="text" id="pass" />
+							</div>
+						</div><input type="image" class="button" src="i/login-button.png" srchover="i/login-button-h.png" />
+						<div class="bottom">
+							<a href="#">забыли пароль ?</a>
+						</div>
+					</div>
+				</form>
+				<div class="enter">
+					<a href="shgdefbs.html " class="enterpopup">вход</a>
+					<span class="devider1">&nbsp;</span>
+					<a href="#">регистрация</a>
+				</div>
+				<form action="">
+					<div class="search">
+						<div class="left">
+							<input type="image" src="i/search-button.png" />
+						</div>
+						<div class="right">
+							<input type="text" value="Поиск по сайту" class="searchfield" />
+						</div>
+					</div>
+				</form>
+				<ul class="main-nav">
+					<li>
+						<a target="_self" href="/doc/about/">О нас</a>
+					</li>
+					<li>
+						<a target="_self" href="/doc/22/">Оформление заказа и оплата</a>
+					</li>
+					<li>
+						<a target="_self" href="/doc/4/">Доставка</a>
+					</li>
+					<li>
+						<a target="_self" href="/doc/3/">Гарантия</a>
+					</li>
+					<li>
+						<a target="_self" href="/doc/26/">Кредит</a>
+					</li>
+					<li>
+						<a target="_self" href="/doc/2/">Контакты</a>
+					</li>
+				</ul>
+				<div class="card">
+					<a href="#">корзина</a>
+					<span>( 5 товаров на сумму 12800 грн. )</span>
+				</div>
+				<div class="telephone">
+					<p>
+						<strong>Режим работы</strong>
+					</p>
+					<p>
+						пн. - пт.: с 10-00 до 19-00
+					</p>
+					<p>
+						сб.: с 11-00 до 16-00
+					</p>
+					<br/>
+					<p>
+						<strong>Контакты</strong>
+					</p>
+					<ul>
+						<li>
+							<span class="contact"><img alt="" src="i/phone/phone.png">(057) 756-00-00</span>,
+						</li>
+						<li>
+							<span class="contact"><img alt="" src="i/phone/mts.png">(050) 275-57-73,</span>
+						</li>
+						<li>
+							<span class="contact"><img alt="" src="i/phone/kyivstar.png">(098) 026-92-92,</span>
+						</li>
+						<li>
+							<span class="contact"><img alt="" src="i/phone/life.png">(093) 528-95-27</span>
+						</li>
+						<li>
+							<span class="contact"><img alt="" src="i/phone/icq.png">575-015-901;</span>
+						</li>
+						<li>
+							<span class="contact"><img alt="" src="i/phone/skype.png">dominion.ua;</span>
+						</li>
+						<li>
+							<span class="contact"><img alt="" src="i/phone/mail.png">sales@7560000.com.ua</span>
+						</li>
+					</ul>
+				</div>
+				<div class="televizor">
+					<div class="bythis">
+						<p class="head">
+							<a href="#">Samsung UE40C6510UWXUA</a>
+						</p>
+					</div>
+					<a href="#" class="vkl" id="vkl">on</a>
+					<div style="background:url(i/televayzer.png) no-repeat; width:341px; height:234px;" id="televayzer">
+					</div>
+				</div>
+				<div class="brendnavholder">
+					<div class="brendnav">
+						<h3>Выбор по брендам</h3>
+						<ul class="valuta">
+							<li class="first">
+								<a href="#" ajaxlink="ajax/json_valuta_usd.jsp">USD</a>
+							</li>
+							<li class="active">
+								<span href="#" ajaxlink="ajax/json_valuta_uah.jsp">UAH</span>
+							</li>
+							<li class="last">
+								<a href="#" ajaxlink="ajax/json_valuta_wmz.jsp">WMZ</a>
+							</li>
+						</ul>
+						<ul class="brands">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="column1">
+				<div class="navigation block"> <span class="top">&nbsp;</span>
+					<ul>
+						<li> <a href="#">Мобильные телефоны</a> </li>
+						<li> <a href="#">Ноутбуки</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">Компьютеры</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">Мониторы</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li id="current"> <a href="#">Плазменные панели и ЖК телевизоры</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">КПК</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">Фотокамеры и аксессуары</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">Видеокамеры и аксессуары</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">Оргтехника</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">GPS навигаторы</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">Игровые приставки</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li> <a href="#">Информационные носители</a>
+							<ul>
+								<li> <a href="#">Плазменные телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">LCD телевизоры</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Универсальные пульты ДУ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Подставки, крепления для ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+								<li> <a href="#">Кабели для подключения ТВ</a>
+									<ul>
+										<li> <a href="#">Плазменные телевизоры</a> </li>
+										<li> <a href="#">LCD телевизоры</a> </li>
+										<li> <a href="#">Универсальные пульты ДУ</a> </li>
+										<li> <a href="#">Подставки, крепления для ТВ</a> </li>
+										<li> <a href="#">Кабели для подключения ТВ</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<span class="bottom">&nbsp;</span> </div>
+				<div class="sravnit block"> <span class="top">&nbsp;</span>
+					<div class="head"> <a href="#" class="headler">Сравнить</a> <a href="#" class="delall" title="Очистить католог сравнения полность, начисто, и вообще удалить этот сайт, в... туда">очистить</a> </div>
+					<div class="content">
+						<ul>
+							<li> <a href="deleted" class="del">&nbsp;</a> <a href="#">ЖК-телевизор <strong>BBK LT3709S</strong></a> </li>
+							<li> <a href="deleted" class="del">&nbsp;</a> <a href="#">ЖК-телевизор <strong>BBK LT3710HD</strong></a> </li>
+							<li> <a href="deleted" class="del">&nbsp;</a> <a href="#">ЖК-телевизор <strong>Hitachi L37X01A</strong></a> </li>
+							<li> <a href="deleted" class="del">&nbsp;</a> <a href="#">ЖК-телевизор <strong>LG 37LG3000</strong></a> </li>
+							<li> <a href="deleted" class="del">&nbsp;</a> <a href="#">ЖК-телевизор <strong>LG 37LG5000</strong></a> </li>
+							<li> <a href="deleted" class="del">&nbsp;</a> <a href="#">ЖК-телевизор <strong>Panasonic TX-R37LX86</strong></a> </li>
+						</ul>
+					</div>
+					<span class="bottom">&nbsp;</span> </div>
+			</div>
+			<div class="content-holder2">
+				<div id="content">
+					<ul class="breadcrumbs">
+						<li> <a href="#">LCD телевизоры</a> </li>
+						<li> <span>LG 37LG3000</span> </li>
+					</ul>
+					<div class="cart block2">
+						<div class="tl"> </div>
+						<div class="tr"> </div>
+						<div class="bl"> </div>
+						<div class="br"> </div>
+						<div class="block2-inner">
+							<div class="imghold">
+								<div class="imgs"> <a href="i/err404.jpg" class="thickbox"><img src="i/tovar5.jpg" alt="" /></a><a href="#" class="zoom">Увеличить</a> <span class="sale"><img height="80" width="80" alt="" src="i/sale10.png"/></span> </div>
+								<div class="gallery  jcarousel-skin">
+									<ul>
+										<li> <a href='i/tovar1.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='img/tovar1.jpg' width="70" height="70" alt='тратар прпр спрбд чвкап ывута пно та' /></a> </li>
+										<li> <a href='i/tovar2.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='img/tovar2.jpg' width="70" height="70" alt='ыва авып рваеоа пр вар вапр вапрвап' /></a> </li>
+										<li> <a href='i/tovar3.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='img/tovar3.jpg' width="70" height="70" alt='ва  ьнаепр ыуа прыва ыв арвегно авпи тч ап рчап' /></a> </li>
+										<li> <a href='i/tovar4.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='img/tovar4.jpg' width="70" height="70" alt='варь впр чапр вапр вгепвавкапы еовен' /></a> </li>
+										<li> <a href='i/tovar5.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='img/tovar5.jpg' width="70" height="70" alt=' щдюгшд гшлб пглб рап ртспрс аго' /></a> </li>
+										<li> <a href='i/tovar6.jpg' class="gr_fancybox" rel="gr_fancybox"><img src='img/tovar6.jpg' width="70" height="70" alt='ыуке ывко вепьсмиртно' /></a> </li>
+									</ul>
+								</div>
+							</div>
+							<div class="descr-holder">
+								<div class="descr">
+									<div class="clear">
+										<div class="by"> <span class="price">12999</span> <a class="incard" href="#">грн</a> <a href="#" class="srv">CpaBH|/|Tb</a> </div>
+									</div>
+									<p> ЖК-телевизор Samsung LE40A430T1XUA имеет изысканный дизайн, который гармонично сочетается с улучшенной функциональностью. Этот телевизор сможет не только украсить любой интерьер, но ввести вас в мир телевидения высокой четкости, благодаря чему вы почувствуете себя участником всех событий происходящих на экране. </p>
+								</div>
+							</div>
+							<div class="tabs_hold">
+<div class="block-news">
+								<ul class="tabs">
+									<li class="active"> <span href="news.html">Всё сразу</span> <em>[999]</em> </li>
+									<li> <a href="stats.html">Характеристики</a> <span>[15]</span> </li>
+									<li> <a href="stats.html">Медиа</a> <span>[15]</span> </li>
+									<li> <a href="stats.html">Аксесуары</a> <span>[15]</span> </li>
+									<li> <a href="stats.html">Отзывы</a> <span>[15]</span> </li>
+								</ul>
+								<span class="load"></span>
+								<div class="content">
+									<div class="carusel_hover">
+										<ul class="attriboots" ajaxlink="ajax/attr.jsp">
+											<li class="active" id="attr1"> <a href="ajax/tovar1.php">Диагональ: 37 дюйм,</a> </li>
+											<li id="attr2"> <a href="ajax/tovar2.php">Цвет: Чёрный,</a> </li>
+											<li id="attr3"> <a href="ajax/tovar3.php">Разрешение: 1920x1080,</a> </li>
+											<li id="attr4"> <a href="ajax/tovar2.php">Яркость: 500 кд/м2,</a> </li>
+											<li id="attr5"> <a href="ajax/tovar3.php">Контрастность: 1500:1,</a> </li>
+											<li id="attr6"> <a href="ajax/tovar2.php">Угол обзора: 170 градусов,</a> </li>
+											<li id="attr7"> <a href="ajax/tovar4.php">Время отклика пикселя: 8 мс,</a> </li>
+											<li id="attr8"> <a href="ajax/tovar3.html">Формат экрана: 16:9,</a> </li>
+											<li id="attr9"> <a href="ajax/tovar1.html">HDMI-вход: Да</a> </li>
+											<li id="attr12"> <a href="ajax/tovar2.html">Цвет: Чёрный,</a> </li>
+											<li id="attr23"> <a href="ajax/tovar3.html">Разрешение: 1920x1080,</a> </li>
+											<li id="attr34"> <a href="ajax/tovar4.html">Яркость: 500 кд/м2,</a> </li>
+											<li id="attr15"> <a href="ajax/tovar3.html">Контрастность: 1500:1,</a> </li>
+											<li id="attr16"> <a href="ajax/tovar2.html">Угол обзора: 170 градусов,</a> </li>
+											<li id="attr17"> <a href="ajax/tovar4.html">Время отклика пикселя: 8 мс,</a> </li>
+											<li id="attr18"> <a href="ajax/tovar3.html">Формат экрана: 16:9,</a> </li>
+											<li id="attr19"> <a href="ajax/tovar1.html">HDMI-вход: Да</a> </li>
+										</ul>
+										<div id="carusel-holder">
+											<div class="jcarousel-skin" id="mycarousel">
+												<ul>
+												</ul>
+											</div>
+										</div>
+										<div id="carusel_hover">
+											<div> &nbsp; </div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+							<table class="options">
+								<tr class="odd">
+									<td> <span>Диагональ: 37 дюйм,</span> </td>
+									<td> <span>Диагональ: 37 дюйм,</span> </td>
+								</tr>
+								<tr>
+									<td> <span>Цвет: Чёрный,</span> </td>
+									<td> <span>Цвет: Чёрный,</span> </td>
+								</tr>
+								<tr class="odd">
+									<td> <span>Разрешение: 1920x1080,</span> </td>
+									<td> <span>Разрешение: 1920x1080,</span> </td>
+								</tr>
+								<tr>
+									<td> <span>Яркость: 500 кд/м2,</span> </td>
+									<td> <span>Яркость: 500 кд/м2,</span> </td>
+								</tr>
+								<tr class="odd">
+									<td> <span>Контрастность: 1500:1,</span> </td>
+									<td> <span>Контрастность: 1500:1,</span> </td>
+								</tr>
+								<tr>
+									<td> <span>Угол обзора: 170 градусов,</span> </td>
+									<td> <span>Угол обзора: 170 градусов,</span> </td>
+								</tr>
+								<tr class="odd">
+									<td> <span>Время отклика пикселя: 8 мс,</span> </td>
+									<td> <span>Время отклика пикселя: 8 мс,</span> </td>
+								</tr>
+								<tr>
+									<td> <span>Формат экрана: 16:9,</span> </td>
+									<td> <span>Формат экрана: 16:9,</span> </td>
+								</tr>
+								<tr class="odd">
+									<td> <span>HDMI-вход: Да</span> </td>
+									<td> <span>HDMI-вход: Да</span> </td>
+								</tr>
+							</table>
+							<div class="seotext2">
+								<p> * производитель техники LG оставляет за собой право на изменение конструкции, дизайна и комплектации производимых товаров без предварительного уведомления. Cайт призводителя: <a href="#">www.ua.lge.com</a> </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="footer"> <strong class="logo2"><a href="#">технохата</a></strong> <span class="copy">&copy; 2009 ООО «ТЕХНОХАТА» -магазин бытовой техники и электроники Видеокамеры, фотоаппараты, компьютеры, ЖК-телевизоры и другая техника</span> <span class="develop">Разработка сайта — <a href="#">Adlabs</a></span> <span class="telephone"> <sup> 8(044) </sup> 537-02-22, 503-80-80 </span>
+					<div class="tovposition">
+						<div class="prihod"> <span>Только подвезли!</span> <a href="#">Samsung IT100</a> </div>
+						<div class="img"> <img src="i/tovpos.png" alt="" width="265" height="176" /> </div>
+						<span class="sale"><img src="i/sale_new.png" alt="Новое поступление" width="90" height="90" /></span>
+						<div class="by"> <span class="price">12999</span> <a href="#" class="incard">грн</a> </div>
+						<div class="birka"> </div>
+					</div>
+					<div class="credit">
+						<h3>Кредит предоставляется нашими партнерами:</h3>
+						<table class="banerhold">
+							<tr>
+								<td class="banerhold">
+									<table class="baners">
+										<tr>
+											<td> <a href="#"><img src="i/baner1.jpg" alt="" /></a> </td>
+											<td> <a href="#"><img src="i/baner2.jpg" alt="" /></a> </td>
+										</tr>
+										<tr>
+											<td> <a href="#"><img src="i/baner2.jpg" alt="" /></a> </td>
+											<td> <a href="#"><img src="i/baner1.jpg" alt="" /></a> </td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

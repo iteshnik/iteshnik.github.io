@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-ng-app="angle">
+<head>
+<title>Карточка исполнителя | AVELANGO</title>
+<!--#include virtual="inc/head.inc" -->
+</head>
+<body>
+<div id="main" >
+	<div id="header"> 
+		<!--#include virtual="inc/header.inc" --> 
+	</div>
+	<div id="filter"> 
+		<!--#include virtual="inc/filter.inc" --> 
+	</div>
+	<div id="rightside"> 
+		<!--#include virtual="inc/list-ispol.inc" --> 
+	</div>
+	<div class="content-holder">
+		<div id="content">
+			<div class="item-cart">
+				<ul>
+					<li><a href="ajax/wizard-step1.html" title="добавить объявление" data-toggle="modal" data-target="#myModal">Шаг 1</a></li>
+					<li><a href="ajax/wizard-step2.html" title="добавить объявление" data-toggle="modal" data-target="#myModal">Шаг 2</a></li>
+					<li><a href="ajax/wizard-step3.html" title="добавить объявление" data-toggle="modal" data-target="#myModal">Шаг 3</a></li>
+					<li><a href="ajax/wizard-step4-1.html" title="добавить объявление" data-toggle="modal" data-target="#myModal">Шаг 4-1</a></li>
+					<li><a href="ajax/wizard-step4-2.html" title="добавить объявление" data-toggle="modal" data-target="#myModal">Шаг 4-2</a></li>
+					<li><a href="ajax/wizard-step5.html" title="добавить объявление" data-toggle="modal" data-target="#myModal">Шаг 5</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--#include virtual="inc/foot.inc" --> 
+</body>
+</html>

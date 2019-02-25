@@ -1,0 +1,51 @@
+<!-- begin New Account -->
+
+<div class="modal fade activate-card account-modal" id="NewAccount" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" class="modal-close__btn"></button>
+        <h4 class="modal-title" id="myModalLabel">New Account</h4>
+      </div>
+      <div class="bonds basic">
+        <div class="row panel-body_condition">
+          <div class="panel-body_data">
+            <div class="data-indicator data-indicator-loans"></div>
+            <span>DATA</span> </div>
+          <div class="panel-body_success">
+            <div class="success-indicator success-indicator-loans"></div>
+            <span>SUCCESS</span> </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="new-account--content">
+          <div class="new-account--content-form">
+            <form>
+              <p class="new-account--content-title">main Currency</p>
+              <div class="new-account--select-wrap">
+                <select class="set-select" name="" id="">
+                  <option value="eur">eur</option>
+                  <option value="rub">rub</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                  <option value="usd">usd</option>
+                </select>
+              </div>
+              <div class="close-account--send text-center"> <span class="nextbank-make-payment-icon-button nextbank-make-payment-icon-button-blue">
+                <button onclick="event.preventDefault();$('#NewAccount').click();" data-toggle="modal" data-target="#ThankPayment" class="activate-card-btn btn">create account</button>
+                </span> </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end New Account --> 

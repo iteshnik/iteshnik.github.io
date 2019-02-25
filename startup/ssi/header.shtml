@@ -1,0 +1,10 @@
+<header>
+	<div class="head-top clearfix">
+		<div class="col-xs-12 col-sm-7 head-top__side top-ui _table">
+			<h1 class="title _cell"><a href="index.shtml">BANKINNO</a></h1>
+		</div>
+		<div class="col-xs-12 col-sm-5 head-top__side _table bottom-ui">
+			<p class="title live-banker _cell"><a href="#" data-toggle="modal" data-target="#pageChat" class="live-banker_text active hidden-xs">Live BaNker</a><span class="live-banker_text active visible-xs">Live BaNker</span></p>
+		</div>
+	</div>
+</header>
