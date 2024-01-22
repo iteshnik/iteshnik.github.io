@@ -1,1 +1,0 @@
-console.log("plugins"),console.log("script");
